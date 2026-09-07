@@ -1,0 +1,103 @@
+Mackenzie Brown
+Log for AST 4762, Fall 2026
+
+
+*****IN: Wed Aug 26 14:06:01 EDT 2026
+
+Created ast4762 folder, then created a homework folder, then using finder opened the application
+textedit and opened a new blank text to create my log and saved as:
+
+
+*****OUT: Wed Aug 26 14:07:01 EDT 2026
+
+*****IN: Wed Aug 26 14:59:01 EDT 2026
+
+Log under home/documents/ast4762/homework
+
+Name: Mackenzie Brown
+Username:kenzb4
+
+What astronomy classes have you taken? I have taken AST 2002 and AST 4142.
+
+Are you generally comfortable with calculus and physics? I am 
+
+Have you ever programmed a computer? I have programmed on a computer, written code for coursework, as well as for research
+
+In what language(s)? I have only ever written using python
+
+Have you taken a programming class, and if so which? I have taken COP 2500 and PHZ 3150
+
+
+Have you taken statistics or probability? I have not 
+
+Will you be attending the DPS conference this year, or will
+you be away otherwise? I will not be 
+Why are you taking this course? I am taking this course to further develop my coding skills in real-world applications. I want to create code using real astronomical data, encounter the successes and failures now to not be suprised later at what can come in data research. 
+
+Are there particular topics you hope to learn? I want to learn how to extract background noise out of telescopic data, if I can learn this, I can choose any object to focus on to study.
+
+If you have programmed outside of a course before, please
+briefly describe: I have breifly coded in a research course (not sure if that counts?), extracting data from external sources like the Horizons database to gather data and dates on asteroids at low phase angles. 
+
+If you have worked with scientific data before, briefly
+describe your experience: I have briefly worked with scientific data, looking into older files of data on asteroids, extracting it, and filing it away for my own use. 
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I have not engaged in any astronomy projects outside of my research course I took this past summer. However, I am hoping to get involved with the astronomy club at UCF this semester.
+
+
+
+Q3. I opened the finder app and went to the Documents tab, created a new folder inside named ast4762, inside the ast4762 folder I created another folder named homework, inside that homework folder i created a new folder names hw0_kenzb4 
+
+i took my log file and created a duplicate of it, i inserted that duplicate into my hw0_kenzb4 folder, then i took that folder and compressed it so it is now a .zip file 
+
+*****OUT: Wed Aug 26 15:23:44 EDT 2026
+
+*****IN: Wed Aug 26 16:13:22 EDT 2026
+
+3-2-1 for backups! 3 copies, 2 different locations, 1 offline 
+stress the importance of backing up 
+
+*****OUT: Wed Aug 26 16:14:44 EDT 2026
+
+*****IN: Fri Aug 28 15:03:15 EDT 2026
+
+Already had Anaconda and Github installed
+Working through handouts folder in files tab on canvas and downloading the rest needed
+
+Opened hw 1 file to start working 
+created 'hw1_kenzb4' folder in hw folder inside ast4762 folder
+
+opened Jupyter Notebook from Anaconda app
+opened Github Desktop and took a screenshot
+named screenshot with naming conventions
+to take a screenshot i used the mac spotlight search, and searched screenshot
+cropped the box to take a screenshot of just the screen for juypter and github
+asked in terminal !python --version and found version to be 7.3.2
+
+*****OUT: Fri Aug 28 16:17:22 EDT 2026
+
+*****IN: Mon Aug 31 1:11:16 EDT 2026
+
+working on hw 1, taking screenshots and attempting to log into stokes
+
+download cisco secure clinet vpn onto mac
+go ot secure.vpn.ucf.edu
+got deined access
+resigned in, got access to vpn
+
+opened terminal app, typed ssh ma755497@stokes.ist.ucf.edu and then entered password
+terminal showed all was downloaded 
+
+went to mac spotlight search and took a screenshot of the terminal
+renamed screenshot to appropriate title for hw1
+
+checking hw1 assignment, problem 1 complete for hw1 folder, problem 2 jupyter screenshot taken
+screenshot process same as mentioned above using spotlight search, python version as listed above (7.3.2)
+problem 2, github desktop opened and screenshotted, in terminal cd directory to ast4762 folder, typed git status and screenshotted
+problem 3, screenshotted the connection to stokes in terminal
+
+problem 4, i will find my log file in my ast4762 folder, then i will duplicate the file, this will make the log into a copy, i add that copy into my hw1_kenzb4 folder, then i will compress the hw1 folder with all screenshots and log copy inside, then sumbit zipped file into canvas 
+
+*****OUT: Mon Aug 31 2:01:34 EDT 2026
