@@ -217,3 +217,51 @@ redownloading emacs from homebrew
 
 *****OUT: Mon Sep 7 13:33:19 EDT 2026 
 
+*****IN: Mon Sep 7 13:45:11 EDT 2026
+
+online working to make ast4762 folder into git repository, 
+check git status, change .DS_Store into 
+echo ".DS_Store" > gitignore
+git add .     check git status 
+echo ".ipynb_checkpoints/" >> .gitignore
+rm what was added, re add git add .
+opened github desktop app and create local repository and publish it
+check history and see all directories and files added to git
+
+*****OUT: Mon Sep 7 14:10:47 EDT 2026
+
+*****IN: Wed Sep 9 11:22:48 EDT 2026
+
+note: laptop reset from mac os 12 to mac os 15.6 monday night
+
+tried to log into stokes, had to reinstall cisco vpn, log in, relog into stokes
+following instructions in stokes_updated.txt file on canvas
+reviewed homework 2 answers and began working on problem 5 
+
+*****OUT Wed Sep 9 12:10:33 EDT 2026
+
+*****IN: Wed Sep 9 12:20:10 EDT 2026
+
+Answered problem 5 on the homework, for Astroquery and Stringray 
+
+opened new tab on terminal, navigated to my hw2 folder
+ran jupyter nbconvert --to script <filename>.ipynb
+converted to .py, moved .ipynb file into different folder named (juypter_files)
+renamed thinkpython directory to juypter_files
+moved hw2_kenzb4.ipynb file into juypter_files directory 
+
+checked hw2 folder, only have 2 graphs and .py file like i wanted 
+
+logged into stokes via ucf vpn in previous log 
+ssh NID@stokes.ist.ucf.edu --> entered password, logged into stokes
+
+added installations needed for stokes, conda install numpy... 
+opened slurmformat.flurm file and edited in my name and destination, added this to my homework folder, copied folder to stokes with scp -r ~/Documents/ast4762/homework/hw2_kenzb4 NID@stokes.ist.ucf.edu: ~hw2_kenzb4
+
+logged into stokes with ssh NID@stokes.ist.ucf.edu
+change to hw2_kenzb4 directory (cd /path_there/)
+sbatch slurmformat.slurm
+got a jobcode.out
+cat slurm-jobcode.out and saw that my code ran !! yay
+
+
