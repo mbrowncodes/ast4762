@@ -272,20 +272,3 @@ scp ~/Documents/ast4762/homework/hw2_kenzb4/hw2_kenzb4_screenshot.png NID@stokes
 to create the tar.gz file after i copy my log into my stokes hw2 folder i will use the tar command to create a compressed .tar.gz, then the -c to make it archives, -z to compress it, -v to display which files get added, then i will use the scp from my regular terminal, copy the archive, and move it to my handin folder, then turn in to canvas from there 
 
 *****OUT: Wed Sep 9 14:11:09 EDT 2026
-
-*****IN: Wed Sep 9 14:35:11 EDT 2026
-
-in class following week 3 lecture notes 
-
-*****OUT: Wed Sep 9 16:25:11 EDT 2026
-
-*****IN: Thu Sep 10 15:08:11 EDT 2026
-
-deleted the slurm files in stokes, recompressed the directory, exported it to my home homework directory in ast4762
-
-fixed hw2 compression from my own mistake 
-
-*****OUT: Thu Sep 10 15:14:57 EDT 2026
-
-*****IN: Thu Sep 10 15:24:47 EDT 2026
-
