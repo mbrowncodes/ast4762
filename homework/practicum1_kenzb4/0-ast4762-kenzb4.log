@@ -358,38 +358,3 @@ convert .ipynb file to .py file with juypter nbconvert --to script
 finishing log to copy and add to directory, then  tar -czvf practicum1_kenzb4.tar.gz (/path0
 
 *****OUT: Sun Sep 13 14:11:30 EDT 2026
-
-*****IN: Mon Sep 14 13:06:52 EDT 2026
-
-chapter 2 bevington notes
-finished notes
-
-working on hw 3
-2a) downloaded copy of provided module template, renamed as hw3_kenzb4_support_module.py
-saved into homework folder --> hw3 folder
-
-2b) need to include a docstring at the top --> overall explanation/summary
-then call imports (no #, so they can be copied into another file)
-then call imports of functions from other files (come after main imports, want to include everything that may be needed)
-write function(big one):
-give doc string to explain function 
-paramters for what we are taking in (type of value)
-returns (what we want our function to do/produce) 
-raises (what we cant do)
-other functions (if we use any other function within our function we are making)
-notes (if needed for math lines)
-give refrences (important!!, if people come back to see where you got a constant or such need to refer to them)
-give examples (how does this work)
-show revisions (editing and debugging!)
-end with pass!
-
-2c) replace doc string with one expalining the functions held in file and how they work
-delete extra comments before imports
-delete example function (foo), write in def square and def squareplot functions here (in progress)
-
-
-*****OUT: Mon Sep 14 14:12:11 EDT 2026
-
-*****IN: Mon Sep 14 14:28:28 EDT 2026
-
-in class, download week 4 demo lecture folder, open juypter notebook from anaconda for notes
