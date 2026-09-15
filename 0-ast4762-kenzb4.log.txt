@@ -393,3 +393,10 @@ delete example function (foo), write in def square and def squareplot functions 
 *****IN: Mon Sep 14 14:28:28 EDT 2026
 
 in class, download week 4 demo lecture folder, open juypter notebook from anaconda for notes
+
+*****OUT: Mon Sep 14 16:18:22 EDT 2026
+
+*****IN: Tue Sep 15 15:29:20 EDT 2026
+
+working on homework
+2c) continuing cleaning up file

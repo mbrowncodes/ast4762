@@ -38,9 +38,28 @@ def square(var1, var2):
     ---------
     sqvar1 : square of array input of var1
     sqvar2 : square of integer input of var2
+    
+    Other Parameters
+    ----------------
+
+    Raises
+    ------
+    
+    See Also
+    --------
+
+    Notes
+    -------
+
+    Refrences
+    ---------
+
+    Examples
+    --------
+
+    
     """
     
-
 
 #example function 
 def foo(var1, var2, long_var_name='hi') :
@@ -153,25 +172,9 @@ def foo(var1, var2, long_var_name='hi') :
 
     Revisions
     ---------
-    2008-09-11 jh@physics.ucf.edu added Revisions section
-               The Revisions section is where you record modifications
-               to the file.  In the Python and NumPy sources, this is
-               handled by a revision control system like Git.  If you
-               are not using one, and even sometimes if you are, it's
-               good to put the revision notes right into the
-               docstring.
+    2026-09-15 ma755497@ucf.edu edited Revisions section, to note that this
+               file was made a copy and is edited
+   """
 
-    2008-09-11 jh@physics.ucf.edu downloaded and edited from
-        http://projects.scipy.org/scipy/numpy/browser/trunk/doc/example.py
-    2014-08-26 jh@physics.ucf.edu updated docstring
-    2016-09-14 jh@physics.ucf.edu Added doctest commands and discussion.
-    2018-08-30 jh@physics.ucf.edu updated original from
-    https://github.com/andyk/load_gen/blob/master/numpy/doc/example.py
-        and merged local changes.
-    """
-
-#this is the main body of your function
-
-#remember your code should be well-commented throughout!
 
     pass
