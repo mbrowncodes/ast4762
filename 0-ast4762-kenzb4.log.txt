@@ -398,5 +398,19 @@ in class, download week 4 demo lecture folder, open juypter notebook from anacon
 
 *****IN: Tue Sep 15 15:29:20 EDT 2026
 
-working on homework
+working on homework 
 2c) continuing cleaning up file
+2d) wrote the function named square, then went to commit to git(had trouble, made the wrong kind of token and that took me 30 mintues to figure out...rip)
+in terminal : git add .    git commit -m "Add lecture notes and homework", git push
+
+*****OUT: Tue Sep 15 16:37:30 EDT 2026
+
+*****IN: Tue Sep 15 17:46:11 EDT 2026
+
+working on homework 3
+2e) write code for function square write a doc string, the paramters, returns, and working on examples, test multiple (float, integer, variable that is an array) and copy their inputs into my module file
+2d) took a screenshot of Git history (released i did it a few steps too early but still)
+navigated to directory Desktop in terminal, mv screenshot.png to hw3 folder, then mv screenshot.png as hw3_kenzb4_screenshot1.png
+now about to rm screenshot --> rm hw3_kenzb4_screenshot1.png
+
+2f) paste all function code into juypter hub, testing different cases, find case that when you try to call something that looks like an array(a tuple) ie (0,11,1) as the input and it fails, same with (list) ie [1,2] and it fails as well
