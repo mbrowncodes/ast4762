@@ -414,3 +414,15 @@ navigated to directory Desktop in terminal, mv screenshot.png to hw3 folder, the
 now about to rm screenshot --> rm hw3_kenzb4_screenshot1.png
 
 2f) paste all function code into juypter hub, testing different cases, find case that when you try to call something that looks like an array(a tuple) ie (0,11,1) as the input and it fails, same with (list) ie [1,2] and it fails as well
+
+git add . (in ast folder), git commit -m "More Homework 3 Work", git push
+
+2h) create array with arange, import function from file that is in same directory (dont add the .py)
+call array to take in test_square_1 and see it produces values i want
+
+2i) try to do np.arange(0., 25, 1).reshape(5,5)), gives me the dimentions i want but the values dont include 25 and (0,26,1) is too large for 5x5 dim
+rewrite with np.linspace instead of arrange --> get right dimentions and start with float 0, end with float 25 
+call square and print it for this 2nd test array
+
+back to
+2g) remove all unneeded from module file, 

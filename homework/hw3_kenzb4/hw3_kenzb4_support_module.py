@@ -21,23 +21,24 @@ import matplotlib.pyplot as plt
 import astropy.io.fits as fits
 
 # function imports
-from my_module import my_func, other_func
+#from my_module import my_func, other_func
 
 #functions
-def square(var1, var2):
+def square(var1):
     """returns the square of the input
     input: scalar or array of any dimention or numerical type
     output: scalar or array (depends on input), value squared
 
     Parameters
     -----------
-    var1: array type of input
-    var2: integer type of input
+    var1: inputted variable (either a float, integer, or a numpy
+    array) 
+    
 
     Returns
     ---------
-    sqvar1 : square of array input of var1
-    sqvar2 : square of integer input of var2
+    sqvar1 : square of input of var1 (float, integer, or numpy
+    array)
     
     Other Parameters
     ----------------
@@ -56,10 +57,32 @@ def square(var1, var2):
 
     Examples
     --------
+    #ex 1:
+    >>>array1 = np.arange(0,11,1) # create array from 0 up to and including 10
+    >>>print (array1)
+    [ 0  1  2  3  4  5  6  7  8  9 10]
+    >>>print(square(array))
+    [  0   1   4   9  16  25  36  49  64  81 100]
 
+    #ex2:
+    >>>integer1 = 3
+    >>>print(square(integer1))
+    9
     
+    #ex3:
+    >>>print(square(3))
+    9
+
+    #ex4:
+    >>>print(square(3.3))
+    10.889999999999999
+
+    #ex5
+    >>>print(square(np.arange(0,11,1)))
+    [  0   1   4   9  16  25  36  49  64  81 100]
     """
-    
+    z = var1**2
+    return z
 
 #example function 
 def foo(var1, var2, long_var_name='hi') :
