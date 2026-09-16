@@ -447,4 +447,14 @@ as points with pt_num as step size
 3c) plot with plt functions (use given x&y axis names and title)
 3d)  --- need to create if statement 
 
+pushed files to git
+
+testing the import of my squareplot and it loading as a linear function for any different parameter values
+found error to be example for doc string out of docstring --> prevent it from running
+
+4) began drafting rubric 
+
+pushed files to git again 
+
+*****OUT: Wed Sep 16 01:02:13 EDT 2026
 
