@@ -84,6 +84,70 @@ def square(var1):
     z = var1**2
     return z
 
+def squareplot(low, high, pt_num, saveplot=False):
+    """ plots the square of numbers
+    input: the range of values, a high and low number for range
+    and number of points
+    output: an array of evenly spaced points from low to high with spacing 
+    related to pt numbers, call square function on new array
+    plot arrays y vs x 
+
+    Parameters
+    -----------
+    low: scalar (integer or float value)
+        gives the lowest number in the plot, the min value 
+    high: scalar (integer or float value)
+        gives the highest number in the plot, the max value
+    pt_num: (positive integer)
+        number of points in plot 
+    
+ 
+    Returns
+    ---------
+    x: array of range (low, high, pt_num), from low to and including high with
+    step size of number of points
+    y: array that is the squared value of array x, same step size, range now differs
+    plot : save plot through file, not given here
+    
+    Other Parameters
+    ----------------
+    saveplot = False
+
+    Raises
+    ------
+    check to see what happens if (high is < low)
+    check to see if any step sizes dont work
+    
+    See Also
+    --------
+
+    Notes
+    -------
+    uses function square 
+
+    Refrences
+    ---------
+
+    Examples
+    --------
+    """
+    >>>squareplot(0, 10, 5)
+
+    
+    x = np.linspace(low, high, pt_num) #makes array from input graph values
+    y = square(x) #makes new array that is square of x array values
+
+    plt.figure(  figsize=(8,5)  ) #make figure readable size
+    plt.plot(x, y)  # plot x vs y 
+    plt.title("Square Function") # following homework naming convention
+    plt.xlabel("Input")
+    plt.ylabel("Output")
+
+    #saveplot = False
+    return
+
+   
+
 #example function 
 def foo(var1, var2, long_var_name='hi') :
     #this is our function's docstring!

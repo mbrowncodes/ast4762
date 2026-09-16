@@ -425,4 +425,26 @@ rewrite with np.linspace instead of arrange --> get right dimentions and start w
 call square and print it for this 2nd test array
 
 back to
-2g) remove all unneeded from module file, 
+2g) remove all unneeded from module file
+in terminal commit to git and add comment, push to origin
+rename screenshot, then move from Desktop directory to hw3 directory, then mv screenshot to change filename
+
+*****OUT: Tue Sep 15 19:05:29 EDT 2026
+
+*****IN: Tue Sep 15 19:53:11 EDT 2026
+
+connect to vpn, look at peer reviews
+
+*****OUT: Tue Sep 15 20:06:11 EDT 2026
+
+*****IN: Tue Sep 15 22:54:57 EDT 2026
+
+started and completed 2/2 peer reviews
+homework 3
+3a) create array of evenly spaced points using linspace, keeps low and high value
+as points with pt_num as step size
+3b) call function square and input x as parameter
+3c) plot with plt functions (use given x&y axis names and title)
+3d)  --- need to create if statement 
+
+
