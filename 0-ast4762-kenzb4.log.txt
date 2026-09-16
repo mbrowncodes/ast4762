@@ -458,3 +458,25 @@ pushed files to git again
 
 *****OUT: Wed Sep 16 01:02:13 EDT 2026
 
+*****IN: Wed Sep 16 10:20:11 EDT 2026
+
+Reviewing homework 2
+problem 1 complete, problem 2 complete
+review problem 3, looking to add examples (only adding line of code?
+not sure how to add the plot or if i should into module)
+checking when high < low (inverse function all checks out)
+0 for 0 point numbers gives no plot (expected)
+went back to writing statement for plot, tried 
+if saveplot != False:
+	plt.savefig(saveplot, format='pdf')
+didnt save, rechecked and tried
+if saveplot is not False:
+	plt.savefig(saveplot,format='pdf') worked
+checked calling squareplot in seperate notebook, all worked well
+
+5) testing on stokes
+log into secure vpn, log into stokes, mkdir hw3_kenzb4, check folder is empty 
+juypter nbconvert --to script hw3_kenzb4
+scp -r (file path) NID@stokes.ist.ucf.edu:~/hw3_kenzb4
+4) revised and finished the rubric
+

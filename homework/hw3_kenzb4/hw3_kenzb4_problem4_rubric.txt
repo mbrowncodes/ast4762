@@ -1,0 +1,32 @@
+Problem 4
+
+Rubric for Problem 3 (20 pt)
+
+
+Creating function: 2 pts
+
+Is squareplot defined? (1 pt)
+Does it have 3 arguments and 1 optional argument? (1pt)
+
+Creating array: 3 pts
+
+Is there an array named 'x'? (1pt) 
+Is it evenly spaced, ranging from low, up to and including the high? (2pt)
+
+Calling function and creating array: 3 pts
+
+Is the function square called? (2 pt)
+Is there an array y produced? (1)
+
+Plotting arrays, good plot style: 6 pts
+
+Is there a plot of x vs y? (3pt)
+Is it publication ready with correct axis labels and title? (3pt)
+
+Save plot with argument: 6 pts
+
+Is the saveplot = False in parameters? (2 pt)
+Is there a line to save the plot? (2 pt)
+Does it make the file into a pdf? (2pt)
+
+

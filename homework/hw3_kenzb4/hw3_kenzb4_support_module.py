@@ -54,6 +54,7 @@ def square(var1):
 
     Refrences
     ---------
+    stack over flow: https://stackoverflow.com/questions/62106028/what-is-the-difference-between-np-linspace-and-np-arange
 
     Examples
     --------
@@ -90,7 +91,7 @@ def squareplot(low, high, pt_num, saveplot=False):
     and number of points
     output: an array of evenly spaced points from low to high with spacing 
     related to pt numbers, call square function on new array
-    plot arrays y vs x 
+    plot arrays y vs x (regualr array,x, and array with square function called on it, y)
 
     Parameters
     -----------
@@ -131,16 +132,18 @@ def squareplot(low, high, pt_num, saveplot=False):
     Examples
     --------
     >>>squareplot(0, 10, 5)
-    
+    # the plots are given 
+    >>>squareplot(.1, 7, 20)
+    # the plot is given
+    >>>squareplot(.1, 7, 20, "testsquareplot.pdf"
+    #pdf file of plot saves in directory 
     """
     
 
     
     x = np.linspace(low, high, pt_num) #makes array from input graph values
     #includes highest value in x
-    print(x)
     y = square(x) #makes new array that is square of x array values
-    print(y)
 
     plt.figure(  figsize=(8,5)  ) #make figure readable size
     plt.plot(x, y)  # plot x vs y 
@@ -148,8 +151,10 @@ def squareplot(low, high, pt_num, saveplot=False):
     plt.xlabel("Input")
     plt.ylabel("Output")
 
-    #saveplot = False
-    return
+    if saveplot is not False:
+        plt.savefig(saveplot, format="pdf") # if optional parameter is not False
+        # save plot, as pdf with their inputted "filename.pdf"
+    return 
 
 
 """
@@ -160,4 +165,4 @@ def squareplot(low, high, pt_num, saveplot=False):
 """
 
 
-    pass
+pass
