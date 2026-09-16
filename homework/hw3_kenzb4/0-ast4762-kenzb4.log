@@ -488,38 +488,4 @@ i will copy it over to my handin folder
 
 *****OUT: Wed Sep 16 11:52:12 EDT 2026
 
-*****IN: Wed Sep 16 14:32:11 EDT 2026
-
-in class --> peer evaluations
-note that if saveplot is not False: 
-can write as if saveplot 
-
-back to in class notes
-
-*****OUT: Wed Sep 16 16:22:50 EDT 2026
-
-*****IN: Wed Sep 16 18:28:38 EDT 2026
-
-looking at hw 4 
-1)in terminal call
-cd ~/Documents/ast4762/homework
-mkdir hw4_kenzb4
-naviaget to juypter hub and go through Documents-->ast4762-->homework-->hw4_kenzb4 and create a new file (.ipynb to be changed at end)
-added name, homework number and date into the file, added print statement for 2nd problem
-2a) refrence wk3 lecture notes for np.random.normal
-2b) know i have to use plt.hist for the histogram
-looking into if i set bins=100, if that goes from 0-100
-looking to edit width to one --> use range (0,101), auto set width to 1
-plot and add titles and axis, saveplot with hw naming convention
-2c) refrence to notes, looking at gaussian distribution function 
-
-in terminal in ast4762 folder
-git add .
-git commit -m " "
-git push
-
-*****OUT: Wed Sep 16 19:21:58 EDT 2026
-
-
-
 
