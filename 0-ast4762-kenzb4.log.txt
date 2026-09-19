@@ -520,6 +520,45 @@ git push
 
 *****OUT: Wed Sep 16 19:21:58 EDT 2026
 
+*****IN: Fri Sep 18 14:30:20 EDT 2026
+
+in class, took quiz, going to do practicum
+
+*****OUT: Fri Sep 18 16:20:34 EDT 2026
+
+*****IN: Fri Sep 18 20:12:38 EDT 2026
+
+peer reviews
+
+*****OUT: Fri Sep 18 20:40:13 EDT 2026
+
+*****IN: Fri Sep 18 22:22:22 EDT 2026
+
+my review kept deleteing midway through :(, but we finished 1!
+
+*****OUT: Fri Sep 18 22:40:12 EDT 2026
+
+*****IN: Sat Sep 19 16:02:50 EDT 2026
+
+peer review 2 
+
+*****OUT: Sat Sep 19 16:11:44 EDT 2026
+
+*****IN: Sat Sep 19 16:30:23 EDT 2026
+
+finished peer review 2
+
+back to hw3 
+2c) having trouble figuring out why my og bins = range(0,101) isnt working
+debug: redefine bins so that it is an array thats 0.5, instead of one 
+(each element shifted to be in center of regular bin)
+write out gaus_eq with my variable name terms
+copy line for regular histogram plot
+plt.plot for the fitted gaussian line over the histogram
+plot bins, with N*gaus_eq  --> multiply gauss function by N to get expected number of draws per bin for the larger sample we have
+run that code and see that plot is looking correct
+set color of line equal to red
 
 
-
+git add . --> git commit -m "Homework 3 edits, class notes, and peer reviews" --> git push
+rereading through homework file to check everything is done right
