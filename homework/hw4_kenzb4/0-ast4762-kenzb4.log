@@ -611,27 +611,3 @@ i am going to do my out for this time stamp and then git add and push final chan
 
 *****OUT: Sat Sep 19 20:25:13 EDT 2026
 
-*****IN: Mon Sep 21 12:42:28 EDT 2026
-opened juypter hub to continue working on practicum 2
-cant find the file... scared
-gonna check github! okay i cant find it, going to reopen a file 
-in terminal: cd to homework folder, then mkdir practicum2_kenzb4, on jupyterhub open new file, rename practicum2_kenzb4
-do imports 
-1) insert prompt for Q1 into ai, get a similar function that i made before 
-np.random.normal
-2) set empty list variable
-for loop (np.arange(0,10), runs 0 to 9 not including 10 
-find sample gaussian using made function, then use numpy functions to find mean, standard deviation, add number loop running through + found values into empty list
-outside loop change list into array and reshape
-3) insert prompt into google gemini:
-"write a code creating a subsample containing N=10 random draws, with an omega of 13 and mean of 55, for each sample record the sample number (0 to 9), the sample mean, and the sample standard deviation in an array with one row per sample (10x3 array), write in python and use numpy"
-and got a similar looking printed result but our methods were differnt
-4) google writing array into txtfile python, numpy.org tells np.savetxt
-in file --> help(np.savetxt) --> use this and add ("filename.txt", results_array)
-5) rewrite as function with N as import, do for loop to get sample gauss to create array with sample mean and omega inside 
-(need to come back and write into file made in question 4, look to see if can write directly into the function (filename))
-in terminal
-
-
-*****OUT: Mon Sep 12 14:02:44 EDT 2026
-
