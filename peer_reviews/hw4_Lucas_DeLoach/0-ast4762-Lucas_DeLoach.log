@@ -1,0 +1,934 @@
+Lucas DeLoach
+Log for AST 4762, Fall 2026
+*****IN: Wed Aug 26 15:11:15 EDT 2026
+Opened TextEdit, started this log, saved as:
+"C:\Users\deloa\Desktop\AST4762C\hw0_Lucas_DeLoach\0-ast4762-Lucas_DeLoach.log"
+Planning to be moved to:
+"\\wsl.localhost\Ubuntu\AST4762C\hw0_Lucas_DeLoach\0-ast4762-Lucas_DeLoach.log"
+
+I set my ubuntu username to deloa
+Password set to what I normally use for home PC
+
+Name: Lucas DeLoach
+Username: deloa
+What astronomy classes have you taken?
+AST 2002 and AST 4700.
+
+Are you generally comfortable with calculus and physics?
+I am a math tutor, and I tutor the calculus series, and I love physics, and have tutored it in the past as well.
+
+Have you ever programmed a computer?
+Yes, I have set up linux on multiple computers, set up virtual machines on half a dozen more, and built multiple projects using a raspberry pi.
+
+In what language(s)?
+Almost exclusively python.
+
+Have you taken a programming class, and if so which?
+I have taken COP 2500C, and it's equivalent at Valencia, both being intro to python courses.
+
+Have you taken statistics or probability?
+I have not officially taken the course for credit, but have taken the course at work to learn the material in order to tutor it.
+
+Will you be attending the DPS conference this year, or will
+you be away otherwise?
+I am not currently planning on attending DPS this year as I have a busy year ahead with multiple other conferences, including ERN, and I am planning roadtrips to multiple places to try and surprise my girlfriend with a proposal.
+
+Why are you taking this course?
+I want to do research in astronomy or aerospace engineering, and have done some in the past where these skills were used. I need this to graduate, and I also need to learn the material better for future projects.
+
+Are there particular topics you hope to learn?
+I hope to get more comfortable with github and python libraries, as those were my weak spots when completing my REU over the summer.
+
+If you have programmed outside of a course before, please
+briefly describe:
+I completed an REU at Penn State over the summer with the following abstract: 
+The BlackCAT CubeSat is a coded-aperture X-ray telescope mission designed to monitor the sky for transient photon bursts, such as Gamma-Ray Bursts and X-ray flares. Operating across multiple energy bands from 0.5 to 20.0 keV, the instrument aims to detect and monitor the physical processes of hot plasmas, accretion disks, and high-energy coronae in deep-space sources like Scorpius X-1 (SCO-X1). As a coded-mask imaging system, BlackCAT provides wide-field observation capabilities, but its raw telemetry requires sophisticated mathematical reconstruction to map photon arrivals into actionable sky images. This paper presents the development of a semi-automated software pipeline designed to convert raw event-list telemetry into human readable data and images. We detail the implementation of geometric effective area corrections, source-detection weighting algorithms, and orbital telemetry analysis. Our results demonstrate the successful transformation of raw satellite data into flux-calibrated light curves and sky maps, providing a robust framework for long-term monitoring of high-energy sources such as Scorpius X-1 (Sco X-1).
+
+If you have worked with scientific data before, briefly
+describe your experience:
+As stated above, I completed a project analysing data from an X-ray telescope satellite in order to make light curves and detector maps.
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.:
+I have done the previously mentioned project at Penn State, as well as some other projects through ERIE at UCF, including a lunar rover wheel testing platform and a sheer cell.
+
+
+I have already made a folder in my WSL Ubuntu environment using the command "sudo mkdir /AST4762C/hw0_Lucas_DeLoach" and have an accompanying folder on my windows desktop.
+
+I will then zip it in windows and submit it from there.
+
+*****OUT: Wed Aug 26 15:35:21 EDT 2026
+
+*****IN: Fri Aug 28 15:03:28 EDT 2026
+Attempting to use open box to run a virtual machine with full desktop ui running ubuntu instead of dual booting or fiddling with WSL.
+
+Virtual box was abandoned, and I am now pivoting back to WSL
+
+I am installing anaconda and git on my WSL setup.
+
+I am also attempting to run an ubuntu desktop ui through WSL
+
+If all else fails, I will dual boot.
+
+While I am setting up a desktop ui and wsl, I have installed anaconda successfully on windows
+
+I am starting Homework 1 and am making the associated folders for that assignment.
+
+I am having trouble with wsl, and am now setting up my second drive to dual boot into ubuntu.
+
+I am reinstalling anaconda on my windows drive so I can wipe my main drive when I am setting up ubuntu
+
+I am going to callit done for today and finish setting up dual boot over the weekend.
+
+*****OUT: Fri Aug 28 16:25:08 EDT 2026
+
+*****IN: Sun Aug 30 9:28:30 EDT 2026
+Sucessfully set up anaconda on my windows drive, and now have a dual boot setup with a sync task on this folder so I can work in either os on anything in this folder and it will update on the other.
+
+Now working on completing homework 1 and submitting before hotel checkout at 11 today.
+
+I am currently trying to get jupyter to work on my windows drive, but am unsure if I need to be getting it to work on my linux instead.
+
+I am going to switch over to linux now.
+*****OUT: Sun Aug 30 9:47:50 EDT 2026
+
+*****IN: Mon Aug 31 1:26:00 EDT 2026
+I am taking screenshots in linux for homework 1 by pressing function + F11
+
+My python version is Python 3.14.6
+
+I have now just finished installing github desktop
+
+I am taking a picture in both of the jupyter apps I see on anaconda as I am unsure which one you actually want, so you get both.
+
+Screenshot taken of guthub desktop.
+
+I cannot for the life of me get the ucf vpn to work, as it is not accepting my password as correct. 
+
+Because of that, I cannot access Stokes yet, so will submit a screenshot containing prrof of that for the moment and troubleshoot further tomorrow when I am at UCF.
+
+I will now copy my current log file into the hw1_Lucas_DeLoach folder and zip it using ubuntu compression option.
+
+That is all for today, I need to go to bed.
+
+*****OUT: Mon Aug 31 1:45:50 EDT 2026
+
+*****IN: Mon Aug 31 13:53:25 EDT 2026
+
+I am currently trying to get into stokes, but my username and password are not working for the VPN or Stokes.
+
+I am now downloading and reading the test.dat file you showed us during class.
+
+I just successfully logged into stokes. The process was as follows for later trouble shooting: download the cisco secure client app, choose student, log in using my ucf email and password and microsoft authenticator. Then, once the vpn logged in, I just type "sudo ssh lu159221@stokes.ist.ucf.edu" into my command line, and I can access Stokes.
+
+I am taking the required screenshot for hw 1 and am resubmitting now, even though it would be late.
+
+*****OUT: Mon Aug 31 15:32:37 EDT 2026
+
+*****IN: Wed Sep 2 14:30:10 EDT 2026
+
+I am starting homework 2
+
+I used sudo mkdir /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw2_Lucas_DeLoach
+
+Started anaconda navigator with anaconda-navigator
+
+opened jupyter lab and created a new python file, which I renamed to hw2_Lucas_DeLoach.py
+
+I will save the file to my hw file as a copy once I have finished the homework.
+
+Heading home now, will work on this more after I get my other homework done
+
+*****OUT: Wed Sep 2 16:11:45 EDT 2026
+
+*****In: Mon Sep 7 20:59:35 EDT 2026
+
+Opening and starting homework 2
+
+I am also just now noticing that my username from the first log is what I was supposed to use as my name in all homeworks and files, but as it turns out, the username for my new linux envirnoment is actually Lucas_DeLoach, which is what I have been using as my name on files and folders, so consider this me officially updating my username to that.
+
+I am entering my jupyter folder with "cd ~/AST4762C_temp_work_area"
+
+I am entering the command "python3 hw2_Lucas_DeLoach.py" to test my code as I write it
+
+Attempted to save png directly to homework folder, but it did not work, gave the following errors: 
+
+
+"File "/home/lucas-deloach/AST4762C_temp_work_area/hw2_Lucas_DeLoach.py", line 58, in <module>
+    plt.savefig('/run/media/lucas-deloach/1DE213EC4C56818B/AST4762C\
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 /hw2_Lucas_DeLoach/hw2_graph.png')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/pyplot.py", line 1346, in savefig
+    res = fig.savefig(fname, **kwargs)  # type: ignore[func-returns-value]
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/figure.py", line 3515, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/backend_bases.py", line 2281, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/backend_bases.py", line 2138, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py", line 537, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py", line 486, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/matplotlib/image.py", line 1722, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/PIL/Image.py", line 2706, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/run/media/lucas-deloach/1DE213EC4C56818B/AST4762C             /hw2_Lucas_DeLoach/hw2_graph.png'"
+
+Instead of doing that, and figuring out what all of that means, since we are not supposed to use ai, I just changed the save folder to the default (same as .py file) and will move it to the homework folder later. That method worked.
+
+As I am working through I am having an issue where the plot from question 3 is showing up in my plot for question 4, so I am going back and adding some more lines in previous parts of the homework to try to resolve this.
+
+For question 3, since my understanding of the instructions gave me a sin graph turned 90 degrees, I included a commented version to create a regular sin graph just in case I did misunderstand the directions.
+
+Questions 1-4 are done now, and I am working on question 5.
+
+I am now making my github repository named AST_4762C which contains folders for both my jupyter work folder and the folder I have that contains all final homeworks and is viewable from both my windows and linux os, which has the path "/run/media/lucas-deloach/1DE213EC4C56818B/" and is called "/shared_windows_linux_drive" in github.
+
+I am creating an alias for pushing my shared drive as it needs multiple lines. Added the following to ~/.bashrc:
+# Custom shortcut to mount and push the AST_4762C shared drive
+gitpushdrive() {
+    # 1. Navigate to the main repo directory
+    cd ~/AST4762C_temp_work_area/AST_4762C/ || { echo "Directory not found!"; return 1; }
+
+    # 2. Safely check if already mounted; if not, mount it (for reboots)
+    if ! mountpoint -q ./shared_windows_linux_drive; then
+        echo "Mounting shared drive..."
+        sudo mount --bind /run/media/lucas-deloach/1DE213EC4C56818B/ ./shared_windows_linux_drive
+    else
+        echo "Drive already mounted."
+    fi
+
+    # 3. Stage the files
+    git add shared_windows_linux_drive/
+
+    # 4. Prompt for a commit message
+    echo -n "Enter commit message (or press Enter for 'Auto-update'): "
+    read -r msg
+    if [ -z "$msg" ]; then
+        msg="Auto-update shared drive $(date '+%Y-%m-%d %H:%M')"
+    fi
+
+    # 5. Commit and push
+    git commit -m "$msg"
+    git push origin main
+}
+
+Also ran some further commands to streamline the alias:
+git config core.safecrlf false
+git config core.autocrlf input
+
+To push shared drive to github: 
+gitpushdrive
+
+To push jupyter work folder to github:
+cd ~/AST4762C_temp_work_area/AST_4762C/
+git push origin main
+
+Now going back to question 5 on homework 2.
+
+Now onto question 6
+
+I logged into stokes by following these steps:
+
+Open Cisco secure client
+secure.vpn.ucf.edu
+UCF Students
+login
+
+Then in terminal:
+sudo ssh lu159221@stokes.ist.ucf.edu
+password
+
+I now have tried to run mkdir /hw2_Lucas_DeLoach in stokes, got this error:
+mkdir: cannot create directory ‘/hw2_Lucas_DeLoach’: Permission denied
+
+I then did what I always do when I get permission denied (although it is always when I am on my own systems):
+sudo mkdir /hw2_Lucas_DeLoach
+
+This made the system angry and gave me this:
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for lu159221: 
+lu159221 is not in the sudoers file.  This incident will be reported.
+
+
+
+I'm sure that's nothing.
+
+Anyways, running this solved my issue:
+mkdir ~/hw2_Lucas_DeLoach
+
+Now, going back to my local terminal and running:
+scp /home/lucas-deloach/AST4762C_temp_work_area/hw2/hw2_Lucas_DeLoach.py lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach/
+
+This works and I now have that in my stokes folder.
+
+Now, back to the stokes terminal:
+cd ~/hw2_Lucas_DeLoach
+hw2_Lucas_DeLoach.py
+
+This gave me this error: ModuleNotFoundError: No module named 'numpy'
+
+Fun
+
+running "module load anaconda" fixes this error.
+
+Back to python3 hw2_Lucas_DeLoach.py
+
+Successful output!!
+
+Now pushing all to github:
+gitpushdrive
+git push origin main
+
+Taking screenshot of github commits. Named it "hw2_Lucas_DeLoach_problem6f_commit_history"
+
+Now running this to copy full hw2 working folder to stokes: scp -r /home/lucas-deloach/AST4762C_temp_work_area/hw2 lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach
+
+My folder which needs to be compressed is now ~/hw2_Lucas_DeLoach/hw2 in stokes
+
+renamed the hw2 folder in stokes to hw2_Lucas_DeLoach which is now found in ~/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach
+
+I really dug myself a confusing hole with that naming scheme.
+
+I will now move my log to that folder with scp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach
+
+I will then run "tar -czf hw2_Lucas_DeLoach.tar.gz ~/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach" in stokes
+
+I will then go back to my local terminal and run scp lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach.tar.gz /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw2_Lucas_DeLoach 
+
+Once that is done, I will upload it to webcourses.
+
+Ok, wish me luck!
+
+*****OUT: Tue Sep 8 1:04:05 EDT 2026
+
+*****IN: Wed Sep 9 10:46:10 EDT 2026
+
+I reread the instructions for homework 2, and I commented instead of printing for each question part, so I am going to fix that.
+
+I changed and added print functions to better match the instructions, now I need to get it all into stokes again.
+
+I am in ~/hw2_Lucas_DeLoach in stokes now, and will run rm -r ~/hw2_Lucas_DeLoach to remove the folder I had so I can just copy the folder from my machine into the stokes home directory
+
+I will now run mkdir ~/hw2_Lucas_DeLoach in stokes
+
+returning to home terminal
+
+moving python file to stokes with "scp /home/lucas-deloach/AST4762C_temp_work_area/hw2/hw2_Lucas_DeLoach.py lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach"
+ 
+Now to return to stokes and enter the ~/hw2_Lucas_DeLoach directory
+
+Then running "module load anaconda" followed by "python3 hw2_Lucas_DeLoach.py"
+
+Ran gitpushdrive and git push origin main
+
+Then I moved hw2_Lucas_DeLoach_problem6f_commit_history.png to stokes with scp /home/lucas-deloach/AST4762C_temp_work_area/hw2/hw2_Lucas_DeLoach_problem6f_commit_history.png lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach
+
+Now to move my log in with scp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach
+
+I will then run "tar -czf hw2_Lucas_DeLoach.tar.gz ~/hw2_Lucas_DeLoach" in stokes
+
+I will then go back to my local terminal and run scp lu159221@stokes.ist.ucf.edu:~/hw2_Lucas_DeLoach/hw2_Lucas_DeLoach.tar.gz /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw2_Lucas_DeLoach
+
+Then I will reupload to webcourses and recommit to guthub to update this log.
+
+*****OUT: Wed Sep 9 11:32:50 EDT 2026
+
+*****IN: Wed Sep 9 15:19:10 EDT 2026
+
+I am editing what folders get pushed to github
+
+Updating gitpushdrive script to:
+
+gitpushdrive() {
+    # 1. Navigate to the main repo directory
+    cd ~/AST4762C_temp_work_area/ || { echo "Directory not found!"; return 1; }
+
+    # 2. Safely check if already mounted; if not, mount it
+    if ! mountpoint -q ./shared_windows_linux_drive; then
+        echo "Mounting shared drive..."
+        sudo mount --bind /run/media/lucas-deloach/1DE213EC4C56818B/ ./shared_windows_linux_drive
+    else
+        echo "Drive already mounted."
+    fi
+
+    # 3. Stage the files
+    git add shared_windows_linux_drive/
+
+    # 4. Prompt you for a commit message
+    echo -n "Enter commit message (or press Enter for 'Auto-update'): "
+    read -r msg
+    if [ -z "$msg" ]; then
+        msg="Auto-update shared drive $(date '+%Y-%m-%d %H:%M')"
+    fi
+
+    # 5. Commit and push
+    git commit -m "$msg"
+    git push origin main
+}
+
+
+Going to "cd ~/AST4762C_temp_work_area"
+
+Then:
+git add .
+git commit -m "Initial commit"
+
+I then went into my github desktop app and selected the new folder I want it to look at, and fetched and then pushed origin main
+
+running source ~/.bashrc
+
+I believe it is all done now.
+
+I believe now github looks in the folder "/home/lucas-deloach/AST4762C_temp_work_area" which contains the jupyter notebook working folder, as well as a mount for the shared windows and linux drive that contains my actual submittable folders and files.
+
+I have also been working on the little in class activities in between these steps, so this has taken longer than it otherwise would.
+
+*****OUT: Wed Sep 9 16:15:30 EDT 2026
+
+*****IN: Fri Sep 11 14:45:35 EDT 2026
+
+I am in class now, working on the notebook.
+
+Starting peer reviews now.
+
+Having issues getting one to run, but now onto practicum.
+
+I have just finished problem 1 of the practicum,
+
+I am now moving onto problem 2 of the practicum, and the prompts I am using will be put here.
+
+----------------------------
+
+Prompt 1:
+Make a 300×200 Float64 array. Each array element should contain its own
+
+y coordinate, starting with y = 0 for column 0 and ending with y = 299 for
+
+column 299 (i.e., column 0 has 200 zeros).
+
+
+
+Provide a method to do so with a loop and one without a loop 
+
+----------------------------
+
+Prompt 2: 
+Ok, now, Display the array using the matplotlib function for showing the image with
+
+a cmap of ‘gray’.
+
+
+
+and Examine several randomly placed array elements with Python to be sure
+
+the values match the y coordinate in the print statements. Be careful that
+
+the final array has the correct data type.
+
+
+
+Make sure that the lower left corner of your plot is 0,0! 
+
+----------------------------
+
+Then I copy pasted the output it gave me into a python file.
+
+I wrote the prompts pretty much just as copy pastes of the assignment instructions
+
+I took the screenshot for problem 2, and now I am working on problem 3.
+
+I went to my home directory and pasted:
+
+conda create --channel conda-forge  --name astropy python
+conda activate astropy
+
+Then I ran:
+
+python -m pip install "astropy[all]"         # All optional dependencies
+conda install --channel conda-forge astropy
+conda install --channel conda-forge scipy matplotlib
+conda install --channel conda-forge ipython jupyter dask h5py pyarrow \
+   beautifulsoup4 html5lib bleach pandas sortedcontainers pytz jplephem mpmath \
+   asdf-astropy bottleneck fsspec s3fs certifi
+
+I am now downloading m42_40min_ir.zip
+
+I wrote up some code to open the fits file with astropy and make the image, and I will include that python file in my submission.
+
+From image seems to be of M42, aka the orion nebula, which matched the file name. 
+
+Now editing the code to add the required information.
+
+I tested the file in my terminal and it worked, so I am now going to push to github.
+
+I used:
+cd ~/AST4762C_temp_work_area
+git add .
+gitpushdrive
+
+I also am going to copy this log into the folder with:
+cp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log ~/AST4762C_temp_work_area/Practicum_1
+
+I will now run "tar -czf P1_Lucas_DeLoach.tar.gz ~/AST4762C_temp_work_area/Practicum_1"
+
+I will also run "mv P1_Lucas_DeLoach.tar.gz ~/AST4762C_temp_work_area/Practicum_1"
+
+I will also run "cp -r ~/AST4762C_temp_work_area/Practicum_1 /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/P1_Lucas_DeLoach" in order to have all files in my shared drive as well.
+
+Also, I included a screenshot of the ai, it's code, and it's images all together, but in order to take screenshots of all of the prompts, responses, code, and images seperately would be like 5 screenshots, which I assume is not what you actually want. Therefore, I just included the prompts in this log, included the python file the ai wrote, and also the image that contains all 3, so you can also see the resulting images.
+
+Ok, doing a final gitpushdrive and signing off.
+
+*****OUT: Fri Sep 11 18:40:40 EDT 2026
+
+*****IN: Fri Sep 11 18:49:25 EDT 2026
+
+Now working on homework 2 peer reviews.
+
+Peer review 1 done, moving on to the 2nd.
+
+2nd peer review done.
+
+I ran the python files in my terminal for both of them, and checked the outputs from there.
+
+Both started with jupyter notebooks, which caused errors in their plots, as their 2nd plot shows all 3 grpahs overlayed instead of just the final 2, which is not what happens when it is run through jupyter notebook. 
+
+However, since both had trouble with stokes, and both are unfamiliar with terminal use on windows, they were also not able to (or just didn't) run the python file in terminal, so they did not catch that mistake.
+
+I am now deleting all of their folders to save space on my drive. 
+
+Now saving this log and running:
+
+gitpushdrive
+git push origin main
+
+*****OUT: Fri Sep 11 19:33:15 EDT 2026
+
+*****IN: Fri Sep 11 19:37:35 EDT 2026
+
+Starting work on homework 3.
+
+I made a new folder in terminal with:
+mkdir ~/AST4762C_temp_work_area/hw3
+
+I will work in this folder, then move everything inside to a submission ready folder in another drive later.
+
+I made a python file in that folder called hw3_Lucas_DeLoach.py
+
+I also copied the docstring example file from canvas and moved it into the same folder my main python file is in.
+
+renamed support file to "hw3_Lucas_DeLoach_support_functions.py"
+
+The support file should include all library imports used in the main file.
+It should also include any imports from other files or any other source.
+It should also include the functions used in the main file as well as a docstring extended string to explain and describe the function. 
+
+This extended string should include:
+Explanation of purpose of function
+Description of the parameters used in the function
+Explanation of what the function returns
+Explanation of any exceptions and errors coded into the function
+Any related function names and why they may be useful
+Notes about the function if there are any
+Examples with >>> in front of them
+Citations for any relevant literature
+Include the revisions made to the function
+
+I am now making my support file following the guidelines as closely as possible.
+
+I am now making the square function.
+
+I am committing to github 
+
+Now writing the code for the function.
+
+Testing the code for the function.
+
+Now, for 2 f, I am testing integers, complex numbers, arrays, and lists. I could ranges, sets, etc, but I don't think that's necessary, and I don't think that's what the question wants me to do.
+
+My code worked and gave me the expected outputs, so I am going to do:
+gitpushdrive
+git push origin main
+
+Then back to my test folder with cd ~/AST4762C_temp_work_area/hw3
+
+Taking a screenshot of my github history and moving that renamed screenshot to the appropriate folder via click and dragging in the file manager.
+
+Now, as I am working on 3, I am pushing to git again.
+
+Now, I am testing my function by trying to finish question 3.
+
+Question 3 worked, so now moving on to question 4.
+
+Fixing some typos and formatting mistakes, then moving on to actually work on 4.
+
+Since the next step might benefit from me coming back and looking at this code again later, I am going to push to github and go home, because I am still in the classroom and it is past 9.
+
+*****OUT: Fri Sep 11 21:09:55 EDT 2026
+
+*****IN: Sun Sep 13 22:34:07 EDT 2026
+
+I am back to work on question 4. I am opening a LaTeX file in overleaf.
+
+I downloaded the pdf from overleaf, and then I moved it using the file manager ui on ubuntu to move it into my temporary work folder for hw3.
+
+Ok, question 4 done, I am now moving on to testing everything in stokes.
+
+I am opening stokes with:
+sudo ssh lu159221@stokes.ist.ucf.edu
+
+Now:
+mkdir hw3_Lucas_DeLoach
+cd hw3_Lucas_DeLoach
+
+Then back to home terminal:
+scp -r ~/AST4762C_temp_work_area/hw3/. lu159221@stokes.ist.ucf.edu:~/hw3_Lucas_DeLoach
+
+Now back to stokes:
+module load conda
+python3 hw3_Lucas_DeLoach.py
+
+This gives me the correct output, and everything works correctly.
+
+Now pushing to github:
+git add .
+gitpushdrive
+git push origin main
+
+Taking a screenshot and naming it hw3_Lucas_DeLoach_problem5_image1.png
+
+Moving it into the temporary work folder via the file manager.
+
+Now, in home terminal:
+scp ~/AST4762C_temp_work_area/hw3/hw3_Lucas_DeLoach_problem5_image1.png lu159221@stokes.ist.ucf.edu:~/hw3_Lucas_DeLoach
+
+Then, to finish it off:
+scp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log lu159221@stokes.ist.ucf.edu:~/hw3_Lucas_DeLoach
+
+Back to stokes:
+tar -czf hw3_Lucas_DeLoach.tar.gz ~/AST4762C_temp_work_area/hw3_Lucas_DeLoach
+scp lu159221@stokes.ist.ucf.edu:~/hw3_Lucas_DeLoach/hw3_Lucas_DeLoach.tar.gz ~/AST4762C_temp_work_area/hw3/
+
+Then back to local terminal:
+mkdir /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw3_Lucas_DeLoach
+cp -r ~/AST4762C_temp_work_area/hw3/. /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw3_Lucas_DeLoach
+git add .
+gitpushdrive
+git push origin main
+
+*****OUT: Sun Sep 13 23:39:45 EDT 2026
+
+*****IN: Mon Sep 14 14:53:05 EDT 2026
+
+I got to class a little late due to some health issues, but I am here now.
+
+My wifi is not working, so I am restarting.
+
+Ok, I am back, restarting did not fix it, I have no clue what the issue is. I am just using my hotspot now.
+
+I ran:
+sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+And set wifi.powersave = 2
+
+Then I ran:
+sudo systemctl restart NetworkManager
+sudo ip link set wlo1 up
+
+And now my wifi works, I don't know why it suddenly stopped working, but apparently it is fixed, hopefully permanently.
+
+*****OUT: Mon Sep 14 16:03:15 EDT 2026
+
+*****IN: Wed Sep 16 15:02:20 EDT 2026
+
+We are starting peer reviews
+
+Peer review 1: hw3_jmschroeder
+
+Problem 1: 4
+
+The log file is there and named correctly. There is an explanation of how the file was made and it was done with terminal. The main python file does not start with the required information. -1.
+
+Problem 2: 31
+
+There is a support python file and it is named correctly. I did not see any information in the log about what they should have in their support file from the template. It says they made the file but does not answer what it should include. -1. The support file is cleaned up from the template and seems to my inexperienced eyes to be formatted correctly and include all information. The function called square is in the support file and looks like it should work as intended. The function seems to work and it seems to have a good docstring. I do not see any sign in the log describing tests or troubleshooting, but it is included in the code. -4. Each data type was tested and shown in the final code. It looks like the code was pushed to github frequently enough and the log does have information about it. The docstring has the test case and there are github screenshots. All parts of h are there and functioning. All parts of I are also functioning.
+
+Problem 3: 19
+
+There is a squareplot function. Squareplots has the correct arguments and conditional. The function creates the correct array. The function does call, but the import is not at the top of the file, and is imported seperately instead of as the entire support file. -1. The plot does show y vs x. The axes are labeled and the title is correct. It saves as a PDF and is not hardcoded into the function. The docstring is correct. The function is called in the main file, and does the correct points. The log and file name seem fine.
+
+Problem 6: 10
+
+Stokes was not working, ignoring points for it. Homework was pushed to githib, tar.gz was made, log is complete.
+
+
+Peer review 2: hw3_zeinabenton
+
+Problem 1: 5
+
+There is a log file and it is named correctly. There is an explanation of how files were made and the file contains the required info at the top.
+
+Problem 2: 36
+
+There is a correctly named support file. The support file looks fine and explains everything appropriately. The student cleaned up the template appropriately and made it correctly. There is a function called square and it does take the right inputs and square them. The function works correctly and has a find docstring. There is evidence of tests being done, and the code was committed to github. The docstring has an example test case and there are screenshots of commits. There is a test array from 0-9, square is called correctly, and the result is printed correctly. However, again, imports are not all at the top. The 2D array was made in one line and is correct.
+
+Problem 3: 20
+
+The squareplot function is there and does the proper task. Squareplot had the conditional arguments and optional argument correct. The function creates the correct array of points and creates the correct array y when called. The plot is y vs x and titled correctly. It does save the pdf correctly without hardcoding. The function has a correct docstring and is imported into the main python file. It calls the correct plot of squares and is named correctly.
+
+Problem 6: 10
+
+There is log info about stokes and how files were put there and run. The homework was saved to github and there are screenshots showing it. There is an explanation of how the tar folder was made. There is an explanation of how they downloaded the folder and handed it in. The log is complete. 
+
+Ok, now that that is done, I need to get onto reading for the quiz friday.
+
+*****OUT: Wed Sep 16 17:46:05 EDT 2026
+
+*****IN: Fri Sep 18 15:35:55 EDT 2026
+
+I am starting work on practicum 2.
+
+I used the following prompt for number 1:
+
+"Write a Python script using NumPy that creates an array of N random draws from a Gaussian distribution with a mean ($\mu$) of 55 and a standard deviation ($\sigma$) of 13. Please use the modern default_rng() method."
+
+Now testing and reading through it's output to verify it is what I want.
+
+Output:
+
+Question 1:
+Generated 100 draws.
+Sample mean: 53.68 (Expected: 55)
+Sample width: 14.25 (Expected: 13)
+
+That looks like it is what I would expect.
+
+Now moving onto number 2:
+
+Ok, I made my first attempt at question 2 using a loop.
+
+Here is my output:
+
+raceback (most recent call last):
+  File "/home/lucas-deloach/AST4762C_temp_work_area/Practicum_2/P1.py", line 34, in <module>
+    summary_array[i] = [i, sample_mean, sample_std]
+    ^^^^^^^^^^^^^
+
+time to fix an error.
+
+I have a typo, try 2:
+
+Question 1:
+Generated 100 draws.
+Sample mean: 53.36 (Expected: 55)
+Sample width: 12.88 (Expected: 13)
+Question 2:
+[[ 0.   60.46 11.49]
+ [ 1.   51.94 15.41]
+ [ 2.   53.17 11.25]
+ [ 3.   56.95 11.1 ]
+ [ 4.   59.62 16.13]
+ [ 5.   52.26 11.16]
+ [ 6.   59.56 10.98]
+ [ 7.   50.43 13.21]
+ [ 8.   49.51  4.56]
+ [ 9.   55.24 15.3 ]]
+
+
+Success
+
+Now onto question 4, I am asking AI the following prompt:
+
+"Use your code to create a sample with N=10 random draws.
+
+Do this 10 times without using a loop (remember, don’t repeat the same command!). For each
+sample, record the sample number (0 to 9), the sample mean, and the
+sample standard deviation in an array with one row per sample. Do not
+include the actual values of the samples in your array.
+
+
+At the end you should have a 10 by 3 array with each line corresponding
+to one of your samples. For example,
+2 62.35 3.25
+would be the line for my sample 2, with a mean of 62.35 and a width of
+3.25."
+
+
+The output of what it gave me was:
+
+[[ 0.   56.08 15.93]
+ [ 1.   58.12 15.47]
+ [ 2.   50.84 20.57]
+ [ 3.   52.41 11.9 ]
+ [ 4.   54.18  8.55]
+ [ 5.   57.46 15.51]
+ [ 6.   58.11 12.6 ]
+ [ 7.   57.56 11.8 ]
+ [ 8.   55.95 13.37]
+ [ 9.   57.71  7.41]]
+
+The main differences are variable names and that the AI did it without a loop. It also used different methods obviously in order to do it without a loop.
+
+Ok, now, someone spilled a drink on me, so I am not staying late like I normally do, I am heading home, so I will work on question 4 and beyond later.
+
+
+*****OUT: Fri Sep 18 16:20:50 EDT 2026
+
+*****IN: Sun Sep 20 13:51:55 EDT 2026
+
+Back to working on practicum 2, then I will log out and back in to make the log more organized and work on homework 4.
+
+P2 q4:
+
+Mostly working fine, but it is not writing N properly in the text file, it is just N instead of the number it should be. You will see that in my final text file.
+
+I now have it fixed, and they print correctly.
+
+I got problem 6 done, but the spacing looks ugly so I am fixing that and rerunning the script.
+
+Changing that gave me an error:
+
+Traceback (most recent call last):
+  File "/home/lucas-deloach/AST4762C_temp_work_area/Practicum_2/P1.py", line 99, in <module>
+    data         = np.loadtxt(output_filename)
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 1384, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+                converters=converters, skiplines=skiprows, usecols=usecols,
+                unpack=unpack, ndmin=ndmin, encoding=encoding,
+                max_rows=max_rows, quote=quotechar)
+  File "/home/lucas-deloach/anaconda3/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 1035, in _read
+    arr = _load_from_filelike(
+        data, delimiter=delimiter, comment=comment, quote=quote,
+    ...<3 lines>...
+        encoding=encoding, filelike=filelike,
+        byte_converters=byte_converters)
+ValueError: the number of columns changed from 3 to 2 at row 191; use `usecols` to select a subset and avoid this error
+
+Asking AI for a fix on that.
+
+Looks like the file is too long with mixed column lengths, so I am going to create a new file, named "P2_Lucas_DeLoach_problem4_data2.txt"
+
+Luckily I only made the output_filename variable once and just reused it, so I only have to change one line to make this change.
+
+That worked, so now I have two text files, and I will submit them both in my final submission with a comment:
+"Ran into an error where the text file was not able to generate correctly after 191 lines with mixed column lengths, so I created a new text file, added a 2 after the normal name, and included both. The correct .txt file is named P2_Lucas_DeLoach_problem4_data2.txt"
+
+Now onto question 7.
+
+Great, running into the same error as before, it can't load text because of mismatched columns I think, so I am gonna try and fix that.
+
+I am trying to add a third invisible column so the file does not crash, let's see if that works.
+
+Having issues where the graph is a straight line because the std deviation is not changing as it should.
+
+Ok, I fixed everything, I had a variable name written wrong and that messed up my calculations.
+
+Now, I have run the script one final time.
+
+I will now run:
+
+cp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log ~/AST4762C_temp_work_area/Practicum_2
+cd ~/AST4762C_temp_work_area/Practicum_2
+tar -czf P2_Lucas_DeLoach.tar.gz *
+cp ~/AST4762C_temp_work_area/Practicum_2/P2_Lucas_DeLoach.tar.gz /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/P2_Lucas_DeLoach
+cd ~/AST4762C_temp_work_area
+git add .
+cd /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C
+git add .
+cd
+gitpushdrive
+git push origin main
+
+*****OUT: Sun Sep 20 16:13:15 EDT 2026
+
+*****IN: Sun Sep 20 16:42:45 EDT 2026
+
+Starting work on homework 4
+
+cd ~/AST4762C_temp_work_area/
+mkdir hw3_Lucas_DeLoach
+
+Now working on the homework.
+
+For question 1, part c, I am going to make import scipy.stats to use their native gaussian function.
+
+I am now working on the optional question 3 for some extra credit.
+
+For part a, I am making a pdf using overleaf (LaTeX), and will just download it onto my computer, rename it in the file manager ui, and move it into the correct folder also through the file manager ui.
+
+Now moving onto 3 part b, I am making another LaTeX pdf.
+
+Ok, that is done now.
+
+I am going to check that everything works in stokes now.
+
+sudo ssh lu159221@stokes.ist.ucf.edu
+mkdir hw4_Lucas_DeLoach
+cd hw4_Lucas_DeLoach/
+scp /home/lucas-deloach/AST4762C_temp_work_area/hw4/* lu159221@stokes.ist.ucf.edu:~/hw4_Lucas_DeLoach/
+module load anaconda
+python3 hw4_Lucas_DeLoach.py 
+
+Everything works in stokes, so I am moving on.
+
+Now back in home terminal:
+
+cd ~/AST4762C_temp_work_area
+git add .
+gitpushdrive
+
+Then taking a screenshot of github desktop and naming that screenshot hw4_Lucas_DeLoach_problem4_partf_image1.png
+Now moving that screenshot into the correct folder.
+
+
+Now, running:
+
+cp /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/0-ast4762-Lucas_DeLoach.log ~/AST4762C_temp_work_area/hw4
+
+Then in stokes:
+
+scp ~/AST4762C_temp_work_area/hw4/hw4_Lucas_DeLoach_problem4_partf_image1.png lu159221@stokes.ist.ucf.edu:~/hw4_Lucas_DeLoach/
+scp ~/AST4762C_temp_work_area/hw4/0-ast4762-Lucas_DeLoach.log lu159221@stokes.ist.ucf.edu:~/hw4_Lucas_DeLoach/
+cd ~/hw4_Lucas_DeLoach/
+tar -czf hw4_Lucas_DeLoach.tar.gz *
+
+Then in home terminal:
+
+scp lu159221@stokes.ist.ucf.edu:~/hw4_Lucas_DeLoach/hw4_Lucas_DeLoach.tar.gz ~/AST4762C_temp_work_area/hw4/
+mkdir /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw4_Lucas_DeLoach
+cp ~/AST4762C_temp_work_area/hw4/hw4_Lucas_DeLoach.tar.gz /run/media/lucas-deloach/1DE213EC4C56818B/AST4762C/hw4_Lucas_DeLoach
+cd ~/AST4762C_temp_work_area
+git add .
+gitpushdrive
+git push origin main
+
+*****OUT: Sun Sep 20 18:25:25 EDT 2026

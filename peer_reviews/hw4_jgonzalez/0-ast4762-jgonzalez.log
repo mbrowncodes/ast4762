@@ -1,0 +1,1007 @@
+Jaedon Gonzalez
+Log for AST 4762, Fall 2026
+*****IN: Wed Aug 26 15:25:22 EDT 2026
+Opened Notepad, started this log, saved as:
+\Users\winge\OneDrive\Desktop\0-ast4762-jgonzalez.log
+Name: Jaedon Gonzalez
+Username: jgonzalez
+What astronomy classes have you taken?
+Introduction to Astronomy, Solar System Astronomy, Galaxies and Cosmology, Stellar Astrophysics, Experimental Methods in Astronomy
+Are you generally comfortable with calculus and physics?
+Yes
+Have you ever programmed a computer?
+Yes
+In what language(s)?
+Python and Fortran90
+Have you taken a programming class, and if so which?
+Introduction to Computer Science (Python COP2500C), Introduction to Numerical Computing (PHZ3150), Computer Methods in Physics (PHZ3151)
+Have you taken statistics or probability?
+Yes, I have taken AP Statistics in high school as well as Thermal and Statistical Mechanics (PHY3513)
+Will you be attending the DPS conference this year, or will
+you be away otherwise?
+Not that I know of, no.
+Why are you taking this course?
+I am taking this course to gain the ability to understand how to parse through data at Research-level.
+Are there particular topics you hope to learn?
+I am interested in learning about Solar Flares.
+If you have programmed outside of a course before, please
+briefly describe:
+I have created a few math calculations, such as finding a number that doubles when you take the last digit and move it to the front as well as an Expected value calculator for a video game.
+If you have worked with scientific data before, briefly
+describe your experience:
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.:
+
+
+*****OUT: Wed Aug 26 2026 15:39:26
+
+*****IN: Wed Aug 26 2026 15:41:01 EDT 2026
+
+If you have worked with scientific data before, briefly
+describe your experience:
+I have worked with scientific data only in classroom settings or for homework for my classes.
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.:
+N/A
+
+
+I will make a folder called hw0_jgonzalez, copy the log file into said folder, zip it, and submit to webcourses.
+
+
+I had troubles for with the Notepad crashing when I tried to open it for a few minutes.
+
+
+*****OUT: Wed Aug 26, 2026 15:48:38 EDT 2026
+
+*****IN: Fri Aug 28, 2026 15:03:13 EDT 2026
+
+I am in class, working on installations.
+I have Anaconda and Jupyter Notebook installed.  I also have a GitHub account attached to my ucf email.
+I am starting the wsl installation process.
+
+I am pausing going through this document for WSL to resubmit my finished version of HW0.
+
+I fixed the double ".log" typo that I made.
+*****OUT: Fri Aug 28, 2026 15:23:27 EDT 2026
+
+
+
+
+*****IN: Fri Aug 28, 2026 15:27:29 EDT
+
+I resubmitted the HW0 file.
+
+I am continuing the WSL installation process.
+I now have to restart my computer to continue the installation for Windows WSL.
+
+*****OUT: Fri Aug 28, 2026 15:35:22 EDT
+
+*****IN: Fri Aug 28, 2026 15:40:33 EDT
+
+I am continuing the WSL installation process.
+
+I downloaded a newer version of Ubuntu, version 26.04.
+
+I am starting Homework 1.
+
+a folder named hw1_jgonzalez was created under the homework ast4762 folder.
+
+I am watching the explanation on the terminal from Dr. Harrington.
+
+*****OUT: Fri Aug 28, 2026 16:19:12 EDT
+
+*****IN: Sun Aug 30, 2026 18:15:54 EDT
+
+I am going to finish homework 1.
+
+1. I already have a folder named hw1_jgonzalez under the ast4762 homework folder. So that's done.
+
+2. I have Anaconda and GitHub installed from a previous class, so the screenshots will come quickly.
+	I am going to quickly double check for formatting for the screenshots names. I found the specific naming convention in Files>homework_format_rules_25.pdf>2.2. where it shows an example name for plots, screenshots, or other graphics: "hw2_ssmith_problem1_graph1.png".
+	I used the windows short-cut, "windows + shift + s", for the snipping tool and took a screenshot of my Jupyter Notebook.
+	To answer the question of which version I use for Python I use, I googled the prompt, "what version of python does jupyter notebook use", and clicked the Stack Overflow link: https://stackoverflow.com/questions/40694528/how-to-know-which-python-is-running-in-jupyter-notebook
+I created a new Python file in Jupyter Notebook and ran "!python --version" and it spit out, "Python 3.12.7"
+
+Answer: Python 3.12.7
+
+	I similarly took a screenshot using "windows + shift + s" to take a screenshot of the GitHub Desktop app.
+
+	I am now going to name the images accordingly. I took a new screenshot of my Jupyter Notebook running, with the Directory of my Desktop. I also moved the two screenshots to the hw1_jgonzalez folder. I have now renamed the screenshots.
+
+3. I should now be able to access Stokes, so I may have to install the required tools before finishing this step.
+
+I noticed that my file names for the screenshots had the suffix ".png.png" I fixed this issue.
+
+	I downloaded MobaXterm. I already had the Cisco Secure Client for the UCF VPN installed, so now I am connecting to it. I had no issues connecting to the UCF VPN.
+	With MobaXterm open, I clicked "Start local terminal" and then I followed the instructions from the stokes.pdf file from the announcement Dr. Harrington posted on Sun Aug 30 18:26. I clicked "Session" > Remote host and typed stokes.ist.ucf.edu and input my NID where it says Specific username, the hit enter on my keyboard. I typed my password and set a master password.
+	I typed "ls" while connected to stokes, but nothing seemed to happen. I opened a new tab of stokes and typed, "ls" and still nothing occurred. I watched the video on the SSH from Windows website from the stokes.pdf, and I realized that nothing showed likely because I have not put anything there yet. I also would like to note that SSH compression has an X instead of a check mark next to it. I am now going to take a screenshot of the terminal.
+	I pasted the screenshot of the terminal in the hw1_jgonzalez folder and changed the name accordingly.
+	After rereading question 3. to double check I did everything right, I believe that I closed the terminal and was typing "ls" in the tab labeled, "stokes.ist.ucf.edu (username)".
+	I reopened a local terminal and typed "ls" and now things popped up. I will now take a new screenshot and fix the name according.
+
+Now with everything set up, I will log out of the server and turn off the VPN and continue to quesiton 4.
+
+4. Now I will copy this log file into the hw1_jgonzalez folder, zip the h1_jgonzalez folder, then submit the zip file to Webcourses.
+
+
+*****OUT: Sun Aug 30, 2026 19:37:08 EDT
+
+*****IN: Mon Aug 31 14:58:47 EDT 2026
+
+
+I am in the zoom call for the class, remote at home.
+I followed along with the demo as Dr. Harrington explained the commands in the terminal.
+It has been a little hard to follow at times because the microphone is a little spotty.
+
+
+*****OUT: Mon Aug 31 16:22:34 EDT 2026
+
+*****IN: Wed Sep 2 14:35:55 EDT 2026
+
+I am in class, waiting for instruction.
+I have navigated to and downloaded the lectures L03 and L04.
+I opened Jupyter Notebook.
+I am going to put the folder in the "Lectures" folder for ease of use.
+Note: make sure that your data directory is separate from the directory you are working in.
+Note: remember to use units.
+I seem to be missing the read_data_example.dat file.
+I was mistyping the file name.
+I followed along with lecutre.
+
+*****OUT: Wed Set 2 16:20:55 EDT 2026
+
+*****IN: Fri Sep 4 13:36:53 EDT 2026
+
+I am downloading pandas.
+I think I already have it installed.
+I double checked by using pandas in my notebook.
+I will now close the log.
+
+*****OUT: Fri Sep 4 13:40:08 EDT 2026
+
+*****IN: Fri Sep 14:42:17 EDT 2026
+
+I am in class, following in the zoom call.
+I have downloaded the P01 file from Demos_lectures > week_2.
+Note: Write a one-line summary that does not use variable names or the function name when writing a function's Docstring.
+Note: Keep math legible, as seen in homework_format_rules_25.pdf.
+Note: Make sure to put units in a comment.
+Note: It is generally not a good idea to replace variables within your code.
+
+*****OUT: Fri Sep 4 16:19:21 EDT 2026
+
+*****IN: Wed Sep 9 07:34:28 EDT 2026
+
+I am starting homework 2.
+I have opened the hw2_python_refresh_f26.pdf.
+I have read the instructions prior to number 1.
+I have managed to reach my homework directory using the PowerShell through repeated use of ls and cd [directory name].
+More specifically, I typed "ls" > "cd OneDrive" > "ls" > "cd Desktop" > "ls" >
+"AST4762" > "ls" > "Homework". Now I am trying to figure out how to create a folder, using the terminal.
+I attempted to use "touch hw2_jgonzalez", but that seems to be the wrong input.
+I googled, "how to create a folder using powershell", and found this link: 
+https://askubuntu.com/questions/1335932/the-linux-command-line-for-beginner-creating-folders-and-files
+From this website, I found "mkdir new-folder" so I typed, "mkdir hw2_jgonzalez".
+I took a moment to familiarize myself with how to upload files to github.
+I am opening Jupyter Notebook.
+I created a .ipynb file in my hw2_jgonzalez directory.
+I wrote my name, the assignment name, and date in comments at the top of the file.
+
+I am now moving on to number 2.
+I created a cell under the date with the imports of numpy and matplotlib.
+I created a numpy array from 0 to 1001 (exclusive).
+I double checked by printing x to see if it did what I wanted it to.
+1001 elements are needed to include every integer between 0 and 1000 (inclusive).
+The datatype, min, and max of x were printed.
+On 2b1, we are tasked to rescale x to contain values from 0 to 2*pi.
+I attempted to use the np.resize function, but the function does not take floats.
+After rethinking about the problem, since 2*pi is less than 7, I believe I can
+compromise by setting the size from 0 to 7 only because the array has integer values.
+I printed the resized array first before reassigning x the value.
+The printed resized arra includes all integers from 0 to 7 excluding 7.
+I believe this is the best I can do given the time constraint.
+I have reached problem 2d, and it seems that I have made an error somewhere.
+I suspect that resizing the array like I did is causing the problem.
+I have reconsidered my answer for 2b1, I double checked the docstring of np.sin()
+and it states that it takes angles in radians which are things like 2pi.
+For the time being, I changed my answer for 2b1 to have x be resized to 361 (exclusive).
+Problem 2d prints a value.
+
+I am moving on to problem 3 now.
+If there are any issues seen here, I may go back to problem 2.
+As expected, the graph looks odd.
+My current question is how to contain the values from 0 to 2pi, specifically into x.
+I google searched, "is it possible to resize an array to a radian value",
+and found:
+https://www.geeksforgeeks.org/python/convert-angles-from-degrees-to-radians-for-all-elements-in-a-given-numpy-array/
+On this website, and I gained the inspiration to attempt to convert radians to
+degrees.
+Leaving the array x resized from 0 to 360 should be fine because at this point it
+is just an array. 0 to 2pi in radians = 0 to 360 in degrees.
+To fix the strange looking graph, I used np.deg2rad(x), when creating the y array.
+Now I will fix my comments to clean problem 2 up and then create labels and more
+comments for problem 3.
+Because there was a note mentioning that there is a difference between the 234th element
+and element 234 in Python, I spent a moment to look over my answer for 2d.
+Element 1 is the 0th index, meaning the nth index is just whatever value-th element -1,
+so element 234 is the 233th index.
+
+Finally, I am going back to problem 3.
+The sine graph looks good, visually.
+Now I will add axis labels.
+I changed the figure size.
+I labeled the curve, "Sine Function".
+I added axis labels.
+I gave the title a name, "Vertical Sine Function".
+I turned on the legend and grid.
+I wrote comments explaining everything, but felt like I was over commenting, so I
+toned it down and only commented on things that seemed more necessary.
+I am now going to save the plot as a PNG using Python commands.
+I ran into an issue where saving the in a separate cell would give me a blank PNG file.
+I googled, "savefig blank", and found a stack overflow explanation:
+https://stackoverflow.com/questions/9012487/savefig-outputs-blank-image
+From this website, I made sure to save the figure before showing the plot,
+in the same cell, and that seemed to do the job fine.
+
+I am now moving on to problem 4.
+I used the np.arange function for r with step size 0.02, going from -1. to 1.01 (exclusive) 
+and printed the min, max, and length of r to check everything was correct.
+I took a moment to understand the np.clip() function, and now I have the second array,
+importantly, without having used a loop.
+I copied the format that I used for the first plot in Problem 3 for this problem.
+I have applied comments for clarity and saved the figure.
+
+I am now moving on to problem 5.
+I looked up a couple Python packages for Astronomy and Astrophysics and found
+Astropy and PyCBC.
+I looked deeper into those packages and wrote about them.
+Here are my sources:
+https://www.youtube.com/watch?v=OSYEA2CFrSs 
+https://docs.astropy.org/en/latest/index_user_docs.html
+https://www.astropy.org/about.html
+https://github.com/gwastro/PyCBC-Tutorials
+https://en.wikipedia.org/wiki/PyCBC
+
+I saved the file as a .py file.
+
+I am now going to head to school.
+*****OUT: Wed Sep 9, 11:29:40 EDT 2026
+
+*****IN: Wed Sep 9 12:16:59 EDT 2026
+
+6a.
+I opened MobaXterm and logged into stokes with my master password.
+
+6b.
+I typed mkdir hw2_jgonzalez in into the stokes terminal.
+
+6c.
+I am currently struggling to figure out how to move my files into stokes.
+I am on the MobaXterm website: https://mobaxterm.mobatek.net/documentation.html
+I found the website https://usdrcg.gitbook.io/docs/lawrence-hpc/transferring-files
+and they that it's very simple, you just drag and drop the file into the sidebar.
+
+6d.
+I was struggling to figure out how to run the .py file.
+Through the https://askubuntu.com/questions/244378/running-python-file-in-terminal
+I figured out how to run the python file.
+It did not crash! The problem names were printed, then the first image showed up,
+I had to close it in order for the code to continue running, but everything
+else ran perfectly fine, thankfully.
+
+6e.
+I am going to commit the homework folder and this log to GitHub.
+
+*****OUT: Wed Sep 9 13:12:34 EDT 2026
+
+*****IN: Wed Sep 9 13:18:32 EDT 2026
+
+6e. continued
+I submitted my entire homework folder and my log so far to GitHub.
+
+6f.
+I took a screenshot of my logging history in GitHub, named it properly,
+and put it in Stokes. I am also going to add that screenshot to Stokes.
+
+6g.
+The contents were previously saved when I ran the python file.
+
+6ha.
+I am going to save this log.
+Then drag and drop the file into the Stokes version of the hw2_jgonzalez file.
+
+6hb.
+I will turn the folder into a tar.gz file with the
+tar -cvzf hw2_jgonzalez.tar.gz hw2_jgonzalez 
+
+I fixed an issue where my graphs had plt.show() at the end, where the
+instructions did not mention to do that.
+
+6hc.
+I am going to download the tar.gz file and put it in the handin folder.
+
+6hd.
+I will submit the file to tar.gz file to Webcourses.
+
+6hi.
+I am going to copy the log into the Stokes folder
+and then finally make the tar.gz file.
+
+7.
+Finally, I will submit the assignment.
+
+*****OUT: Wed Sep 9 13:57:11 EDT 2026
+
+*****IN: Wed Sep 9 14:51:02 EDT 2026
+
+I just opened my log, I have been following the lecture on zoom, with the
+Jupyter Notebook.
+I had to install astropy, so Cameron helped me with that.
+It took a while to load.
+I tried running the first cell with content in it, however the file was not
+in the same directory.
+I downloaded the entire week 3 folder and placed the notebook files into the
+extracted file.
+The file still did not work, I will try to fix this.
+I assumed that if I moved the file while using it, that it would move
+the directory, however that was not the case.
+I closed the file and reopened it in the week 3 folder, that has
+the necessary files.
+
+What are the effects that affect the measurement?
+Where the 0-point of the stick starts, could affect the height.
+
+What if the tape was only 1m?
+The person would be much shorter than 2.5m.
+
+What if the stick was in half-inches, not centimeters?
+The measurements would be way off.
+
+What if it was a metal stick?
+The surrounding temperature of the air could
+cause the stick's size to expand or contract.
+
+I have to charge my laptop.
+We drew targets with bullseyes to show the
+difference between accuracy and precision.
+Note: There are many different types of errors
+
+*****OUT: Wed Sep 9 16:22:30 EDT 2026
+
+*****IN: Fri Sep 11 14:38:12 EDT 2026
+
+I am in the zoom lecture and we are starting class.
+I am opening Jupyter Notebook to follow along with the lecture.
+NOTE: Make sure to not do the math inside the plot function, the
+plot functions are packed enough that it would make it difficult
+to find a bug.
+
+We went over the answers to Homework 2.
+Now we are doing the Practicum 1.
+
+*****OUT Fri Sep 11 16:19:18 EDT 2026
+
+*****IN: Sun Sep 13 19:06:21 EDT 2026
+
+I am going to work on finishing the Practicum 1 assignment.
+I originally had ar2 (the array with 200 elements) defined as np.arange(0,200), but I 
+reread the instructions, and it asks for 200 rows of zeroes in column 0, so I changed it
+to np.zeroes(200). 
+In order to create a 300x200 array, we can use a loop such that
+for every value within ar1 (the array with 300 elements) each y-value has 200
+elements.
+I have attempted to do this, however I was getting an error when attempting
+to place an array of size 200 into the spot where a single value should go.
+I attempted to matrix multiply the arrays together and ended up with a 300x200
+array, but it was an ndarray, not a float64 array.
+Either way, it wasn't exactly what was being asked for.
+I have an idea on using these flipped arrays to put into the for loop I made.
+I now understand what the prompt is asking, for each value within the array,
+the y value should be equal to the column number.
+So this is like having 300 buckets of each number.
+I made something that was much simpler than anything I've done so far.
+However, I did use a for loop.
+I have an array from 0 to 299 and a ones array of 200 indices.
+I created an empty list and appended the ones array multiplied by
+the values in the 0 to 299 array and ended up with a list of size (300, 200).
+Finally, I can simply type cast the list to an array.
+I was confused about how to get my array to be a float, but I was just
+misunderstanding what I was looking at.
+This video helped me understand my problem:
+https://www.youtube.com/watch?v=NNl--RW75AM
+I actually already had the array as an array. I am going to move on to the next
+bullet point.
+
+I quickly watched a video on broadcasting as Dr. Harrington mentioned in class
+on Friday, that you can create the requested array through it.
+https://www.youtube.com/watch?v=P67wiuTx7l0
+
+For the method without a loop, I turned the arrays ar1 and ar2 into 2d arrays
+with the np.atleast_2d function, calling them ar1n and ar2n respectively,
+and I transposed ar2n so that the arrays can be broadcasted when multiplying
+the arrays together. I called the 3rd array, ar3n and transposed it
+so that the values within the column are the same as the array element.
+I am going to clean up the code by putting comments for clarity.
+I am now moving on to the next bullet.
+
+After looking through the pyplot commands, I came across pcolor and pcolormesh.
+I ended up using pcolormesh with my arguments and couldn't figure out why
+my figure's size wasn't changing, even though I was using plt.figure.
+I fixed this by just moving plt.figure to the top of the cell.
+For some reason, my plot has 300 and 200 labeled on the image,
+however in the example we are supposed to follow, they do not.
+However, everything else looks identical.
+I have found out how to remove the 300 and 200 labels in my image,
+however I still cannot remove the tick marks for those values, specifically.
+This tutorial helped me with removing the labels.
+https://www.tutorialspoint.com/article/how-to-remove-the-first-and-last-ticks-label-of-each-y-axis-subplot-in-matplotlib
+I spoke with another classmate and they told me to to try plt.imshow, and it
+worked like a charm.
+Moving on to the next bullet.
+
+Pausing for a moment.
+
+*****OUT: Sun Sep 13 23:56:17 EDT 2026
+
+*****IN: Mon Sep 14 00:01:03 EDT 2026
+
+To examine several randomly placed array elements within Python,
+I will use the random library.
+I gave variables, RN, RN1, RN2, and RN3, a range from 0 to 299 (inclusive)
+and queried the array at that values. I printed the RN values
+and the array at those values and printed the data type of the array.
+I wasn't sure whether or not to comment out the examination, but
+I left it in to show that my array is fine.
+Finally, I will take a screenshot showing both my Python code and plot windows.
+I am now moving on to the next problem.
+
+=== Problem 2 ===
+
+Prompt 1:
+"Create a 300x200 Float64 array where each array element contains its own
+y-coordinate. Do this with loops and without loops. Display the array
+using the matplotlib function for showing the image with a cmap of 'gray'.
+Make sure the lower left corner of the plot is 0,0.
+Cross-reference the values within your array with several randomly placed
+array elements within Python, making sure that the y-coordinate matches."
+
+I am using ChatGPT's Think Model.
+The AI mixed up the rows and columns, of the array, so the graph looks fat.
+
+Prompt 2:
+"The x and y is meant to be flipped. The graph is meant to look skinny."
+
+The AI's graph now looks like the same graph as earlier, just sideways.
+
+Prompt 3:
+"Make sure that the array values for each element is the same, i.e. column 0
+has 200 zeros."
+
+The graph, now, looks like it has the right values, it is now just sideways.
+
+Prompt 4:
+"Make the graph right-side-up like you did earlier."
+
+It doesn't look like much changed.
+
+Prompt 5:
+"Make sure the graph is skinny, not fat."
+
+It looks good now. All I have to do is get it to remove the x and y labels.
+
+Prompt 6:
+"Remove the axis labels."
+
+How do you need to write your prompts to get the wanted outcome?
+In general, you have to be very specific about what you want, or else
+they will go off-course. You soon will realize what you forgot to mention,
+when prompting AI.
+I am moving on to problem 3.
+
+I already have astropy installed.
+I downloaded the FITS file.
+By use of the astropy document on FITS File Handling, I opened the file.
+I spent a while trying to figure out what I needed to do to get the file
+to print like normal. I found out by continuing through the astropy
+FITS File Handling tutorial website.
+After putting the data into a new variable, I was able to plot the image
+like normal.
+
+What object is it?
+Messier 42 (The Orion Nebula)
+
+I saved the figure with what I believe is the proper naming convention.
+Now, I will put all of the files into a folder, name the rest of the PNGs,
+and then upload the data to stokes zip the file as a tar.gz and then submit.
+
+*****OUT: Mon Sep 14 02:19:59 EDT 2026
+
+*****IN: Mon Sep 14 14:40:59 EDT 2026
+
+I am in class following the lecture.
+We are starting with the Mean, median, and standard deviation.
+NOTE: p is usually a discrete probability density function, and
+P is a probability.
+
+*****OUT: Mon Sep 14 16:21:11 EDT 2026
+
+*****IN: Wed Sep 16 01:54:23 EDT 2026
+
+I am starting Homework 3.
+
+=== Problem 1 ===
+
+I did not exactly recall how to create a folder using the terminal,
+so I scrolled up to earlier in my log to review how I did it the first time.
+I did so by changing my directory a few times, through the cd command,
+and mkdir hw3_jgonzalez to make the folder.
+I have also read the rest of what Problem 1 asks of me.
+I am going to open Jupyter Notebook.
+While navigating to my hw3_jgonzalez folder, I noticed that there was a typo.
+I fixed the typo.
+I created a new python notebook in the folder.
+I wrote my name, the assignment number, and date in comments at the top
+of the file.
+Moving on to problem 2.
+
+=== Problem 2 ===
+
+2a.
+I am reading through 2a and I am a little confused. I am wondering if I have
+to create a separate file for this square function I am writing.
+It says to "create ... your support functions file," so I guess that's what I
+will do.
+I looked down at some of the later parts and it asks to import,
+so I think that answers my question.
+I created a second notebook in the folder.
+I will look at the naming convention and name it appropriately.
+For now, I will name the file hw3_jgonzalez_support_functions.
+Since it says to copy the template provided I will use it as a reference,
+when creating the docstring for my file.
+Moving on to part 2b.
+
+2b.
+The most important part of the template is the docstring being at the top,
+which is there to tell the user what the function does.
+The structure also includes that you must not use the abbreviated names
+of the standard imports in the docstrings.
+Having the parameters are very useful, from experience,
+it basically tells the user what type of inputs it takes at
+which position. Not only does it tell you which type of inputs
+the function takes, it also explains in detail what they are specifically.
+Returns are important because it tells the user what items are
+outputted and how it can be manipulated.
+Other Parameters are there to tell the user the keywords that are
+used less and or the parameters that commonly used.
+Raises is important because it tells the user what went wrong, why,
+and where.
+See Also is important because it tells can inform the user of other
+functions that do the same job in a different way or in some way
+related to the current function.
+Notes can include information about how the algorithm was implemented,
+being as long as it needs to be. Math can also be found here.
+References is used to cite relevant literatures that can be used when
+explaining where certain ideas come from.
+Examples is very important because it gives a quick rundown of how
+the function will act in an easy to follow scenario. Furthermore,
+it can give more information about where to find more examples.
+Revisions is important because it tells the user when the latest updates
+to the function were created.
+Moving on to part c.
+
+2c.
+I wrote my name, homework number, and date on the support functions file,
+indicating also that the file was specifically for support functions.
+I am now going to copy and paste the template into my support functions file.
+I cleaned up the docstring a little, especially near the top. I think
+it will become a lot clearer on what I should keep, remove, or change
+when I actually start writing the function. I will keep in mind that
+the docstring will need to be clean before submission.
+Moving on to part d.
+
+2d.
+I defined the function with one input parameter, and write a short
+docstring based on what the prompt says. I will commit to GitHub.
+I went on the GitHub.com website and pressed the "Add file" button
+to my pre-made repository then I uploaded the hw3_jgonzalez folder
+as is to GitHub.
+I will pause and upload the log as well.
+
+*****OUT: Wed Sep 16 03:10:57 EDT 2026
+
+*****IN: Wed Sep 16 04:35:04 EDT 2026
+
+I am now working on 2e.
+
+2e.
+I cannot simply just do n*n for the function, as that could cause problems
+for arrays of weird dimensions is my first though. I might as well
+try that first before ruling it out, however.
+Actually, this seems like it might just be that simple.
+I suppose the assignment isn't supposed to be difficult, more so
+an introduction to creation of a function and the process of writing
+the docstring and all.
+My function sets a variable called sq equal to the input times itself.
+Then the value sq is returned.
+I tested this with both a scalar and arrays, and it seems to work fine.
+I tested it with floats and it works fine as well.
+Now, let's take a moment to fully dive into the docstring.
+I am not the most familiar with the terminology, however, I believe the
+variable taken in by my function would fall under "array_like", as seen
+in other examples of functions. I am using np.add as a reference.
+I believe I got my answer from this website:
+https://stackoverflow.com/questions/40378427/numpy-formal-definition-of-array-like-objects
+Simply, yes.
+When checking the module_template_with_docstring.py file, I noticed it
+said lists and nested lists are a part of "array_like" so I had to fix my
+code to account for those. It was a simple fix: I created a new variable
+"num" that takes "n" and typecasts it into an np.array and then sq is num*num.
+And again sq is returned. My docstring so far can stay the same.
+I am a ltitle confused as to what to call the value that is returned.
+More specifically, in the Returns tab, I have ndarrays listed, but I'm
+wondering about if I should include other data types.
+If I put an integer, the type is numpy.int32.
+Continuing to follow the np.add docstring, "ndarray or scalar" should be fine.
+I wrote 2 examples and a 2 notes.
+The function even worked on a tuple.
+I have tested int, float, tuple, list, nested list, array.
+I believe part e and f are one in the same.
+I am going to formally move on to part f.
+
+2f.
+The code has been tested and iterated through, and I haven't found any issues,
+yet.
+I will commit to GitHub.
+
+*****OUT: Wed Sep 16 05:37:57 EDT 2026
+
+*****IN: Wed Sep 16 05:39:37 EDT 2026
+
+I am formally moving to part g.
+
+2g.
+I cleaned the notebook file so that the function is the only thing in the file,
+aside from the import and my name, date, and hw number.
+I will commit one final time to GitHub make the screenshot of the log
+and save it in the homework folder.
+
+*****OUT: Wed Sep 16 05:43:53 EDT 2026
+
+*****IN: Wed Sep 16 05:44:54 EDT 2026
+
+Using the homework_format_rules_25.pdf file as a reference, I renamed
+the screenshot of the GitHub log history accordingly.
+I am now moving on to part h.
+
+2h.
+I renamed my main homework notebook to hw3_jgonzalez.
+I am attempting to import the square function, however I am getting errors.
+So, I found a post on stack overflow that describes how to do it, simply.
+I used the %run [name].ipynb function and it worked just fine.
+https://stackoverflow.com/questions/20186344/importing-an-ipynb-file-from-another-ipynb-file
+However, I believe this may cause issues when specifically running in python.
+So I want to try to figure that out before moving on.
+I turned the hw3_jgonzalez_support_functions.ipynb to a .py file and the
+regular import works normally.
+The function works and is printed fine.
+I am moving on to part i.
+
+2i.
+I have noticed a very peculiar potential problem. In 2h, we were asked to
+create an array with integers from 0 to 9, without it specifying whether
+or not it is inclusive or exclusive, so I did it inclusively, however for this
+problem, it asks for the floats from 0 to 25. Since it asks for a 5x5 array,
+I assume this is exclusively, meaning no use of the number 25, besides
+as a stopping point.
+I added comments in my code for clarity.
+Everything looks good, I am moving on to Problem 3.
+
+=== Problem 3 ===
+
+I started creating the function.
+I am going to take a short break.
+
+*****OUT: Wed Sep 16 06:27:02 EDT 2026
+
+*****IN: Wed Sep 16 07:01:01 EDT 2026
+
+Continuing with Problem 3.
+3a.
+So, I am running into an issue where I have to get the number of points
+of an array to be how the user wants it. I thought about using a loop,
+but as I was writing about my concern, an idea came to mind.
+I took the high and subtracted the low and divided that by the number of points
+and assigned it to a variable called step and it works with np.arange!
+I reread 3a's prompt and I noticed that it specifically wants you to
+include the high end of the range, so before giving up on np.arange
+I checked the docstring and found similar functions. I am now using
+np.linspace, and it seemingly does what I want it do without me
+having to calculate the step size properly, it just does the math for me, which
+is great!
+I am now moving on to part b.
+
+3b.
+I called square of x and set that variable equal to y.
+I plotted a sample plot of x and y to check that the plot worked fine.
+It does.
+I am formally moving on to part c.
+
+3c.
+Plotted.
+Moving on to part d.
+
+3d.
+I am having troubles saving the figure with a specific given name.
+I got it to work, I just had to reread the prompt again.
+I still have a bit of cleaning up to do for the function including adding
+comments as well as writing a proper docstring, so I will do that before
+moving on to Problem 4.
+I added labels on the x and y axes, as well as a title.
+I went back and added a few small changes to my square docstring for clarity.
+Following a similar structure, I am writing the parameters for the squareplot
+function.
+However, while writing the docstring, I realized that there could be the case
+where the low is greater than the high for the plot, and technically,
+this is a bug. So I am trying to fix it.
+I did not know the format for writing a raise Exception, so I looked it up.
+https://www.w3schools.com/PYTHON/gloss_python_raise.asp
+I was running into an issue where I noticed that the number of points
+should only be an integer, but forgot how to check the datatype of a number,
+so I looked it up. I found a solution from:
+https://stackoverflow.com/questions/402504/how-can-i-determine-a-python-variables-type
+I created a TypeError for that case.
+In the Examples section of my docstring, I cannot put an entire graph in there,
+so I wrote the word in lieu of it.
+Finally, I will add comments in the code section and then move on to the next
+section within part d.
+When attempting to save the figure, my plot is blank.
+I fixed this by moving the plt.show() to under the savefig.
+I had another issue where I could not save the figure without a hardcoded
+name. I looked it up, but couldn't find a specific source that explained
+how to do it, so I used the auto-generated AI response to help. I used the
+formatted string to do it.
+I saved the support functions notebook as a python file.
+I will quickly upload everything to GitHub and return.
+
+*****OUT: Wed Sep 16 09:40:57 EDT 2026
+
+*****IN: Wed Sep 16 09:42:56 EDT 2026
+
+I am moving on to the last section of problem 3.
+I attempted to use my squareplot function, however it was not imported to
+the notebook, so I changed how I got the support functions with a prefix
+that I am calling sf.
+I was a little confused about how I was supposed to get a low and high value
+out of my square function, but then I reread the prompt to get a better
+understanding, and realized I could just use the built in linspace to get the
+numbers that were requested for the graph.
+The graph looks good and the PDF was saved.
+Moving on to Problem 4.
+
+=== Problem 4 ===
+
+Out of 20 points.
+I created a new .txt file and I will be writing my rubric in there.
+First I would add more letters to this (#3) problem to account for the amount
+of work that you do.
+I wrote how I thought Problem 3's points should have been divided up with
+a rubric including partial credit. All out of 20 points.
+I am moving on to Problem 5.
+
+=== Problem 5 ===
+
+5a.
+I logged into the UCF VPN and MobaXterm.
+I logged into stokes by double clicking the token that I previously had.
+Moving on to part b.
+
+5b.
+I attempted to create a folder by using the touch command,
+but that was wrong. I used the mkdir command and it worked.
+Moving on to part c.
+
+5c.
+I will now turn my remaining notebook into a .py file.
+I tried dragging and dropping the .py files into the folder I created in stokes
+but for some reason it wasn't going in, so I had to open the directory
+through stokes (I used the UI) and then uploaded directly to the folder
+with the upload button.
+Moving on to part d.
+
+5d.
+It worked, it just took a long time to load for some reason. The graph was
+created. It might've been my connection to stokes that was slow.
+Moving on to part e.
+
+5e.
+I am going to upload my hw3_jgonzalez folder to GitHub and this log.
+
+*****OUT: Wed Sep 16 10:53:16 EDT 2026
+
+*****IN: Wed Sep 16 10:56:45 EDT 2026
+
+I am moving on to part f.
+5f.
+I took a screenshot of my logging histor, showing that I committed the
+file and added it to my hw3_jgonzalez folder.
+I am moving on to part g.
+
+5g.
+I am now going to copy the rest of the content of my hw3 folder to Stokes.
+All of the files are in there!
+Moving on to part h.
+
+5h.
+I will type OUT of the log, then through the special command,
+I will turn the hw3_jgonzalez folder into a tar.gz folder
+Then download the file from Stokes onto my device and put it in
+the Handin folder for this class. Then Submit the file to Webcourses.
+Moving on to part i.
+
+5i.
+I will now log out and copy my log into my Stokes folder and do the steps
+I mentioned above.
+
+*****OUT: Wed Sep 16 11:02:31 EDT 2026
+
+*****IN: Wed Sep 16 15:17:57 EDT 2026
+
+I have been following along with the lecture, but I have been having a
+difficult time trying to open these python files.
+I tried dragging and dropping the files like I have done previously, but
+this has been unsuccessful.
+I am able to open the .py file in Jupyter Notebook, however it is not
+easily runnable like through python notebooks.
+
+*****OUT: Wed Sep 16 16:21:40 EDT 2026
+
+*****IN: Wed Sep 18 15:32:27 EDT 2026
+
+We took the quiz in class.
+Now I am going to work on the Practicum 2.
+
+=== Problem 1 ===
+
+The first problem says you can use AI, so I will be prompting them to create
+the Gaussian distribution.
+Prompt: "Create a Gaussian distribution in python with a width sigma = 13
+and mean = 55."
+Moving on to problem 2.
+
+=== Problem 2 ===
+
+I created a list called output and used the np.random.normal function
+with mu, sigma, and 10 inputs.
+I am now following along with the rest of the explanation.
+I created a while loop that gives an array, however there is a bug
+somewhere, so I will figure that out and fix it later.
+
+*****OUT: Fri Sep 18 16:18:55 EDT 2026
+
+*****IN: Sun Sep 20 17:33:23 EDT 2026
+
+I am starting Homework 4.
+
+=== Problem 1 ===
+
+Using Windows PowerShell I typed the following commands:
+ls
+cd OneDrive
+cd Desktop
+cd Homework
+mkdir hw4_jgonzalez
+ls
+Moving on to Problem 2.
+
+=== Problem 2 ===
+
+I loaded Jupyter Notebook.
+I created a python notebook within the hw4_jgonzalez folder.
+
+2a.
+By use of np.random.normal we can simply fulfill this point.
+I wrote my name, homework number, and date at the top.
+I imported numpy and pyplot.
+I used np.random.normal with the requested values for sigma, mu, and N.
+I will add a comment for clarity and then move on.
+
+2b.
+I assigned the function from 2a to a variable 'dist'
+I used plt.hist to plot the distribution.
+I used bins=np.arange(0,100,1) to get the binsize to fit the requested values.
+I'm not sure what to put for the y-label.
+I wrote Height.
+I will now save it as a PNG.
+Moving on to the next part.
+
+2c.
+I read through part c and I am a little confused on how I'm supposed
+to go about this.
+I renamed my x and y labels, as well as the title to fit that of
+the image seen in part c.
+I found an explanation on this website:
+https://www.geeksforgeeks.org/numpy/normal-distribution-in-numpy/
+I was still confused after that, and found another video,
+I think I will use this technique where I use the actual
+gaussian function.
+https://www.youtube.com/watch?v=ajMidM4AZSs
+
+I am going to take a short break.
+
+*****OUT: Sun Sep 20 19:51:27 EDT 2026
+
+*****IN: Sun Sep 20 20:27:01 EDT 2026
+
+I am continuing from where I left off.
+I multiplied the norm.pdf function by the number of draws (10000) and
+the gaussian fits the histogram well.
+I will now add labels and save a png file.
+I am moving on to Problem 3.
+
+=== Problem 3 ===
+
+3a.
+I found a video that simply shows derivation.
+https://www.youtube.com/watch?v=zDueozgsIQc
+Most of it is just simple algebra, however.
+The big thing is understanding the intuition, where you set the
+original Gaussian equation to half of the amplitude, then just solve for x.
+Essentially take the distance from the mean to the halfway point and multiply
+that by 2 and you get the FWHM.
+I am going to save my pdf then move on to the next part.
+
+3b.
+I showed my answer through algebra.
+Moving on to problem 4.
+
+=== Problem 4 ===
+
+4a.
+I logged into Stokes by connecting to the cisco VPN that UCF uses.
+
+4b.
+mkdir hw4_jgonzalez
+
+4c. and 4d.
+I first saved my python notebook as an executable file.
+cd hw4_jgonzalez
+Then dragged the hw4_jgonzalez.py and hw4_jgonzalez_problem3_graph1.pdf
+into the folder.
+module load anaconda
+python3 hw4_jgonzalez.py
+The PNG files were saved fine.
+For some reason the colors swapped, in my second graph,
+however it seems that's the only "bug," this is not worth fixing.
+I will submit like normal.
+
+4e. and 4f.
+I will upload my hw4_jgonzalez folder and this log to GitHub,
+then take a screenshot.
+
+4g.
+This log will be copied into Stokes once it is finished.
+
+4ha.
+I will save this log and then copy and paste the file into the
+hw4_jgonzalez folder in Stokes.
+
+4hb.
+I will change directories to get out of the folder then type this command:
+tar -cvzf hw4_jgonzalez.tar.gz hw4_jgonzalez
+
+4hc. and 4hd.
+I will drag and drop the tar.gz file in my handin folder then submit to
+Webcourses.
+
+4i.
+(saying this again) I will copy my log into my Stokes folder,
+making sure that it is in before tar the folder.
+
+4j.
+I will download the tar.gz folder and submit the file.
+
+*****OUT: Sun Sep 20 22:25:26 EDT 2026

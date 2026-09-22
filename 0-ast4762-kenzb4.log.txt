@@ -631,7 +631,47 @@ in file --> help(np.savetxt) --> use this and add ("filename.txt", results_array
 5) rewrite as function with N as import, do for loop to get sample gauss to create array with sample mean and omega inside 
 (need to come back and write into file made in question 4, look to see if can write directly into the function (filename))
 in terminal
+git add .
+git commit -m "my comment"
+git push
+
+*****OUT: Mon Sep 21 14:02:44 EDT 2026
+
+*****IN: Mon Sep 21 14:35:20 EDT 2026
+
+in class demo: measurement and uncertainity 
+in class notes
+
+*****OUT: Mon Sep 21 16:20:55 EDT 2026
+
+*****IN: Tue Sep 22 16:22:39 EDT 2026
+
+i am back and its time to finish practicum 2 
+use np.savetxt inside function so each array made is added to my file
+run help(np.loadtxt) and for np.genfromtxt, use loadtxt since i know no numbers are missing to fill in
+tried to read in text with loadtxt but it says the number of columns changed
+get error with np.genfromtxt too 
+(says to use 'usecols" to select subset)
+6) get help of ai on how to read back from my file with uneven column sizes
+mean_10 = np.loadtxt("practicum2_kenzb4_array_to_txt_file.txt", skiprows = 1,
+                     max_rows = 10, usecols=1)
+skiprows will skip my header, max_rows will only count my data values, usecols, will use my 2nd column for mean
+when trying for next value 
+mean_100 = np.loadtxt("practicum2_kenzb4_array_to_txt_file.txt", skiprows = 11,
+                     max_rows = 10, usecols=0)
+realize i only have a 9x2 array for all other values, need to go back and fix function
+in problem 
+change for loop in function for problem 5 to (0,10) not (0,9)
+
+call mean_(all N numbers) with the np.loadtxt function, using skiprows specific to each set
+then print them all
+
+*****OUT: Tue Sep 22 17:34:55 EDT 2026
+
+had to abruptly stop, back now 
+6) defined a function to calculate the standard deviations from each read in array
+make list for sample size and standard deviation values to make print statement cleaner
+used f string to format so equally spaced and standard deviation ends in 1 decimal place
 
 
-*****OUT: Mon Sep 12 14:02:44 EDT 2026
 
