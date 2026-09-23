@@ -668,10 +668,22 @@ then print them all
 
 *****OUT: Tue Sep 22 17:34:55 EDT 2026
 
+*****IN: Tue Sep 22 17:55:34 EDT 2026
+
 had to abruptly stop, back now 
 6) defined a function to calculate the standard deviations from each read in array
 make list for sample size and standard deviation values to make print statement cleaner
 used f string to format so equally spaced and standard deviation ends in 1 decimal place
 
+add, commit, and push to git 
+
+*****OUT: Tue Sep 22 18:03:11 EDT 2026 
+
+*****IN: Tue Sep 22 20:17:23 EDT 2026
+
+had to abruptly stop again lol
+7) make sample_sizes from 6 into an array, then np.log that array
+same for std_values (turn list to array to log of that array)
+plot them with sample sizes as 
 
 
