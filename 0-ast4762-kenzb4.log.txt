@@ -818,3 +818,21 @@ The linfit model does not fit the data. The data is closer in a parabola shape t
 
 add, commit, and push to git, then quick break before problem 2 
 
+*****OUT: Sun Sep 27 01:34:45 EDT 2026
+
+*****IN: Sun Sep 27 18:10:47 EDT 2026
+
+okay we back 
+practicum 3 problem 2 
+help(np.random.poisson), lam = 10000(expected number of events occuring), size = output shape
+help(np.random.uniform), low = 0, high = 10**6, size = 4
+np.concatenate (( __, __)), to add two arrays, check with print statement of size of combined arrays = 400
+print np.mean and median of the combined data, find the mean to be heavily pulled by an outlier valueand median seems refelctive of majority of the data. Median is closer to N 
+use np.std to find stangard deviation of data
+now to mask it -->
+write subsample with the data (boolean mask, true = good data, false = bad data), only include good data in new subsample
+print length of subsample to see if its less than 400 but greater than 395 (then ran true) 
+printed mean, median, and sigma
+yayyy finally complete 
+review and it looks good, going to connect to vpn, scp into stokes, check it runs, and then move to handin and submit
+
