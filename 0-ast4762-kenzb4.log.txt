@@ -748,6 +748,73 @@ plot with x1, y1, '.', label = modle 1 equation
 rel = L.linfit(y1, x1, 0.5) with parameters for x y and y uncertainity as scalar 
 check which value is intercept and which is slope
 
+add, commit, and push to git 
+
+*****OUT: Fri Sep 25 11:40:28 EDT 2026
+
+*****IN: Fri Sep 25 14:05:23 EDT 2026
+
+continuing to work on practicum 3 problem 1b
+define function find_lin, to make it easier to find the values for different y errors
 
 
+plot original figure with the 0.5 error 
+
+*****OUT: Fri Sep 25 14:27:34 EDT 2026
+
+*****IN: Fri Sep 25 14:32:53 EDT 2026
+
+practicum 3 in class !
+looking through linfit module file 
+
+didnt need to create own function for 1b, call the function of linfit and get specific array values to get chi squared, probabilities 
+QUIZ ON WEDNESDAY FROM HW5 GOALS (3) practice +, -, x / for uncertainites
+
+2 practicum
+396 elements of one probabilty and then 4 elements of another probabilty 
+data array
+mask array (true and false)
+use median to estiate mean (points will mess up mean largely from outliers)
+we will see the std shrink over course of hw 5 / practicum 3 question 2
+sigma clipping --> use this routine later in project 
+hw5: 
+
+2 make iteration limit of first cycle bigger --> second cycle smaller
+(number of elements in tuple related to iteration limit)
+3) iterate over this in routine
+boolean mask (false for bad true for good)
+only use pixels that are true in mask
+
+np.where is my bff for this assignment :)
+
+*****OUT: Fri Sep 25 16:22:59 EDT 2026
+
+*****IN: Sat Sep 26 02:18:36 EDT 2026
+
+practicum 3 worked on fixing my graph for 1b
+
+*****OUT Sat Sep 26 02:41:32 EDT 2026
+
+*****IN: Sat Sep 26 18:59:52 EDT 2026
+
+okay lowkey forgot about the peer reviews last night, otw to that now
+yay peer reviews are done , good job guys 
+
+*****OUT: Sat Sep 26 19:40:11 EDT 2026
+
+*****IN: Sat Sep 26 23:51:23 EDT 2026
+
+practicum 3 
+1b) the fitted parameters of the model are the function linfit[0] which is the fitted intercept and linfit[1] is the fitted slope, they are well within the 3sigma of the parameters of the true line
+1c) copy and pasting code, but fixing for which value it is, variable assigned to different y uncertainities (0.5, 0.9, and 0.2)
+want to see if i can make graphs with axes function to make it a better comparable 
+
+had to go back and debug, creating functions for both the print statments of fitted parameters, and chi-squared for different y uncertainties, also going to write a plotting function, make code more concise
+
+1c) the probabilty to find a worse chi squared value is pretty high, 0.84 quite close to 1 for 0.5, as the uncertainity increases, so does the probabilty of finding worse chi squared value 
+
+1d) call to the functions i made before to find fitted paramters, chi squared, and plot it 
+The linfit model does not fit the data. The data is closer in a parabola shape than it is linear. The Chi-Squared value is so large that this tells us the data is not a good fit, there is a 0 probabilty of their being a worse chi-squared so this tells us that the fit is not good for this model to fit the data you would need some quadratic function to fit it not a linear one 
+
+add, commit, and push to git, then quick break before problem 2 
 
