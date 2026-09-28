@@ -855,25 +855,3 @@ scp ma755497@stokes.ist.ucf.edu:~/practicum3_kenzb4.tar.gz ~/Documents/ast4762/h
 
 *****OUT: Sun Sep 27 19:05:13 EDT 2026
 
-*****IN: Sun Sep 27 22:15:23 EDT 2026
-
-starting homework 5 
-
-1) in terminal:
-cd Documents/ast4762/homework
-mkdir hw5_kenzb4
-jupyter notebook
-then open a new python file
-add name, assignment number, and date 
-
-2) pasted code from problem 2 of practicum
-copied method from making the first subsample and applied it for a new subsample using the previous one
--printed new mean median and standard deviation, the final mean is significantly smaller than the original mean, but same as the first subsample (found that there was no more outliers extracted in the second subsample/sub sub sample)
-NOTE: come back if you can and use an f string to format print statements to be in line
--the possion distribution expects the standard deviation to be equal to the square root of the number of expected number of events occuring
-we expect a value of 100 but got 634.29, 6 over 6 times larger, but compared to our first measurement being 677 times larger we see a much closer standard deviation to that thats expected
--this method will not remove every bad pixel everytime
-
-3) reading through prompt, define new function sigrej, write doc string, parameters, returns
-
-open homework 3 support module for template 
