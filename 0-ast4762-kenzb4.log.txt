@@ -877,3 +877,32 @@ we expect a value of 100 but got 634.29, 6 over 6 times larger, but compared to 
 3) reading through prompt, define new function sigrej, write doc string, parameters, returns
 
 open homework 3 support module for template 
+still writing good doc string
+
+git add, commit, push
+
+*****OUT: Sun Sep 27 23:27:38 EDT 2026
+
+*****IN: Mon Sep 28 08:44:28 EDT 2026
+
+opening hw 5 files
+starting to write actual function, if statement for the optional parameter
+make an array of ones (1 = True, 0 = False) same size of given array, so all values are equal to True, else: mask = given b_mask
+assign variable to the length of the tuple, then for loop to iterate over all values in tuple lenght, assign good values, write ask as the mask and the good values (compare their boolean values)
+
+3) in previous code for problem i used the median to create my subsample, but in this function i used the mean, i find now that the mean is much closer to what i would expect for sigma = sqrt(N)
+
+changed problem 2 removal of bad data to the array - the mean rather than the median, get same result 
+
+4) 
+a) open new shell tab, run ssh ma755497@stokes.ist.ucf.edu log into stokes
+b) in stokes terminal, run mkdir hw5_kenzb4
+c) in regular terminal, run jupyter nbconvert --to script hw5_kenzb4.ipynb 
+then copy py hw file stokes scp -r ~/Documents/ast4762/homework/hw5_kenzb4/hw5_kenzb4.py ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4 
+check in stokes with cd hw5_kenzb4 then ls
+module load anaconda --> python hw5_kenzb4.py 
+get error, linfit doesnt exist, go back to .ipynb and take that import out, going to repeat steps to convert to .py, then recopy into folder in stokes, rm old .py file in stokes 
+run and it works, fix last line for problem 3 to have "Cleaned Data Mean" for better coding clarity, repeat steps of removal, --> py --> stokes
+yay code prints all good 
+
+
