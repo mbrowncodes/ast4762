@@ -903,6 +903,78 @@ check in stokes with cd hw5_kenzb4 then ls
 module load anaconda --> python hw5_kenzb4.py 
 get error, linfit doesnt exist, go back to .ipynb and take that import out, going to repeat steps to convert to .py, then recopy into folder in stokes, rm old .py file in stokes 
 run and it works, fix last line for problem 3 to have "Cleaned Data Mean" for better coding clarity, repeat steps of removal, --> py --> stokes
-yay code prints all good 
+d) yay code prints all good 
+e) git add., commit -m, push
+f) screenshot from mac spotlight, rename screenshot, add to hw5 folder, then scp that over to stokes hw5 folder
+g) in finder, duplicate log, rename it to remove copy, add to hw5 folder, then scp -r ~/Documents/ast4762/homework/hw5_kenzb4/0-ast4762-kenzb4.log ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4
+, to make tar.gz in stokes run
+tar -czvf hw5_kenzb4.tar.gz hw5_kenzb4
+then in regular terminal
+scp ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4.tar.gz ~/Documents/ast4762/handin 
+
+going to end log here to complete the steps in g and f !
+
+*****OUT: Mon Sep 28 10:23:44 EDT 2026
+
+*****IN: Mon Sep 28 14:30:12 EDT 2026
+
+-going over hw5
+-arrays can be made flat, this deals with shape change when an arrays value is returned as false 
+-ccd best for visible light, silicon
+-MOS: metal, oxide, semiconductor
+- can shift electrons through different gates (voltage differences to move them)
+-ccd cool with liquid nitrogen
+-want main source of noise astronomical not instrumental
+- take image at same exposure time, have to consider instrument noise 
+- dark current(systematic, and random), readout(random), bias voltage (systematic) ::main noises
+
+*****OUT: Mon Sep 28 16:20:50 EDT 2026
+
+*****IN: Tue Sep 29 15:47:25 EDT 2026
+
+studying for quiz 2 
+
+*****OUT: Tue Sep 29 17:00:23 EDT 2026
+
+*****IN: Wed Sep 30 14:30:12 EDT 2026
+
+in class quiz
+lecture notes on CCD and IR arrays
+
+*****OUT: Wed Sep 30 16:20:11 EDT 2026
+
+*****IN: Thu Oct 1 16:10:23 EDT 2026
+
+beginning practicum 4 
+1) in terminal: cd Documents/ast4762/homework
+mkdir hw6_kenzb4
+in jupyter notebooks inside hw6 folder, make new file, name it hw6_kenzb4.ipynb (change to .py at end)
+
+(note: for all jupyter notebooks i have been opening them as conda env:base, i am going to open it as 
+conda env: astropy --> i hope no issues arise later!)
+
+add name, assignment number, and data to top of hw file
+
+add imports (starting with numpy, matplotlib, astropy.io, and os)
+
+download hw6 folder from canvas into hw6_kenzb4 folder
+
+2a) in section labeled #Hardcoded variables here 
+datadir = "~/Documents/ast4762/homework/hw6_kenzb4/hw6_data/" (add file path to data)
+fext = ".fits" 
+
+
+2b) objfile = []   and   darkfile = []   # initalize lists
+help(os) to see functions of os
+run os.listdir(datadir), to list all files in my hw6 folder 
+get error that directory isnt found, go back to terminal pwd, and see the ~ is the issue 
+redefine datadir as = "/Users/mackenziebrown/Documents/ast4762/homework/hw6_kenzb4/hw6_data"
+re-run os.listdir(datadir) and see all files (compared to ls in terminal and see they match
+notice that files have either _stars_13s, _dark_13s, or _k_lampoff
+write for loop, for filename in os.listdir(datadir):
+if "stars_13s_" in filename append filename to objfile list
+elif "dark_13s_" in filename append filename to darkfile list 
+
+pausing, will git add ., commit -m, push
 
 

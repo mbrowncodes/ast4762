@@ -1,0 +1,384 @@
+Jasmine Fernandez
+Log for AST 4762, Fall 2026
+*****IN: Wed Aug 26 3:07:35 EDT 2026
+Opened textEdit, started this log, saved as:
+/home/jfern/Desktop/0-ast4762-jasminefernandez.log
+
+Name: Jasmine Fernandez
+Username: Jfern
+
+What astronomy classes have you taken? AST2002, AST3211, AST3402, AST4142, AST4700, AST4912, AST4762.
+
+Are you generally comfortable with calculus and physics? Yes.
+
+Have you ever programmed a computer? Yes.
+
+In what language(s)? Python.
+
+Have you taken a programming class, and if so which? Yes. COP2500C and PHZ3150
+
+Have you taken statistics or probability? Yes
+
+Will you be attending the DPS conference this year, or will you be away otherwise? No I will not.
+
+Why are you taking this course? To be better prepared when writing papers and to make use of important data that I will come across in my career to support my own theories and curiosities. 
+
+
+Are there particular topics you hope to learn? How to handle messy data and improve my coding logic. 
+
+If you have programmed outside of a course before, please
+briefly describe: I have not
+
+If you have worked with scientific data before, briefly
+describe your experience: I did a comet research with professor Dr.Yan Fernandez where I comed through comet data and extracted, cleaned, and organized comet brightness data from publicly available astronomical catalogs.
+
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I did research with Dr.Yan like I stated before and I am currently dong research with Dr. Campins looking at data from asteroid bennu and hopefully being able to translate the same methods to asteroid apophus when it enters earth's orbit in 2029. 
+
+Made a folder hw0_jfern/
+I copied the log file into my hw0_jfern/ folder
+I zipped the hw0_jfern/ folder
+I then submitted the zip file to webcourses
+
+*****OUT Wed August 26, 3:22:42 EDT 2026
+
+*****IN Fri August 28, 15:12:49 EDT 2026
+
+Before Class:
+I already had Anaconda and GitHub downloaded from a previous course so all that was left to do was to download homebrew. I did this before class and the process went as follows: I opened my terminal, copy and pasted the coding prompt that was on homebrew's website, entered my password (which wasn't visible so I spent some time trying to figure out how to enter the password), and then pressed return to confirm the installation. I double checked that it was installed by typing "brew --version".
+
+During Class:
+I will begin by creating a folder labelled hw1_jfern. I cannot satisfy the stokes documentation part of the homework because we still do not have access to it yet. I then will open each application I need (Anaconda and GitHub) and take a screenshot using shift+command+4. I open my jypter notebook which has the python version 6.5.4. I then will rename the screenshot as hw1_jfern_problem2_screenshot1.png, hw1_jfern_problem2_screenshot2.png. Then I added the two screenshots to the hw1_jfern folder. 
+
+Once that is done, I will copy the log file into my hw1_jfern folder by pressing command+c from text edit to the folder. I will then zip the folder by going to my header bar and pressing file, then compress. Lastly, I will submit the zip file to web courses.
+
+*****OUT Fri August 28, 15:49:52 EDT 2026
+
+*****In Mon August 31, 12:27:34 EDT 2026
+
+I recently saw the announcement from my teacher explaining that some students now have access to their Stokes accounts. I then decided to see if it would work for me so that, if it did, I could resubmit Homework #1 in time. I opened the PDF link in Dr. Harrington's email and followed the provided steps. I downloaded the UCF VPN, Cisco Secure Client, went into my Settings under General, then Login Items & Extensions, and gave it access. I then went into Security and gave it access there as well. After that, I entered "secure.vpn.ucf.edu" as the secure gateway for the VPN to connect to. Once that was completed, I opened my Terminal, pasted "ssh [ja966349@stokes.ist.ucf.edu](mailto:ja966349@stokes.ist.ucf.edu)", pressed Return, entered "yes" when prompted, and successfully connected to Stokes.
+
+Then, I took a screenshot of my Terminal showing that I had successfully connected to Stokes by pressing Shift + Command + 4. I renamed the screenshot to "hw1_jfern_problem3_screenshot1.png" and placed it in my hw1_jfern folder. Next, I will place my updated log file into the folder by copying and pasting it into the hw1_jfern folder, making sure to rename it so that it ends in ".log". Lastly, I will zip the folder by going to the menu bar, selecting File, and compressing the folder. I will then submit the ZIP file to Webcourses.
+
+*****OUT Mon August 31, 12:37:38 EDT 2026
+
+*****IN Wed September 2, 14:34:22 EDT 2026
+
+In Class Notes:
+
+- In the beginning of class, I downloaded L04 file and placed in the AST4762 Folder under literature. Then I opened the python_functions_copying_style jypter notebook.
+
+- Basics Packages:
+	- Astronomical images are handled with arrays (This is the reason we use numpy)
+	- Scipy handles integration and higher level maths
+	- Matplotlib handles plotting and making graphs.
+	
+- We've are going through each line of code in the jypter notebook, specifically beginning with how to import modules and name them nickname for ease of use. 
+
+- Always download your data separately and never work in your data directory. It will contaminate it.
+
+- Mars Polar Lander -> difference in units made the lander land on the equator and crash. They were handing out files with numbers with no units (800 million dollars WASTED)
+
+- Make your columns and rows line up correctly
+
+*****OUT Wed Sep 2, 17:12:36 EDT 2026 
+
+*****In Friday Sep 4, 14:42:28 EDT 2026
+
+6th Lecture - In class Notes:
+
+- I have opened up python_functions_coding_style jypter notebook and am following in class. We are starting at the functions section.
+
+- It is good practice to put a .after your numbers unless you specifically want them to be integers. This allows them to be run in different languages/versions.  
+
+- Doc strings should have:
+	- Input and outputs
+	- Summary - one line summary that does not use variable names or the functions name
+	- Explanation - this can be a few sentences or an even a paragraph. refer to variables using back-ticks like 'var'
+	- Parameters - write what each variable is. Ex) var1: array_like , var2: int
+	- Date Written and if updates were added (like more examples)
+
+- All libraries needed need to be imported at the beginning of your code. Use these abbreviations:
+ 	- import bumpy as np
+	- import scipy as sp
+	- import matplotlib as mpl
+	- import matplotlib.pyplot as put
+	- import astropy.io.fits as fits
+
+- When defining functions:
+	- Leave spaces between commons
+	- Do not leave spaces in between parameters or operations
+
+- Most important thing in research is reproducibility so make sure to put the units and sources of values in comment
+
+*****OUT Fri Sep 4, 16:19:16 EDT 2026
+
+*****IN Tue Sep 8, 19:52:57 EDT 2026
+
+Homework #2:
+
+(1) Problem 1:
+	- I opened the terminal and created a new folder named "hw2_jfern.ipynb". I did this by by entering cd Desktop/ast4762/homework. I then used the pwd command to confirm that I was in the correct directory. Once I confirmed my location, I entered mkdir hw2_jfern to create a new folder for Homework #2. I used the ls command to list the contents of the homework directory and confirmed that the new hw2_jfern folder had been successfully created. Finally, I entered cd hw2_jfern to move into the new Homework #2 directory.
+
+	- Since I prefer to complete my homework using a Jupyter Notebook, I created my main homework file as hw2_jfern.ipynb. While I was inside the hw2_jfern directory in Terminal, I entered the command jupyter notebook. This launched Jupyter Notebook in my web browser with the hw2_jfern directory as the current working folder. I then created a new Python notebook and named it hw2_jfern.ipynb.
+
+	- I then set up my Ast4762 folder as a Git repository using GitHub Desktop so that I could back up my homework to GitHub. I selected my existing Ast4762 folder as the location for the repository and created the repository. I checked the repository history to verify that my homework files, including Homework/hw2_jfern/hw2_jfern.ipynb, were being tracked by Git. I then published the repository to GitHub. As I make changes to my homework, I save my Jupyter Notebook, use GitHub Desktop to commit the updated hw2_jfern.ipynb file with a description of my changes, and push the commit to GitHub.
+
+	- Finally, at the top of my hw2_jfern.ipynb notebook, I added comments containing my name, the homework assignment number, and the date. I will use print() at the beginning of each problem to display the problem number and will also use print() for any written answers or remarks required by the assignment. I will use regular Python comments beginning with # when I need to explain or clarify parts of my code.
+
+
+(2) Problem 2:
+	- For Problem 2a1, I created an integer array named x containing all integer values from 0 through 1000, including 1000. Since the array begins at 0 and ends at 1000, the array contains 1001 elements.
+
+	- For Problem 2a2, I printed information about the x array. Its datatype was int64, its minimum value was 0, and its maximum value was 1000.
+
+	- For Problem 2b1, I rescaled the existing x array so that its values ranged from 0 to 2pi rather than 0 to 1000.
+
+	- For Problem 2b2, printed the minimum and maximum values of the rescaled x array to verify that the rescaling worked correctly. The minimum value was 0.0 and the maximum value was approximately 6.2831853, which is 2pi
+
+	- For Problem 2c, I created a new array named y. Each value in y was calculated by taking the sine of the corresponding value in the rescaled x array. Therefore, y contains the values of sin(x).
+
+	- For Problem 2d, I printed element 234 of the y array. Since Python uses zero-based indexing, element 234 is accessed using y[234]. This is different from asking for the 234th element, which would be located at index 233.
+
+
+(3) Problem 3:
+	- For Problem 3a, I plotted the y array versus the x array using Matplotlib. I made the figure easier to understand by labeling the x-axis as x (radians), labeling the y-axis as sin(x), adding the title Sine Function, and including grid lines. The resulting plot displayed one complete sine wave from 0 to 2pi.
+
+	- For Problem 3b, I saved the completed plot directly from Python as a PNG file named hw2_jfern_problem3_sine_plot.png using the plt.savefig() command. This saved the figure rather than using a screenshot or window capture.
+
+
+(4) Problem 4:
+	- For Problem 4a1, I created an array named r containing 101 evenly spaced values from −1 to +1 using NumPy. I also made a copy of the original ramp so that I could compare it to the clipped version later.
+
+	- For Problem 4a2, I clipped the r array so that all values greater than 0.5 were set to 0.5, and all values less than −0.5 were set to −0.5. I used NumPy's np.clip() function to perform this operation without using any loops.
+
+	- For Problem 4b1, I plotted both the original ramp and the clipped ramp on the same figure. I added a title, axis labels, grid lines, and a legend to distinguish the two arrays. The resulting graph shows that the clipped array remains at −0.5 below the lower limit, follows the original ramp between −0.5 and 0.5, and remains at 0.5 above the upper limit.
+
+	- For Problem 4b2, I saved the completed figure directly from Python as a PDF named hw2_jfern_problem4_clipped_ramp.pdf using plt.savefig().
+
+
+(5) Problem 5:
+	- For Problem 5, I found two websites outside of UCF that provide free astronomical software written in Python. The two packages I chose were Astropy and SunPy. I included the URL for each website and wrote a paragraph in my own words describing what each software package is used for. I placed both paragraphs together as an extended Python string using sets of triple single quotes (''').
+
+
+(6) Problem 6:
+	- For Problem 6a, I successfully connected to the UCF VPN using Cisco Secure Client with the address secure.vpn.ucf.edu. After connecting to the VPN, I attempted to log into Stokes using SSH. Even though the VPN connection was successful, my connection to Stokes was still blocked, so I was unable to access the Stokes server. I took a screenshot to show proof using command+shift+4 and named it using the correct naming conventions "hw2_jfern_problem6_stokes_error_proof.png"
+
+	- For Problem 6b, because my connection to Stokes was blocked, I was unable to create the hw2_jfern folder on the Stokes server.
+
+	- For Problem 6c, I exported my Jupyter Notebook as hw2_jfern.py, but I was unable to copy the file to Stokes because I could not access the server.
+
+	- For Problem 6d, since I could not access Stokes, I tested hw2_jfern.py locally in Terminal instead to make sure the program ran without crashing. I navigated to my hw2_jfern directory and entered python hw2_jfern.py. The program successfully executed my code, displayed the required plots, printed the required output, and completed without crashing.
+
+	- For Problem 6e, after completing and testing my Homework 2 files, I opened GitHub Desktop. In the Changes tab, I selected the updated Homework 2 files, including hw2_jfern.py, and entered a commit message describing my changes. I then committed the files to the main branch and clicked Push origin to upload the commit to my GitHub repository.
+
+	- For Problem 6f, I opened the History tab in GitHub Desktop and selected my most recent Homework 2 commit. I took a screenshot using command+shift+4, showing the commit history and the hw2_jfern.py file inside my hw2_jfern homework folder. I named the screenshot hhw2_jfern_problem6_github_history.png and placed it in my local Homework 2 folder. Because my connection to Stokes was blocked, I was unable to copy the screenshot to the Stokes server.
+
+	- For Problem 6g, I made sure that the files needed for Homework 2 were stored in my local hw2_jfern folder, including my Python file, notebook, saved figures, and GitHub history screenshot. These are the files I would copy into my hw2_jfern directory on Stokes. I was unable to perform the Stokes copy because my connection to the server was blocked.
+
+	- For Problem 6h, because my Stokes connection was blocked, I was unable to carry out these steps.
+
+	- For Problem 6i, since I was unable to access Stokes, I will complete these steps locally instead. I will place my updated log file into the hw2_jfern folder by copying and pasting it from TextEdit. I will make sure to rename the file so that it ends in .log. I will then open Terminal and navigate to my homework directory by entering cd ~/Desktop/ast4762/homework. Next, I will enter tar -czvf hw2_jfern.tar.gz hw2_jfern to create a compressed .tar.gz archive containing my entire hw2_jfern folder. After the command finishes, I will use ls to verify that hw2_jfern.tar.gz was successfully created. Lastly, I will place the .tar.gz file in my local handin folder so that I can submit it to Webcourses.
+
+*****OUT Tue Sep 8, 22:37:35 EDT 2026
+
+*****IN Wed Sep 9, 14:41:15 EDT 2026
+
+7th Lecture - In Class Notes:
+
+	- I downloaded the week 3 files from webcourses and opened anaconda, Jupyter, and then the measurements_probability_statistics notebook
+
+*****OUT Wed Sep 9, 16:21:50 EDT 2026
+
+*****IN Mon Sep 14, 15:20:29 EDT 2026
+
+9th Lecture - In Class Notes:
+	- Study Discrete vs Continuous Probability & their equations
+	
+	- Study Probability distribution
+
+	- Study Gaussian Distribution (commit to memory)
+
+*****OUT Mon Sep 14, 20:57:13 EDT 2026
+
+*****IN Mon Sep 14, 21:14:33 EDT 2026
+
+Practicum 1:
+
+	(1) Problem 1: For Problem 1, I created a 300 × 200 NumPy array with a Float64 data type in two different ways. I also printed the problem number by coding print("Problem 3:\n"). Then, I created an array filled with zeros using np.zeros((300, 200), dtype=np.float64). I then used a for loop to go through each y-coordinate from 0 to 299. For each y-coordinate, I assigned every element in that row the value of y. This resulted in row 0 containing 200 values of 0.0 and continued through row 299 containing 200 values of 299.0.
+
+I displayed the array created with the loop using plt.imshow() with the "gray" colormap. I used origin="lower" so that coordinate (0,0) was located in the lower-left corner of the plot as required. The resulting image showed a grayscale gradient that was black at y = 0 and became progressively lighter as the y-coordinate increased.
+
+Next, I created the same 300 × 200 Float64 array without using a loop. I used np.arange(300, dtype=np.float64) to create the y-coordinate values from 0 through 299. I used [:, np.newaxis] to turn these values into a column and np.repeat(..., 200, axis=1) to repeat each y-coordinate across all 200 columns. I displayed this array in a second grayscale plot using the same origin="lower" setting. Both methods produced the same grayscale image.
+
+Then, I examined several elements throughout the final array to make sure their values matched their y-coordinates. For example, the value at (x=100, y=75) was 75.0, the value at (x=50, y=150) was 150.0, and the value at (x=199, y=299) was 299.0. I also verified that the final array had a shape of (300, 200) and a data type of float64. This confirmed that the array met the dimensions, values, orientation, and data type required by the assignment. 
+
+After completing and running my code, I took screenshots showing both my Python code and the corresponding plot windows. I took each screenshot by pressing Shift + Command + 4 on my Mac and selecting the area of the screen that I wanted to capture. I made sure the screenshots clearly showed the relevant Python code, output, and plot windows needed to document my work. I took a total of five screenshots and renamed them using the required naming convention: practicum1_jfern_problem1_graph1.png, practicum1_jfern_problem1_graph2.png, practicum1_jfern_problem1_graph3.png, practicum1_jfern_problem1_graph4.png, and practicum1_jfern_problem1_graph5.png. I then placed all five screenshots in my Practicum 1 folder with the rest of my assignment files.
+
+
+	(2) Problem 2: I used AI, specifically Claude,  to repeat the array creation and plotting procedure from Problem 1. In my prompt, I asked " Write Python code using NumPy and Matplotlib to create a 300 × 200 Float64 array where each element contains its y-coordinate. The bottom row at y = 0 should contain 200 values of 0, and the top row at y = 299 should contain 200 values of 299. First show how to create the array using a loop, and then show how to create it without any Python loops. Examine several array elements to verify that their values match their y-coordinates and print the array's shape and data type. Display both arrays with plt.imshow() using a grayscale colormap and make sure (0, 0) is in the lower-left corner. Include meaningful comments explaining the code."
+
+I wrote in such a way so that the prompt was specific about the dimensions, data type, coordinate direction, plotting requirements, and required verification in order to obtain the desired result. Providing all of the assignment requirements in the prompt produced code that more closely matched the expected output. I then ran the AI-generated code and verified that the resulting plot showed the correct grayscale gradient and coordinate orientation.
+
+I took screenshots documenting my interaction with Claude, the AI-generated Python code, and the resulting plots. I also made sure the screenshots showed the information required to demonstrate how I prompted the AI and used its generated code. I took a total of six screenshots and renamed them using the required naming convention. I took each screenshot by pressing Shift + Command + 4 on my Mac and selecting the area of the screen that I wanted to capture. I named them: practicum1_jfern_problem2_graph1.png, practicum1_jfern_problem2_graph2.png, practicum1_jfern_problem2_graph3.png, practicum1_jfern_problem2_graph4.png, practicum1_jfern_problem2_graph5.png, and practicum1_jfern_problem2_graph6.png. I then placed all six screenshots in my Practicum 1 folder with the rest of my assignment files.
+
+	
+	(3) Problem 3: For Problem 3, I first installed the Astropy Python package using Terminal. I verified that Astropy was installed correctly by importing it and printing its version number. I then downloaded the provided m42_40min_ir.zip FITS file from the week_3 folder. I kept the file compressed as instructed and placed it in my Practicum_1 folder so that my Python code could access it.
+
+I imported fits from astropy.io. I used fits.open() to open the compressed FITS file and accessed the image data using hdul[0].data. I also printed the shape and data type of the image array to examine the FITS data.
+
+I displayed the FITS image using the Matplotlib imshow() function with cmap="gray" to create a grayscale image. I used origin="lower" so that coordinate (0, 0) was located in the lower-left corner of the plot. I identified the object in the image as M42, the Orion Nebula. I added "M42 - Orion Nebula | Jasmine Fernandez" as the title and labeled the axes "x (pixels)" and "y (pixels)". I used plt.tight_layout() to make sure the title and axis labels fit within the figure boundaries.
+
+Finally, I saved the completed plot as a PNG using plt.savefig() and named it practicum1_jfern_problem3_graph1.png. I then displayed the completed plot using plt.show() and placed the PNG file with the rest of my Practicum 1 files. Next, I will place my updated log file into the folder by copying and pasting it into the practicum_1 folder, making sure to rename it so that it ends in ".log". Lastly, I will zip the folder by going to the menu bar, selecting File, and compressing the folder. I will then submit the ZIP file to Webcourses.
+
+*****OUT Mon Sep 14, 22:29:54 EDT 2026
+
+*****IN Tue Sep 15, 15:48:28 EDT 2026
+
+Homework 3 Assignment:
+	(1) Problem 1: I opened Terminal and navigated to my Ast4762 folder on my Desktop by entering cd Ast4762. I used ls to list the contents of the folder and then entered the homework directory using cd homework. I used ls again to verify that my previous homework folders were there. I then created a new folder for Homework 3 by entering mkdir hw3_jfern and moved into the new folder using cd hw3_jfern. Finally, I entered pwd to verify that I was in the correct directory. The output showed /Users/jasminefernandez/Desktop/Ast4762/homework/hw3_jfern, confirming that the Homework 3 folder was created in the correct location.
+
+	
+	(2) Problem 2:
+		- For problem 2(a), I copied the provided module_template_with_docstring.py file into my hw3_jfern homework folder to use as the template for my support functions file. I used the command cp ../../../module_template_with_docstring.py hw3_jfern_support_functions.py in Terminal. This copied the original template without changing it and renamed the copy to hw3_jfern_support_functions.py according to the class naming conventions for support files. I then used ls to verify that the new support functions file was successfully added to my Homework 3 folder.
+
+
+		- For problem 2(b), I studied the provided module template to understand how a support functions file should be structured. The file begins with a module docstring that describes the purpose of the module. Required libraries are then imported at the beginning of the file. Each function is defined separately and contains its own docstring. The function docstrings describe the function's purpose, parameters, return values, and examples. Comments can also be included throughout the code to make its purpose and logic easier to understand. These components make the functions easier to understand, use, test, and maintain.
+
+		
+		- For problem 2(c), I modified the provided module template to make it appropriate for Homework 3. I removed the example information, unnecessary imports, and other sections that were not needed for this assignment. I added a module docstring describing the purpose of my support functions file and kept import numpy as np and import matplotlib.pyplot as plt, since these libraries will be used by the functions in this homework. I saved the cleaned support file as hw3_jfern_support_functions.py.
+
+
+		- For problem 2(d), I created the first function in my support functions file and named it square. I defined the function using def square(value): so that it takes one input, which can be a numerical scalar or an array. The purpose of this function is to return the square of the input. I then saved the updated hw3_jfern_support_functions.py file. After saving the updated hw3_jfern_support_functions.py file, I committed the changes to GitHub. I added the updated file to Git, created a commit with a descriptive message explaining that I added the square function, and pushed the commit to my GitHub repository.
+
+
+		- For problem 2(e), I wrote the code for the square function in my hw3_jfern_support_functions.py file. The function takes one input, value, and returns np.square(value), which works whether the input is a scalar or a NumPy array of any dimension or numerical type. I documented the function following the structure of the provided template, including a short summary, a Parameters section describing value, a Returns section describing the output, and an Examples section. In the docstring example, I used square(5), ran it in Python to confirm the output was 25, and copy-pasted that exact result into the docstring so the example matched Python's actual output. I saved the updated hw3_jfern_support_functions.py file after writing and documenting the function.
+
+
+		- For problem 2(f), I tested the square function after importing it from hw3_jfern_support_functions.py into my main Homework 3 notebook. I tested the function with several numerical input types to make sure it worked correctly. I tested an integer scalar using square(5), which returned 25, and a floating-point scalar using square(2.5), which returned 6.25. I also tested a one-dimensional integer array [1, 2, 3], a one-dimensional floating-point array [1.5, 2.5, 3.5], and a two-dimensional integer array [[1, 2], [3, 4]]. The function correctly returned [1, 4, 9], [2.25, 6.25, 12.25], and [[1, 4], [9, 16]], respectively. I did not encounter any bugs during these tests. After verifying that the function worked correctly for the different input types, I saved my updated files and committed the major update to Git/GitHub.
+	
+
+		- For problem 2(g), I reviewed the example and docstring for my square function after completing my test cases. I verified that the example square(5) returned 25 in Python, which exactly matched the result written in the docstring, so no additional changes to the example were necessary. I saved the final version of hw3_jfern_support_functions.py and made a final commit to GitHub. I then viewed my Git log history to verify that my updates to the support functions file were recorded. I took a screenshot of the Git log history by pressing Shift + Command + 4 on my Mac and selecting the portion of the screen that showed my commit history. I renamed the screenshot hw3_jfern_problem2_graph1.png and placed it in my hw3_jfern homework folder.
+
+
+		- For problem 2(i), I created a 5 × 5 NumPy array named test_square_2 containing floating-point values ranging from 0 through 25. I created the array in a single line using test_square_2 = np.linspace(0., 25., 25).reshape(5, 5). I then passed test_square_2 into my imported square function and printed the result using print(square(test_square_2)). The function returned a 5 × 5 array containing the square of each input value, with values ranging from 0. to 625., confirming that the function worked correctly with a two-dimensional floating-point array.
+
+
+	(3) For Problem 3:
+		- For problem 3(a), I began creating a second function named squareplot in my hw3_jfern_support_functions.py file. I defined the function with the three positional arguments low, high, and num_points, along with the optional argument saveplot=False. I added a docstring describing the function and its arguments. To complete Problem 3(a), I created an array named x using x = np.linspace(low, high, num_points). I used np.linspace so that the array would contain the specified number of evenly spaced points from the low end of the range through and including the high end.
+
+		- For problem 3(b), I created an array named y by passing the entire x array into my previously created square function using y = square(x). This called the square function exactly once and returned an array containing the square of every value in x. I added this code inside the squareplot function in my hw3_jfern_support_functions.py file and saved the updated file.
+
+
+		- For problem 3(c), I plotted the values in y versus the values in x using plt.plot(x, y). Since y contains the squared values of x, this creates a plot of the square function. I added this line inside the squareplot function in my hw3_jfern_support_functions.py file and saved the updated file.
+
+
+		- For problem 3(d), After completing the squareplot function in my hw3_jfern_support_functions.py file, I imported both square and squareplot into my main hw3_jfern.ipynb notebook. I called squareplot(1., 7., 5, saveplot="hw3_jfern_problem3_graph1.pdf") to plot the squares of the five evenly spaced values 1, 2.5, 4, 5.5, and 7. The resulting plot displayed the squared values 1, 6.25, 16, 30.25, and 49. The plot was labeled with "Input" on the x-axis, "Output" on the y-axis, and "Square Function" as the title. I saved the completed plot as hw3_jfern_problem3_graph1.pdf in my hw3_jfern homework folder.
+
+
+	For Problem 4:
+		- For problem 4, I created a rubric for Problem 3 and divided the 20 total points among the different requirements of the squareplot function. I broke the requirements into smaller rubric-style questions worth one to a few points each so that full credit would be given for correctly completed work and partial credit could be given for partially correct work. I included criteria for the function setup and documentation, creating the x and y arrays, plotting and labeling the graph, saving the plot, and calling squareplot in the main homework file. I saved the rubric as hw3_jfern_problem4_rubric.txt and placed it in my hw3_jfern folder. The rubric for this problem can be submitted as either a .txt or .pdf file.
+
+
+	For Problem 5:
+		- For problem 5(a), I first connected to the UCF VPN using Cisco Secure Client and the secure gateway secure.vpn.ucf.edu. Once the VPN was connected, I opened Terminal and entered ssh ja966349@stokes.ist.ucf.edu. I pressed Return and entered my UCF password when prompted. After successfully logging in, I was connected to Stokes through the Terminal.
+
+
+		- For problem 5(b), after logging into Stokes, I created a new folder for Homework 3 by entering mkdir hw3_jfern in the Terminal. I then entered ls to list the contents of my current directory and verified that the hw3_jfern folder had been successfully created.
+
+
+		- For problem 5(c), I exited Stokes and returned to my local hw3_jfern folder on my Mac. I used the scp command to copy hw3_jfern.py and hw3_jfern_support_functions.py into my hw3_jfern folder on Stokes. I then logged back into Stokes, entered the folder using cd hw3_jfern, and used ls to verify that both .py files were successfully copied.
+
+
+		- For problem 5(d), I tested my code on Stokes by running python hw3_jfern.py. The first time I ran the program, I received an ImportError stating that the NumPy module could not be found. I checked the Python versions and available modules on Stokes and found that Anaconda was available. I loaded anaconda/anaconda-2024.10 using module load anaconda/anaconda-2024.10 and verified that NumPy was available. I then ran python hw3_jfern.py again. This time, the program ran successfully without errors and printed the expected results for Problem 2. I used ls to verify that Problem 3 also successfully created and saved hw3_jfern_problem3_graph1.pdf on Stokes.
+	
+
+		- For problem 5(e), after testing my Homework 3 code on Stokes and confirming that it ran successfully, I returned to GitHub Desktop on my Mac. I reviewed and selected my updated Homework 3 files, entered the commit message "Homework 3 - Problem 4 and Plots Update", and committed the changes to the main branch. I then selected Push origin to push the updated files to my GitHub repository.
+
+
+		- For problem 5(f), I opened the History tab in GitHub Desktop to view my Git logging history and confirm that my Homework 3 files had been committed. I took a screenshot showing the commit and the files added to my hw3_jfern folder using Shift + Command + 4. I renamed the screenshot hw3_jfern_problem5_graph1.png and placed it in my local hw3_jfern homework folder. I then used the scp command in my local Terminal to copy hw3_jfern_problem5_graph1.png into my hw3_jfern folder on Stokes. After logging back into Stokes, I used ls to verify that the screenshot was successfully copied into the folder.
+
+
+		-  For problem 5(g), I copied the remaining contents of my local hw3_jfern homework folder to my hw3_jfern folder on Stokes using the scp command. I copied hw3_jfern_problem2_graph1.png and hw3_jfern_problem4_rubric.txt. I then logged back into Stokes, entered my hw3_jfern folder, and used ls to verify that both files had been successfully copied.
+
+
+		- For problem 5(e) & 5(i), after completing and updating my log, I will copy my log file into my hw3_jfern folder on Stokes using the scp command. I will then log back into Stokes and verify that the log and all required Homework 3 files are present in the folder. Next, I will create a .tar.gz archive of the entire hw3_jfern folder on Stokes. I will then download the completed hw3_jfern.tar.gz file from Stokes into my local handin folder using scp. Finally, I will submit the hw3_jfern.tar.gz file to Webcourses.
+
+*****OUT Tue Sep 15, 18:51:43 EDT 2026
+
+*****IN Sat Sep 16, 19:21:44 EDT 2026
+
+Practicum 2:
+	1) For Problem 1, I created a Python function called make_subsample(N) that generates N random draws from a Gaussian distribution with a mean of 55 and a standard deviation of 13. I used np.random.normal() to generate the random values and returned the resulting subsample so that the function could be reused for different sample sizes.
+
+AI prompt I used was: "How can I use Python and NumPy to create a subsample containing N random draws from a Gaussian distribution with a mean of 55 and a standard deviation of 13? Please use array operations rather than manually generating each random value."
+
+	2) For Problem 2, I set the sample size to N = 10 and used my make_subsample(N) function to generate 10 independent samples. I used a for loop so that I did not have to repeat the same commands manually. For each sample, I calculated the mean using np.mean() and the standard deviation using np.std(). I stored the sample number, mean, and standard deviation in a 10 × 3 NumPy array.
+
+	3) For Problem 3, I asked Claude "Write Python code that draws 10 samples of N=10 random numbers each from a Gaussian distribution with mean 55 and standard deviation 13. For each sample, compute the sample mean and sample standard deviation, and store the sample number, mean, and standard deviation as one row in a 10x3 array (don't keep the raw draws). Use a loop or array math, not repeated code.". For Problem 2, both versions follow the same structure, which was  a 10x3 zeros array filled in a loop. The main difference is that I did use np.std(sample) (population std, divides by N), while the AI used np.std(sample, ddof=1) (sample std, divides by N−1), which gives slightly different numbers. The teacher also asked to ask how to do it without loops which I included in the question.
+
+	4) For Problem 4, I wrote the N = 10 results array to practicum2_jfern_output.txt using np.savetxt(). Before the table, I included a comment identifying the number of draws as N = 10. The output was formatted so the sample number was written as an integer and the mean and standard deviation were written to two decimal places.
+
+	5) For Problem 5, I repeated the sampling procedure for N = 100. 1,000, 10,000, 100,000, and 1,000,000. I used nested for loops so that each sample size was processed automatically and 10 independent samples were generated for each value of N. For every sample, I recorded the sample number, mean, and standard deviation in a separate 10 × 3 array. I then used append mode ("a") to add each set of results to practicum2_jfern_output.txt without overwriting the previous results.
+
+	6) For Problem 6, I read the numerical results from practicum2_jfern_output.txt using np.loadtxt(). For each of the six sample sizes, I selected the 10 previously calculated sample means and used np.std() to calculate the standard deviation of those means. I stored these values in std_means for later use. I printed the sample size and corresponding standard deviation of the mean to the screen and appended the results to the existing output file without overwriting the previous data.
+
+The AI prompt I used was: "How can I use Python to read my saved data for six different sample sizes, calculate the standard deviation of the 10 sample means for each sample size, print the results, and append them to the same text file without overwriting the existing data?"
+
+	7) For Problem 7, I created a log-log plot of the standard deviation of the mean versus sample size using plt.loglog(). I placed sample size N, the independent variable, on the x-axis and the standard deviation of the mean on the y-axis. I added descriptive axis labels and the title "Standard Deviation of the Mean vs. Sample Size." Finally, I saved the completed plot as practicum2_jfern_problem7.png using plt.savefig() and displayed the plot using plt.show().
+
+For the final submission, I will duplicate my completed log file and save the duplicated copy with the .log extension. I will then move the .log file into my practicum_2 folder along with my Python code, output text file, PNG plot, and any other required files. Once all required files are in the folder, I will open Terminal and navigate to the directory containing the practicum_2 folder. I will create a compressed .tar.gz archive using: "tar -czvf practicum_2.tar.gz practicum_2" and then verify that the archive was created by listing the files in the directory using "ls"
+
+*****OUT Sat Sep 19, 19:46:00 EDT 2026
+
+*****IN Sun Sep 20, 18:32:12 EDT 2026
+
+Homework #4:
+
+	(1) Problem 1: For Problem 1, I created a new folder for Homework 4 named hw4_jfern inside my local Desktop/ast4762/homework directory. I opened Terminal and navigated to the homework directory using cd ~/Desktop/ast4762/homework, then created the new folder using mkdir hw4_jfern and entered it using cd hw4_jfern. I launched Jupyter Notebook from this directory and created a notebook named hw4_jfern.ipynb. At the beginning of the notebook, I included comments containing my name, the homework assignment number, and the date. I completed the homework in Jupyter Notebook and then exported/saved the notebook as the Python script hw4_jfern.py, as required for the final homework submission. I also used print statements at the beginning of the applicable problems so that the problem numbers would be identified when the Python script was executed.
+
+
+	(2) Problem 2: I imported NumPy as np and Matplotlib's pyplot module as plt
+
+		- Part A: I defined the mean of the Gaussian distribution as mu = 55, the standard deviation as sigma = 13, and the number of random draws as N = 10000. I generated a sample containing 10,000 random numbers drawn from this Gaussian distribution using sample = np.random.normal(mu, sigma, N). I printed the sample to verify that the random values had been generated. Because NumPy generates random values, the exact values in the sample can change when the cell or program is run again.
+
+		- Part B: I created histogram bin edges from 0 through 100 with a bin width of 1 using bins = np.arange(0, 101, 1). I then plotted the 10,000 random draws using plt.hist(sample, bins=bins). I labeled the x-axis as x, labeled the y-axis as Number of Draws, and added the title Histogram of a Gaussian Distribution. I saved the resulting histogram as a PNG file using plt.savefig() and used the appropriate naming conventions.
+
+		- Part C: I calculated the center of each histogram bin using bin_centers = (bins[:-1] + bins[1:]) / 2. I then evaluated the theoretical Gaussian distribution at each of these bin centers using (P(x)=[1/(sigma*sqrt{2pi})]exp[-(x-mu)^2/(2*sigma^2)]). Because this equation gives a probability density while the histogram represents the number of draws in each bin, I multiplied the Gaussian values by N = 10000 to obtain the expected number of draws. Since the histogram bin width was 1, no additional numerical bin-width scaling was necessary. I plotted these expected counts over the histogram using plt.plot() and saved the resulting figure as another PNG file. The theoretical Gaussian curve followed the overall shape of the randomly generated histogram and was centered near the specified mean of 55.
+
+
+	(3) Problem 3: I completed both extra-credit derivations analytically and included the work as comments in my hw4_jfern.py file. For part (a), I started with the Gaussian distribution, set it equal to half of its maximum value, and solved for the two positions on either side of the mean. I then found the distance between these positions to show that the full width at half maximum is FWHM=2*sigma*sqrt(2*ln(2)) is approx 2.354*sigma. For part (b), I started with the equation of a straight line on a log-log plot, log(y)=m*log(x)+b, and solved for y to obtain y=10^b*x^m, or y=A*x^m. This shows that a straight line on a log-log plot represents a power-law relationship, with the slope m corresponding to the power-law exponent.
+
+
+	(4) Problem 4: I connected to the UCF VPN and logged into Stokes using ssh ja966349@stokes.ist.ucf.edu. Once logged in, I created my Homework 4 folder using mkdir hw4_jfern and entered it using cd hw4_jfern. From a separate Terminal on my local computer, I navigated to ~/Desktop/ast4762/homework/hw4_jfern and copied my Python file to Stokes using scp hw4_jfern.py ja966349@stokes.ist.ucf.edu:~/hw4_jfern/. I then tested the program on Stokes using python hw4_jfern.py. At first, the program produced an ImportError because NumPy was not available in the default Python environment. I checked the available modules and found Anaconda, so I used module purge followed by module load anaconda/anaconda-2024.10. I verified that NumPy and Matplotlib were available and ran python hw4_jfern.py again. The program completed without errors, confirming that my code worked correctly on Stokes. After adding the Problem 3 extra credit, I copied the updated .py file to Stokes and tested it again successfully.
+
+I then saved my Homework 4 work to GitHub using GitHub Desktop by committing my changes and pushing them to my repository. I opened the History tab to show the Homework 4 commit and took a screenshot, using shift+command+4, of the history as required. I saved the screenshot as hw4_jfern_problem4_graph1.png inside my local hw4_jfern folder and copied it to Stokes using scp hw4_jfern_problem4_graph1.png ja966349@stokes.ist.ucf.edu:~/hw4_jfern/. I also made sure the other necessary Homework 4 files were contained in the homework folder.
+
+After finishing this log, I will save a copy as a .log file and place it in my local hw4_jfern folder. I will copy the .log file to ~/hw4_jfern on Stokes using scp. I will use ls on Stokes to make sure the .py file, PNG files, GitHub history screenshot, and .log file are all present. I will then return to my Stokes home directory using cd ~ and create the required compressed archive using tar -czvf hw4_jfern.tar.gz hw4_jfern. I will use ls to verify that hw4_jfern.tar.gz was successfully created. Finally, from my local computer, I will use scp to download hw4_jfern.tar.gz from Stokes into my local handin folder, verify that the downloaded archive is present, and submit the .tar.gz file to the Homework 4 assignment on Webcourses.
+
+*****OUT Sun Sep 20, 19:51:30 EDT 2026
+
+*****IN Sat Sep 26, 12:10:11 EDT 2026
+
+Practicum 3:
+	 Problem 1:
+		(Part A): I read the data from practicum3_1.dat, which contained two data sets. I separated the data into Model 1 and Model 2. I then plotted the Model 1 data. Model 1 was generated from the function (f(x)=3.2x+1.2) with random noise, so the plotted data showed an approximately linear relationship.
+
+		(Part B): I used the provided linfit() routine to fit a linear model to the Model 1 data. I initially received a ModuleNotFoundError because Python could not find linfit.py, so I made the provided linfit.py file accessible from my Practicum 3 working directory. I first performed the fit using the stated uncertainty of sigma_y = 0.5. I obtained an intercept of 1.300 +/- 0.100 and a slope of 3.185 +/- 0.018. The intercept differed from the true value of 1.2 by 0.998 sigma, and the slope differed from the true value of 3.2 by 0.865 sigma. Therefore, both fitted parameters were within 3 sigma of the true parameters.
+I then repeated the fit using sigma_y = 0.2 and sigma_y = 0.9. For sigma_y = 0.2, I obtained an intercept of 1.300 +/- 0.040 and a slope of 3.185 +/- 0.007. For sigma_y = 0.9, I obtained an intercept of 1.300 +/- 0.180 and a slope of 3.185 +/- 0.032. The fitted slope and intercept remained the same because all of the data points were assigned the same uncertainty. However, increasing sigma_y increased the uncertainties of the fitted parameters.
+
+		(Part C): I used the Model 1 linear fit with the stated uncertainty of sigma_y = 0.5 and examined the chi-squared value and probability returned by linfit(). The probability was approximately 0.84, or 84%. This means there was approximately an 84% probability of obtaining a higher chi-squared, or a worse fit, by chance if the data came from the fitted model with the stated random error. I then plotted the Model 1 data with error bars and the fitted linear model. The fitted line followed the data closely, which was expected because Model 1 was generated from a linear relationship. I added appropriate x- and y-axis labels, a title, and a legend. I saved the plot as practicum3_jfern_problem1_graph1.png
+
+		(Part D): I repeated the linear fitting procedure using the second data set. Model 2 was generated from the quadratic function f(x) = 3.2x^2 + 1.2 with random noise. I used sigma_y = 0.5 and attempted to fit the data with a linear model. The linear fit produced an intercept of -50.560 +/- 0.100, a slope of 31.571 +/- 0.018, a chi-squared value of 240064.442, and a probability that was essentially zero. I plotted the Model 2 data with the linear fit and saved the graph as practicum3_jfern_problem1_graph2.png.
+
+The linear model did not fit the Model 2 data well for two reasons. First, the data had a clearly curved shape while the linear model was a straight line. The data points showed systematic differences from the fitted line rather than random scatter around it. Second, the chi-squared value was extremely large and the probability of obtaining a worse fit by chance was essentially zero. These results showed that a linear model was not appropriate for the Model 2 data. The data could be fit more appropriately using a quadratic model because Model 2 follows a quadratic relationship.
+
+	
+	Problem 2:
+		(Part A): I created an array containing 400 elements. I generated the first 396 elements using a Poisson distribution with an expected number of N = 10000 photons. I generated the final four elements using a uniform distribution between 0 and 10^6. These four values represented the 1% bad pixels in the CCD sample. I combined the Poisson and uniform data into one 400-element array. I then calculated the mean and median of the sample. I obtained a mean of 13392.36 and a median of 10009.0. The median was much closer to the expected value of N = 10000. The four bad pixels could contain very large values from the uniform distribution, which pulled the mean upward. The median was much less affected by these extreme outliers, which is why it remained close to the expected number of photons.
+
+		(Part B): I calculated the standard deviation of the original 400-element sample and obtained 40199.54. I then performed sigma clipping by creating a mask that retained only data points that were within 5 sigma of the median. I used this mask to create a new clipped sample. After sigma clipping, I calculated the mean, median, and standard deviation of the new sample. The clipped mean was 10185.44, the clipped median was 10009.0, and the clipped standard deviation was 3489.94. The mean decreased from 13392.36 to 10185.44 and moved much closer to the expected value of N = 10000. The median remained at 10009.0 because it was less affected by the outliers. The standard deviation decreased from 40199.54 to 3489.94 because extreme values were removed from the sample. The clipped standard deviation was still relatively large because the original standard deviation was very large, which made the initial 5-sigma range very wide. Therefore, some bad pixels could remain after this single round of sigma clipping. Overall, the sigma clipping reduced the influence of the extreme outliers and caused the sample statistics to become more representative of the expected Poisson data.
+
+I then saved and pushed all of my work to GitHub so that my updated files were under revision control. I then duplicated my work log and saved the duplicate as a .log file so that the updated log could be included with my Practicum 3 files. Finally, I used the terminal to create a compressed .tar.gz archive containing my Practicum 3 files. I verified that the archive was created so that it could be used as my final submission.
