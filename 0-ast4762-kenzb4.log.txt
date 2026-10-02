@@ -998,3 +998,24 @@ got an error that it doesnt exist
 taking break will come back for bug
 
 git add. git commit -m, git push
+
+*****OUT: Thu Oct 1 23:47:12 EDT 2026
+
+*****IN: Fri Oct 2 00:32:24 EDT 2026
+
+2d) need to fix reading in data from obj file --> open from directory, (datadir), match list element, to name of file in data dir and open 
+print help(os.path) --> see join(a, *p) could possibly use ! (join 2 pathname components)
+with fits.open(os.path.join(datadir, objfile[3] + fext)) as hdul:
+print(len(hdul)) == 1 --> only 1 element call hdul[0]
+set data = hdul[[0].data then get shape/ ny nx values from there
+check data.shape with print == 1024, 1024 so nx and ny should be equal
+
+2e) for nobj and ndark, use len(listname) to get number of files
+then make print statement, use good coding formatting (spacing lines up for easier reading)
+
+We dont want to hardcode the values because they will differ for each different fits file you read, i am reading element 3 in the objfile list but if i read in element 5 i may get different results, so we dont want to do any hardcoding, to help us limit having to recome up with the same code for a different specific case, generalized makes it easier to work with again and again
+
+okay i stop here for now, git add ., commit -m, push
+
+*****OUT: Fri Oct 2 01:00:44 EDT 2026 
+
