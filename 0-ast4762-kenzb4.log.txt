@@ -1039,4 +1039,34 @@ stuck and taking break --> all git add, commit, and push commands run
 
 *****OUT: Fri Oct 2 12:26:23 EDT 2026
 
+*****IN: Fri Oct 2 14:30:23 EDT 2026
 
+homework 7, read 4 research papers (take 1 hr each to read) --> start early dont wait 
+
+going over pracitcum 4
+3b) for i in range(nobj):
+objarr[i] = fits.getdata(datadir + objfile[i])
+objhead.append(fits.getheader(datadir + objfile[i])
+
+robyns example of populating data into array
+
+dont forget to subtract by one to get python coordinates (when looking at image data)
+looking at archival data (quadrant readout from star file)
+
+4(bites per pixels) *number of files*1024**2
+
+john example for problem 2:
+filelist = os.listdir(datadir)
+sort files if you can, but ie if you have 10 files it will sort as (1, 10, 2, 3, 4, ...) can sort by data observed time (if people edit this data this will change, unreliable way to sort if so)
+
+2d ny, nx = fits.getdata(data dir + ...) did it all in one line (john)
+
+3a) isolanki: np.nan --> np.zeros can take time, 
+sample_obj_arr[i, objhead] = ... fits.getheader(objhead = True)
+combine all into one 
+
+hw 7:
+transitdepth =(Rplanet/Rstar)**2 --> convince yourself this is true/understand it
+exoplanets data/papers ask? what tests did they do to show the data isnt wrong (did they alias)
+
+git commands run
