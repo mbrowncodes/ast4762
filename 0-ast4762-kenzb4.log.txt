@@ -1019,3 +1019,24 @@ okay i stop here for now, git add ., commit -m, push
 
 *****OUT: Fri Oct 2 01:00:44 EDT 2026 
 
+*****IN: Fri Oct 2 11:39:38 EDT 2026
+
+back for practicum 
+3) reading over problem 
+3a) write sample_dark_arr and sample_obj_arr, do np.arange and nobj, ny, nx --> print .shape for each see its (1,), not 3D
+bug: nobj, ny, nx already assigned to one value (may need to go back and write as a function?
+debug: try and change np.arange to np.zeros (initalize array with zeros but keep shape and size), receive error cannot interpret 1024 as a data type, add dtype = np.float64 inside the np.zeros line
+see that the. array shape prints as (2, 1024, and 1024)
+check dimentions with sample_dark_arr.ndim and see = 3 
+
+3b) write comments to breakup steps of code
+populate data, try to use += 
+help(fits) to look how to read in data
+need to read in all data files into the array? 
+saving last header will be to make them a list and use some fits function to get the last header and add it in here? 
+
+stuck and taking break --> all git add, commit, and push commands run
+
+*****OUT: Fri Oct 2 12:26:23 EDT 2026
+
+
