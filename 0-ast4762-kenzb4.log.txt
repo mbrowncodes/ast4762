@@ -977,4 +977,24 @@ elif "dark_13s_" in filename append filename to darkfile list
 
 pausing, will git add ., commit -m, push
 
+*****OUT: Thu Oct 1 17:21:34 EDT 2026
 
+*****IN: Thu Oct 1 22:26:12 EDT 2026
+
+back for practicum 
+
+2b) print len of objfile, darkfile then manually check hw6_data directory and count to see the numbers align
+bug :: realzing the appending straight into the list isnt right, it includes the .fits at the end of every filename, need to use fext variable to identify this and spilt it off the name 
+fix :: adding line in top of the for loop, 
+sort_f, fext os.path.splitext(filename)
+add sort_f (filename without fits extension) to the corresponding lists
+check with print statements 
+
+2c) in one print statment, use "\n" newline characters after each prompted statment
+Data directory and File extenstion with the variable names given above in 2a, then use [-1] to get last element of a list to print objfile and darkfile
+
+2d) using with fits.open, tryinf objfile[] + fext as hdul
+got an error that it doesnt exist
+taking break will come back for bug
+
+git add. git commit -m, git push
