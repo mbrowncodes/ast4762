@@ -1070,3 +1070,19 @@ transitdepth =(Rplanet/Rstar)**2 --> convince yourself this is true/understand i
 exoplanets data/papers ask? what tests did they do to show the data isnt wrong (did they alias)
 
 git commands run
+
+*****OUT: Fri Oct 2 16:22:11 EDT 2026
+
+*****IN: Sat Oct 3 20:48:23 EDT 2026
+
+practicum 4
+come back and change 2b for loop, add sorted over os.listdir so that it sorts the files and prints out correctly 
+
+*****OUT: Sat Oct 3 21:02:09 EDT 2026
+
+*****IN: Mon Oct 5 EDT 11:40:12 2026
+
+using friday class note (header = True) to rewrite 3b
+wrapping up, see that observation time for object is a blank string
+
+git add ., commit, push
