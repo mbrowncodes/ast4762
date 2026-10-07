@@ -1086,3 +1086,95 @@ using friday class note (header = True) to rewrite 3b
 wrapping up, see that observation time for object is a blank string
 
 git add ., commit, push
+
+go back and rename folder and file to practicum4, edit datadir variable to be pracitcum4 not hw6 
+check it runs with no errors
+
+log into stokes, mkdir practicum4_kenzb4, in terminal jupyter nbconvert --to script for my practicum .ipynb, scp file over scp -r ~/Documents/ast4762/homework/practicum4_kenzb4/practicum4_kenzb4.py ma755497@stokes.ist.ucf.edu:~/practicum4_kenzb4
+module load anaconda --> datadir is note working, need to go back copy hw6_data folder into stokes and then change .py files datadir variable (remove any extra copies) 
+everything ran successfully!
+need to copy log and scp into stokes
+then i will
+tar -czvf practicum4_kenzb4.tar.gz practicum4_kenzb4
+then in regular terminal
+scp ma755497@stokes.ist.ucf.edu:~/practicum4_kenzb4.tar.gz ~/Documents/ast4762/handin 
+ 
+going to push git one last time, then run these commands and submit 
+
+*****OUT: Mon Oct 5 12:25:36 EDT 2026
+
+*****IN: Mon Oct 5 12:35:29 EDT 2026
+
+starting homework 6 
+mkdir hw6_kenzb4, then in jupyter notebooks make hw6_kenzb4.ipynb file inside folder
+add name, date, and assignmetn number at top of file
+look at stack overflow for way to median copy images --> stack 2d arrays to form 3d array, then use np.median
+
+*****OUT: Mon Oct 5 12:45:23 EDT 2026
+
+*****IN: Mon Oct 5 14:30:12 EDT 2026
+
+in class
+
+final presentation: learn about research paper, presenting data
+want to put resrach paper into a journal, what did you learn/find
+everything done in analysis will be touched on in paper otherwise what is purpose of that analysis (begin with the end in mind), admit what you dont know, what could be
+proposal:marking document $$$ (structured differetly)
+when reading, ask whats not in the data?, think about writing style, things left out, what graphs/plots they include
+
+what does my reader already know (know what you do and more, just not what you did)
+cite !!!!!!(over 100 citations in paper, citing 20-30 papers)
+read style guide before writing
+
+OVERLEAF LATEX EDITOR
+abstract = talk about past, "here we" (talk results)
+introduction = has a large chunck of citations (eq 21/56), then it will end with roadmap of whats to come later in paper
+figures go in order of when refrenced
+every formula has a number (refrenced to, has derivation, or is complicated)
+write in active voice ( an make supject data or computer rather than we/i all over)
+
+look through 2 articles in (paper_writing_classroom.ipynb) & answer questions
+
+discussions most important part of the paper but not written until everything is complete
+
+*****OUT: Mon Oct 5 16:20:49 EDT 2026
+
+*****IN: Wed Oct 7 02:02:02 EDT 2026
+
+homework 6 
+
+recap: mkdir hw6_kenzb4, then in jupyter notebooks make hw6_kenzb4.ipynb file inside folder
+add name, date, and assignmetn number at top of file
+look at stack overflow for way to median copy images --> stack 2d arrays to form 3d array, then use np.median
+
+1)add hw6_data into homework folder
+copied all the code from practicum 4 at the beginning of the hw6 file
+print statement for problem 2 
+
+2)np.median, np.stack functions thinking of using, array is used with number of files, then dimentions, want to use dimention value and run over all of the number of files in array
+
+*****OUT: Wed Oct 7 02:23:11 EDT 2026
+
+*****IN: Wed Oct 7 09:47:12 EDT 2026
+
+2a) write a fuction, argument is array, return is the median image, use np.median, make axis=0 so all the images are stacked with median into 1 
+
+2b) call the funtion with the dark array, then print its values[217,184]
+
+2c) darkhead["HISTORY"] = add the string descripting what was done to the darkhead file in the memory
+
+2d) check help(fits.writeto), then add filename, data, header, and exception overwrite
+
+2e) define corrected array as sample obj - median dark
+write first file ( corrected[0] ) as graph_1 name, add header, and overwrite
+ 
+*****OUT: Wed Oct 7 10:27:23 EDT 2026
+
+*****IN: Wed Oct 7 12:07 EDT 2026
+back to review homework 6 
+fix spelling errors in comments, add better detail to function docstring (2a)
+
+4)
+in terminal log into vpn then log into stokes
+reg terminal: jupyter nbconvert --to script hw6_kenzb4.ipynb
+

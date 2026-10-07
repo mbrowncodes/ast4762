@@ -1,0 +1,1104 @@
+Mackenzie Brown
+Log for AST 4762, Fall 2026
+
+
+*****IN: Wed Aug 26 14:06:01 EDT 2026
+
+Created ast4762 folder, then created a homework folder, then using finder opened the application
+textedit and opened a new blank text to create my log and saved as:
+
+
+*****OUT: Wed Aug 26 14:07:01 EDT 2026
+
+*****IN: Wed Aug 26 14:59:01 EDT 2026
+
+Log under home/documents/ast4762/homework
+
+Name: Mackenzie Brown
+Username:kenzb4
+
+What astronomy classes have you taken? I have taken AST 2002 and AST 4142.
+
+Are you generally comfortable with calculus and physics? I am 
+
+Have you ever programmed a computer? I have programmed on a computer, written code for coursework, as well as for research
+
+In what language(s)? I have only ever written using python
+
+Have you taken a programming class, and if so which? I have taken COP 2500 and PHZ 3150
+
+
+Have you taken statistics or probability? I have not 
+
+Will you be attending the DPS conference this year, or will
+you be away otherwise? I will not be 
+Why are you taking this course? I am taking this course to further develop my coding skills in real-world applications. I want to create code using real astronomical data, encounter the successes and failures now to not be suprised later at what can come in data research. 
+
+Are there particular topics you hope to learn? I want to learn how to extract background noise out of telescopic data, if I can learn this, I can choose any object to focus on to study.
+
+If you have programmed outside of a course before, please
+briefly describe: I have breifly coded in a research course (not sure if that counts?), extracting data from external sources like the Horizons database to gather data and dates on asteroids at low phase angles. 
+
+If you have worked with scientific data before, briefly
+describe your experience: I have briefly worked with scientific data, looking into older files of data on asteroids, extracting it, and filing it away for my own use. 
+
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I have not engaged in any astronomy projects outside of my research course I took this past summer. However, I am hoping to get involved with the astronomy club at UCF this semester.
+
+
+
+Q3. I opened the finder app and went to the Documents tab, created a new folder inside named ast4762, inside the ast4762 folder I created another folder named homework, inside that homework folder i created a new folder names hw0_kenzb4 
+
+i took my log file and created a duplicate of it, i inserted that duplicate into my hw0_kenzb4 folder, then i took that folder and compressed it so it is now a .zip file 
+
+*****OUT: Wed Aug 26 15:23:44 EDT 2026
+
+*****IN: Wed Aug 26 16:13:22 EDT 2026
+
+3-2-1 for backups! 3 copies, 2 different locations, 1 offline 
+stress the importance of backing up 
+
+*****OUT: Wed Aug 26 16:14:44 EDT 2026
+
+*****IN: Fri Aug 28 15:03:15 EDT 2026
+
+Already had Anaconda and Github installed
+Working through handouts folder in files tab on canvas and downloading the rest needed
+
+Opened hw 1 file to start working 
+created 'hw1_kenzb4' folder in hw folder inside ast4762 folder
+
+opened Jupyter Notebook from Anaconda app
+opened Github Desktop and took a screenshot
+named screenshot with naming conventions
+to take a screenshot i used the mac spotlight search, and searched screenshot
+cropped the box to take a screenshot of just the screen for juypter and github
+asked in terminal !python --version and found version to be 7.3.2
+
+*****OUT: Fri Aug 28 16:17:22 EDT 2026
+
+*****IN: Mon Aug 31 1:11:16 EDT 2026
+
+working on hw 1, taking screenshots and attempting to log into stokes
+
+download cisco secure clinet vpn onto mac
+go ot secure.vpn.ucf.edu
+got deined access
+resigned in, got access to vpn
+
+opened terminal app, typed ssh ma755497@stokes.ist.ucf.edu and then entered password
+terminal showed all was downloaded 
+
+went to mac spotlight search and took a screenshot of the terminal
+renamed screenshot to appropriate title for hw1
+
+checking hw1 assignment, problem 1 complete for hw1 folder, problem 2 jupyter screenshot taken
+screenshot process same as mentioned above using spotlight search, python version as listed above (7.3.2)
+problem 2, github desktop opened and screenshotted, in terminal cd directory to ast4762 folder, typed git status and screenshotted
+problem 3, screenshotted the connection to stokes in terminal
+
+problem 4, i will find my log file in my ast4762 folder, then i will duplicate the file, this will make the log into a copy, i add that copy into my hw1_kenzb4 folder, then i will compress the hw1 folder with all screenshots and log copy inside, then sumbit zipped file into canvas 
+
+*****OUT: Mon Aug 31 2:01:34 EDT 2026
+
+*****IN: Mon Aug 31 11:29:14 EDT 2026
+
+notes on thinkpyton
+
+*****OUT: Mon Aug 31 11:48:11 EDT 2026
+
+*****IN: Mon Aug 31 11:58:18 EDT 2026
+
+notes on think pyton
+finished chapter 6 
+*****OUT: Mon Aug 31 12:37:22 EDT 2026
+
+*****IN: Mon Aug 31 14:59:11 EDT 2026
+in shell learning lecture 3
+
+*****OUT: Mon Aug 31 16:21:23 EDT 2026 
+
+*****IN: Tue Sep 1 15:20:33 EDT 2026
+
+completing peer review assignment
+renamed my log to use 0-ast instead of 0_ast
+
+*****OUT: Tue Sep 1 15:55:25 EDT 2026 
+
+*****IN: Wed Sep 2 14:28:29 EDT 2026
+
+read over hw2 instructions 
+
+problem 1:
+opened terminal and changed into my 'Documents' directory
+changed into my 'ast4762' directory, then changed into my 'homework directory'
+then inside my homework directory i printed ls -l to check it was correct,
+then ran the mkdir hw2_kenzb4 command, to create a new folder for my homework 2 files
+
+
+opened anaconda --> opened juypter notebooks 
+went back to terminal to the ast 4762 directory, made a new directory named 'lecture_notes'
+
+
+inside the hw2_kenzb4 folder i opened a new python file in juypter names hw2_kenzb4 
+added name, hw number, and date into the file at the top as comments
+
+imported matplotlib.pyplot, and numpy into the file
+
+downloaded l04 file from canvas, opened it up in juypter to take notes
+working in python_functions_coding_style ... file
+
+*****OUT: Wed Sep 2 16:21:11 EDT 2026
+
+*****IN: Wed Sep 2 17:16:22 EDT 2026
+
+looking at homework 2 problem 2
+2a1) create array, find shape, and print statement with number of elements needed
+2a2) print type, min, and max values, call like type(x) for each 
+
+started matplotlib tutorial, completed up to plotting with keyword strings
+
+*****OUT: Wed Sep 2 18:03:49 EDT 2026
+
+*****IN: Thu Sep 3 19:07:33 EDT 2026
+
+looking into making a github repository, (course file instructions advise it will be created in class)
+working back in mathplotlib site and taking notes
+
+*****OUT: Thu Sep 3 19:45:33 EDT 2026
+
+*****IN: Fri Sep 4 00:14:12 EDT 2026
+
+reviewed more plotting
+
+hw2:
+b1) rescaled x for x array
+b2)
+same steps as a2) 
+c) assing y equal to the value that multiples 1000 and makes it sin(x)
+d), array start at element = 0 in array terms
+
+*****OUT: Fri Sep 4 00:41:48 EDT 2026
+
+*****IN: Fri Sep 4 14:39:11 EDT 2026
+
+in class taking notes, on modules, proper coding structures, and in python_function_coding_style....
+
+*****OUT: Fri Sep 4 16:19:56 EDT 2026
+
+*****IN: Sun Sep 6 19:44:11 EDT 2026
+
+took notes in pydatatut.pdf
+
+worked on homework 
+problem 3) plt plot figure, change x and y label, save as png
+problem 4) create array, create new array 'clipped' that clips ramp array
+plot the two on same graph, change title, x and y label, and save as pdf
+
+*****OUT: Sun Sep 6 20:28:38 EDT 2026
+
+*****IN: Mon Sep 7 00:10:12 EDT 2026
+
+Rereading over handouts files (learning git, learning python, learning shell, unix/github)
+
+*****OUT: Mon Sep 7 00:23:13 EDT 2026
+
+*****IN: Mon Sep 7 01:00:55 EDT 2026
+
+Watched youtube beginner guide to mac os terminal (toptechskills)
+
+*****OUT: Mon Sep 7 00:19:13 EDT 2026
+
+*****IN: Mon Sep 7 13:09:29 EDT 2026 
+
+finish youtube video on terminal, try to edit log using emacs, command emacs not found
+redownloading emacs from homebrew
+
+*****OUT: Mon Sep 7 13:33:19 EDT 2026 
+
+*****IN: Mon Sep 7 13:45:11 EDT 2026
+
+online working to make ast4762 folder into git repository, 
+check git status, change .DS_Store into 
+echo ".DS_Store" > gitignore
+git add .     check git status 
+echo ".ipynb_checkpoints/" >> .gitignore
+rm what was added, re add git add .
+opened github desktop app and create local repository and publish it
+check history and see all directories and files added to git
+
+*****OUT: Mon Sep 7 14:10:47 EDT 2026
+
+*****IN: Wed Sep 9 11:22:48 EDT 2026
+
+note: laptop reset from mac os 12 to mac os 15.6 monday night
+
+tried to log into stokes, had to reinstall cisco vpn, log in, relog into stokes
+following instructions in stokes_updated.txt file on canvas
+reviewed homework 2 answers and began working on problem 5 
+
+*****OUT: Wed Sep 9 12:10:33 EDT 2026
+
+*****IN: Wed Sep 9 12:20:10 EDT 2026
+
+Answered problem 5 on the homework, for Astroquery and Stringray 
+
+opened new tab on terminal, navigated to my hw2 folder
+ran jupyter nbconvert --to script <filename>.ipynb
+converted to .py, moved .ipynb file into different folder named (juypter_files)
+renamed thinkpython directory to juypter_files
+moved hw2_kenzb4.ipynb file into juypter_files directory 
+
+checked hw2 folder, only have 2 graphs and .py file like i wanted 
+
+logged into stokes via ucf vpn in previous log 
+ssh NID@stokes.ist.ucf.edu --> entered password, logged into stokes
+
+added installations needed for stokes, conda install numpy... 
+opened slurmformat.flurm file and edited in my name and destination, added this to my homework folder, copied folder to stokes with scp -r ~/Documents/ast4762/homework/hw2_kenzb4 NID@stokes.ist.ucf.edu: ~hw2_kenzb4
+
+logged into stokes with ssh NID@stokes.ist.ucf.edu
+change to hw2_kenzb4 directory (cd /path_there/)
+sbatch slurmformat.slurm
+got a jobcode.out
+cat slurm-jobcode.out and saw that my code ran !! yay
+
+opened github desktop app and added summary and description to commit and push 
+screenshotted the commit to github, renamed file, and added to hw2_kenzb4 folder
+
+scp ~/Documents/ast4762/homework/hw2_kenzb4/hw2_kenzb4_screenshot.png NID@stokes.ist.ucf.edu:~/ used this command to copy my github screenshot into my stokes file, will use this command with my log to copy it to stokes 
+
+to create the tar.gz file after i copy my log into my stokes hw2 folder i will use the tar command to create a compressed .tar.gz, then the -c to make it archives, -z to compress it, -v to display which files get added, then i will use the scp from my regular terminal, copy the archive, and move it to my handin folder, then turn in to canvas from there 
+
+*****OUT: Wed Sep 9 14:11:09 EDT 2026
+
+*****IN: Wed Sep 9 14:35:11 EDT 2026
+
+in class following week 3 lecture notes 
+
+*****OUT: Wed Sep 9 16:25:11 EDT 2026
+
+*****IN: Thu Sep 10 15:08:11 EDT 2026
+
+deleted the slurm files in stokes, recompressed the directory, exported it to my home homework directory in ast4762
+
+fixed hw2 compression from my own mistake 
+
+*****OUT: Thu Sep 10 15:14:57 EDT 2026
+
+*****IN: Thu Sep 10 15:24:47 EDT 2026
+
+committed files to github that were updated after submitting homework 2 
+create new notes file for Bevington Chapter 1&2
+started on chapter 1
+
+*****OUT: Thu Sep 10 16:05:38 EDT 2026
+
+*****IN: Thu Sep 10 18:50:21 EDT 2026
+
+continuting chapter 1 notes
+
+*****OUT: Thu Sep 10 19:05:30 EDT 2026
+
+*****IN: Thu Sep 10 22:16:43 EDT 2026
+
+chapter notes 
+
+*****OUT: Thu Sep 10 22:39:11 EDT 2026
+
+*****IN: Fri Sep 11 13:28:38 EDT 2026
+
+looked over friday practicium assignment and installed astropy
+read over homework 3 instructions
+
+open terminal, cd to path/to/ast/homework directory, then mkdir hw3_kenzb4
+in juypterhub open a new file named hw3_kenzb4
+
+wrote name, homework 3, and date in homework 3 file, then added print statement
+for each of the problems (forgot to do so last time)
+
+logged into zoom for class 
+
+Practicium:
+begin problem 1 without ai
+
+*****OUT: Fri Sep 11 16:30:12 EDT 2026
+
+*****IN: Sun Sep 13 00:45:22 EDT 2026
+
+reviewing shell commands, opening python on shell
+make new directory in homework dir named practicium1_kenzb4
+
+working on practicum 1
+review self made code, check random array elements 
+
+go to google gemini chatbox
+
+screenshots of graph 1-6 all copy and pasted from document to ai prompt
+in graphs 1&2, i only listed one prompt (not complete problem) and it gave me a response in Julia (another programming language not used here)
+AI plots add a color bar (we did not), they plotted y vs x not x vs y 
+
+in graphs 7-12 a new google gemini chatbox was made but with altered prompts
+instead of copy and pasting, added details like code it in python, display it in gray, make sure lower left corner is 0,0
+
+give prompts more details/information about what you need it to do, it will give you a more well suited answer, has different label naming conventions and uses different functions like zip in for loop
+
+*****OUT: Sun Sep 13 02:26:11 EDT 2026
+
+*****IN: Sun Sep 13 12:00:29 EDT 2026
+
+worked in practicum 1, reading in fits file
+
+*****OUT: Sun Sep 13 12:44:28 EDT 2026
+
+*****IN: Sun Sep 13 13:45:12 EDT 2026
+
+convert .ipynb file to .py file with juypter nbconvert --to script
+finishing log to copy and add to directory, then  tar -czvf practicum1_kenzb4.tar.gz (/path0
+
+*****OUT: Sun Sep 13 14:11:30 EDT 2026
+
+*****IN: Mon Sep 14 13:06:52 EDT 2026
+
+chapter 2 bevington notes
+finished notes
+
+working on hw 3
+2a) downloaded copy of provided module template, renamed as hw3_kenzb4_support_module.py
+saved into homework folder --> hw3 folder
+
+2b) need to include a docstring at the top --> overall explanation/summary
+then call imports (no #, so they can be copied into another file)
+then call imports of functions from other files (come after main imports, want to include everything that may be needed)
+write function(big one):
+give doc string to explain function 
+paramters for what we are taking in (type of value)
+returns (what we want our function to do/produce) 
+raises (what we cant do)
+other functions (if we use any other function within our function we are making)
+notes (if needed for math lines)
+give refrences (important!!, if people come back to see where you got a constant or such need to refer to them)
+give examples (how does this work)
+show revisions (editing and debugging!)
+end with pass!
+
+2c) replace doc string with one expalining the functions held in file and how they work
+delete extra comments before imports
+delete example function (foo), write in def square and def squareplot functions here (in progress)
+
+
+*****OUT: Mon Sep 14 14:12:11 EDT 2026
+
+*****IN: Mon Sep 14 14:28:28 EDT 2026
+
+in class, download week 4 demo lecture folder, open juypter notebook from anaconda for notes
+
+*****OUT: Mon Sep 14 16:18:22 EDT 2026
+
+*****IN: Tue Sep 15 15:29:20 EDT 2026
+
+working on homework 
+2c) continuing cleaning up file
+2d) wrote the function named square, then went to commit to git(had trouble, made the wrong kind of token and that took me 30 mintues to figure out...rip)
+in terminal : git add .    git commit -m "Add lecture notes and homework", git push
+
+*****OUT: Tue Sep 15 16:37:30 EDT 2026
+
+*****IN: Tue Sep 15 17:46:11 EDT 2026
+
+working on homework 3
+2e) write code for function square write a doc string, the paramters, returns, and working on examples, test multiple (float, integer, variable that is an array) and copy their inputs into my module file
+2d) took a screenshot of Git history (released i did it a few steps too early but still)
+navigated to directory Desktop in terminal, mv screenshot.png to hw3 folder, then mv screenshot.png as hw3_kenzb4_screenshot1.png
+now about to rm screenshot --> rm hw3_kenzb4_screenshot1.png
+
+2f) paste all function code into juypter hub, testing different cases, find case that when you try to call something that looks like an array(a tuple) ie (0,11,1) as the input and it fails, same with (list) ie [1,2] and it fails as well
+
+git add . (in ast folder), git commit -m "More Homework 3 Work", git push
+
+2h) create array with arange, import function from file that is in same directory (dont add the .py)
+call array to take in test_square_1 and see it produces values i want
+
+2i) try to do np.arange(0., 25, 1).reshape(5,5)), gives me the dimentions i want but the values dont include 25 and (0,26,1) is too large for 5x5 dim
+rewrite with np.linspace instead of arrange --> get right dimentions and start with float 0, end with float 25 
+call square and print it for this 2nd test array
+
+back to
+2g) remove all unneeded from module file
+in terminal commit to git and add comment, push to origin
+rename screenshot, then move from Desktop directory to hw3 directory, then mv screenshot to change filename
+
+*****OUT: Tue Sep 15 19:05:29 EDT 2026
+
+*****IN: Tue Sep 15 19:53:11 EDT 2026
+
+connect to vpn, look at peer reviews
+
+*****OUT: Tue Sep 15 20:06:11 EDT 2026
+
+*****IN: Tue Sep 15 22:54:57 EDT 2026
+
+started and completed 2/2 peer reviews
+homework 3
+3a) create array of evenly spaced points using linspace, keeps low and high value
+as points with pt_num as step size
+3b) call function square and input x as parameter
+3c) plot with plt functions (use given x&y axis names and title)
+3d)  --- need to create if statement 
+
+pushed files to git
+
+testing the import of my squareplot and it loading as a linear function for any different parameter values
+found error to be example for doc string out of docstring --> prevent it from running
+
+4) began drafting rubric 
+
+pushed files to git again 
+
+*****OUT: Wed Sep 16 01:02:13 EDT 2026
+
+*****IN: Wed Sep 16 10:20:11 EDT 2026
+
+Reviewing homework 2
+problem 1 complete, problem 2 complete
+review problem 3, looking to add examples (only adding line of code?
+not sure how to add the plot or if i should into module)
+checking when high < low (inverse function all checks out)
+0 for 0 point numbers gives no plot (expected)
+went back to writing statement for plot, tried 
+if saveplot != False:
+	plt.savefig(saveplot, format='pdf')
+didnt save, rechecked and tried
+if saveplot is not False:
+	plt.savefig(saveplot,format='pdf') worked
+checked calling squareplot in seperate notebook, all worked well
+
+5) testing on stokes
+log into secure vpn, log into stokes, mkdir hw3_kenzb4, check folder is empty 
+juypter nbconvert --to script hw3_kenzb4
+scp -r (file path) NID@stokes.ist.ucf.edu:~/hw3_kenzb4
+4) revised and finished the rubric
+5) took one last screenshot of git and changes pushed
+code ran
+in my hw3 folder where i have my log copy i am going to scp - r the log file name NID@stokes.ist.ucf.edu:~/hw3_kenzb4
+i will make a copy of my log and add this into stokes
+to make it a tar.gz folder i will tar -czf hw3_kenzb4.tar.gz 
+i will copy it over to my handin folder
+
+*****OUT: Wed Sep 16 11:52:12 EDT 2026
+
+*****IN: Wed Sep 16 14:32:11 EDT 2026
+
+in class --> peer evaluations
+note that if saveplot is not False: 
+can write as if saveplot 
+
+back to in class notes
+
+*****OUT: Wed Sep 16 16:22:50 EDT 2026
+
+*****IN: Wed Sep 16 18:28:38 EDT 2026
+
+STARTING HOMEWORK 4 !!
+---------------------
+1)in terminal call
+cd ~/Documents/ast4762/homework
+mkdir hw4_kenzb4
+naviaget to juypter hub and go through Documents-->ast4762-->homework-->hw4_kenzb4 and create a new file (.ipynb to be changed at end)
+added name, homework number and date into the file, added print statement for 2nd problem
+2a) refrence wk3 lecture notes for np.random.normal
+2b) know i have to use plt.hist for the histogram
+looking into if i set bins=100, if that goes from 0-100
+looking to edit width to one --> use range (0,101), auto set width to 1
+plot and add titles and axis, saveplot with hw naming convention
+2c) refrence to notes, looking at gaussian distribution function 
+
+in terminal in ast4762 folder
+git add .
+git commit -m " "
+git push
+
+*****OUT: Wed Sep 16 19:21:58 EDT 2026
+
+*****IN: Fri Sep 18 14:30:20 EDT 2026
+
+in class, took quiz, going to do practicum
+
+*****OUT: Fri Sep 18 16:20:34 EDT 2026
+
+*****IN: Fri Sep 18 20:12:38 EDT 2026
+
+peer reviews
+
+*****OUT: Fri Sep 18 20:40:13 EDT 2026
+
+*****IN: Fri Sep 18 22:22:22 EDT 2026
+
+my review kept deleteing midway through :(, but we finished 1!
+
+*****OUT: Fri Sep 18 22:40:12 EDT 2026
+
+*****IN: Sat Sep 19 16:02:50 EDT 2026
+
+peer review 2 
+
+*****OUT: Sat Sep 19 16:11:44 EDT 2026
+
+*****IN: Sat Sep 19 16:30:23 EDT 2026
+
+finished peer review 2
+
+back to hw3 
+2c) having trouble figuring out why my og bins = range(0,101) isnt working
+debug: redefine bins so that it is an array thats 0.5, instead of one 
+(each element shifted to be in center of regular bin)
+write out gaus_eq with my variable name terms
+copy line for regular histogram plot
+plt.plot for the fitted gaussian line over the histogram
+plot bins, with N*gaus_eq  --> multiply gauss function by N to get expected number of draws per bin for the larger sample we have
+run that code and see that plot is looking correct
+set color of line equal to red
+
+git add . --> git commit -m "Homework 3 edits, class notes, and peer reviews" --> git push
+rereading through homework file to check everything is done right
+
+error in pushing files due to jacqulins log having her git token in it
+had to go through chat to help me fix the commits
+was finally able to push it through
+
+now time to go back to hw 4 and review all was done correctly
+accidently almost edited an old log to fix typo (hit command z to reverse)
+2a looks good
+2b looks good
+2c edited with more comments and changed linewidth of overplot
+checked that both plots saved correctly in hw4 folder
+using two differnent titles for plots --> is this okay? or should i use same
+since the plot is slightly changed i will leave the titles different
+
+log into cisco vpn
+in terminal:
+Converting notebook homework/hw4_kenzb4/hw4_kenzb4.ipynb to script
+check files in hw4 directory --> see .py file
+in new terminal tab: log into stokes ssh NID@stokes.ist.ucf.edu
+ls (check whats there)
+mkdir hw4_kenzb4
+ls (check directory is made)
+navigate back to regular terminal
+copy .py file into hw4 folder in stokes with command
+scp -r ~/Documents/ast4762/homework/hw4_kenzb4/hw4_kenzb4.py ma755497@stokes.ist.ucf.edu:~/hw4_kenzb4 
+navigate back to stokes terminal tab, cd to hw4 folder, ls to see .py added
+module load anaconda --> python hw4_kenzb4.py --> ls -lah (see that all graphs were made and code was run success)
+commit to git again (same terminal code as seen above)
+screenshot git history --> proper naming convention --> move to hw4 directory (drag and drop in finder)
+in regular terminal: add all files in hw4 folder (2 graph.png and 1 screenshot.png)
+hw4_kenzb4 % scp -r ~/Documents/ast4762/homework/hw4_kenzb4/--filename-- ma755497@stokes.ist.ucf.edu:~/hw4_kenzb4
+go back to stokes terminal to ls in hw4 directory, see all files made it 
+--> i will be back to say how i copy log into stokes, make .tar.gz, then download to handin, then sumbit
+
+*****OUT: Sat Sep 19 18:18:18 EDT 2026
+
+*****IN: Sat Sep 19 20:14:23 EDT 2026
+
+back to finish and submit hw4!
+in stokes terminal run
+tar -czfv hw4_kenzb4.tar.gz hw4_kenzb4 
+then in regular terminal
+scp ma755497@stokes.ist.ucf.edu:~hw4_kenzb4.tar.gz ~/Documents/ast4762/handin
+
+i will copy my log, rename it, upload it to stokes then preform all of these tasks 
+i am going to do my out for this time stamp and then git add and push final changes
+
+*****OUT: Sat Sep 19 20:25:13 EDT 2026
+
+*****IN: Mon Sep 21 12:42:28 EDT 2026
+opened juypter hub to continue working on practicum 2
+cant find the file... scared
+gonna check github! okay i cant find it, going to reopen a file 
+in terminal: cd to homework folder, then mkdir practicum2_kenzb4, on jupyterhub open new file, rename practicum2_kenzb4
+do imports 
+1) insert prompt for Q1 into ai, get a similar function that i made before 
+np.random.normal
+2) set empty list variable
+for loop (np.arange(0,10), runs 0 to 9 not including 10 
+find sample gaussian using made function, then use numpy functions to find mean, standard deviation, add number loop running through + found values into empty list
+outside loop change list into array and reshape
+3) insert prompt into google gemini:
+"write a code creating a subsample containing N=10 random draws, with an omega of 13 and mean of 55, for each sample record the sample number (0 to 9), the sample mean, and the sample standard deviation in an array with one row per sample (10x3 array), write in python and use numpy"
+and got a similar looking printed result but our methods were differnt
+4) google writing array into txtfile python, numpy.org tells np.savetxt
+in file --> help(np.savetxt) --> use this and add ("filename.txt", results_array)
+5) rewrite as function with N as import, do for loop to get sample gauss to create array with sample mean and omega inside 
+(need to come back and write into file made in question 4, look to see if can write directly into the function (filename))
+in terminal
+git add .
+git commit -m "my comment"
+git push
+
+*****OUT: Mon Sep 21 14:02:44 EDT 2026
+
+*****IN: Mon Sep 21 14:35:20 EDT 2026
+
+in class demo: measurement and uncertainity 
+in class notes
+
+*****OUT: Mon Sep 21 16:20:55 EDT 2026
+
+*****IN: Tue Sep 22 16:22:39 EDT 2026
+
+i am back and its time to finish practicum 2 
+use np.savetxt inside function so each array made is added to my file
+run help(np.loadtxt) and for np.genfromtxt, use loadtxt since i know no numbers are missing to fill in
+tried to read in text with loadtxt but it says the number of columns changed
+get error with np.genfromtxt too 
+(says to use 'usecols" to select subset)
+6) get help of ai on how to read back from my file with uneven column sizes
+mean_10 = np.loadtxt("practicum2_kenzb4_array_to_txt_file.txt", skiprows = 1,
+                     max_rows = 10, usecols=1)
+skiprows will skip my header, max_rows will only count my data values, usecols, will use my 2nd column for mean
+when trying for next value 
+mean_100 = np.loadtxt("practicum2_kenzb4_array_to_txt_file.txt", skiprows = 11,
+                     max_rows = 10, usecols=0)
+realize i only have a 9x2 array for all other values, need to go back and fix function
+in problem 
+change for loop in function for problem 5 to (0,10) not (0,9)
+
+call mean_(all N numbers) with the np.loadtxt function, using skiprows specific to each set
+then print them all
+
+*****OUT: Tue Sep 22 17:34:55 EDT 2026
+
+*****IN: Tue Sep 22 17:55:34 EDT 2026
+
+had to abruptly stop, back now 
+6) defined a function to calculate the standard deviations from each read in array
+make list for sample size and standard deviation values to make print statement cleaner
+used f string to format so equally spaced and standard deviation ends in 1 decimal place
+
+add, commit, and push to git 
+
+*****OUT: Tue Sep 22 18:03:11 EDT 2026 
+
+*****IN: Tue Sep 22 20:17:23 EDT 2026
+
+had to abruptly stop again lol
+7) make sample_sizes from 6 into an array, then np.log that array
+same for std_values (turn list to array to log of that array)
+plot them with sample sizes as 
+
+push to git again
+jupyter nbconvert --to script practicum2_kenzb4.ipynb 
+log into vpn --> log into stokes
+in regular terminal : scp -r ~/Documents/ast4762/homework/practicum2_kenzb4 ma755497@stokes.ist.ucf.edu:~/practicum2_kenzb4
+check that file is there in stokes
+after i log out i will copy log scp it over to stokes, then i will make folder into tar.gz 
+tar -cvzf practicum2_kenzb4.tar.gz ~/Documents/ast4762/handin
+
+*****OUT: Tue Sep 22 20:48:12 EDT 2026
+
+*****IN: Tue Sep 22 20:52:34 EDT 2026
+
+tar -czvf practicum2_kenzb4.tar.gz practicum2_kenzb4
+(was doing it in the folder, not outside of it)
+on regular terminal 
+practicum2_kenzb4 % scp ma755497@stokes.ist.ucf.edu:~/practicum2_kenzb4.tar.gz ~/Documents/ast4762/handin 
+
+okay turning in now, byeee 
+
+*****OUT: Tue Sep 22 20:59:59 EDT 2026
+
+*****IN: Wed Sep 23 14:07:46 EDT 2026
+
+looking over notes
+
+*****OUT: Wed Sep 23 14:17:23 EDT 2026
+
+*****IN: Wed Sep 23 14:31:46 EDT 2026
+
+in class
+looking over practicum 5
+in class notes, chai squared, uncertainties with simga, plots and how to find minmums and understand high values of chai squared arent good, somethings off 
+
+*****OUT: Wed Sep 23 16:19:40 EDT 2026
+
+*****IN: Thu Sep 24 18:46:53 EDT 2026
+
+opening practicum 3 
+in terminal made practicum3 folder inside homework folder (mkdir <filename>)
+add name assignment name and date started
+copy linfit.py and practicum3 data file into my practicum folder
+help(fits.open), and help(np.loadtxt)
+use np.loadtxt and see data only as one array
+computer lagging bag exiting everything and logging out
+
+*****OUT: Thu Sep 24 19:20:33 EDT 2026
+
+*****IN: Fri Sep 25 10:33:23 EDT 2026
+
+file was loading in, unable to identifty which arrays are which, manually open file and look for line numbers where headers start and values end
+
+read in with np.loadtxt for model_1 variable and model_2
+use skiprows to avoid header and add maxrows (model1), and header+data for (model2)
+set x1 and y1 to model_1 [:, (column i want)]
+plot with plt 
+plot with x1, y1, '.', label = modle 1 equation
+(title, x and y labels, and legend)
+
+1b) use linfit
+rel = L.linfit(y1, x1, 0.5) with parameters for x y and y uncertainity as scalar 
+check which value is intercept and which is slope
+
+add, commit, and push to git 
+
+*****OUT: Fri Sep 25 11:40:28 EDT 2026
+
+*****IN: Fri Sep 25 14:05:23 EDT 2026
+
+continuing to work on practicum 3 problem 1b
+define function find_lin, to make it easier to find the values for different y errors
+
+
+plot original figure with the 0.5 error 
+
+*****OUT: Fri Sep 25 14:27:34 EDT 2026
+
+*****IN: Fri Sep 25 14:32:53 EDT 2026
+
+practicum 3 in class !
+looking through linfit module file 
+
+didnt need to create own function for 1b, call the function of linfit and get specific array values to get chi squared, probabilities 
+QUIZ ON WEDNESDAY FROM HW5 GOALS (3) practice +, -, x / for uncertainites
+
+2 practicum
+396 elements of one probabilty and then 4 elements of another probabilty 
+data array
+mask array (true and false)
+use median to estiate mean (points will mess up mean largely from outliers)
+we will see the std shrink over course of hw 5 / practicum 3 question 2
+sigma clipping --> use this routine later in project 
+hw5: 
+
+2 make iteration limit of first cycle bigger --> second cycle smaller
+(number of elements in tuple related to iteration limit)
+3) iterate over this in routine
+boolean mask (false for bad true for good)
+only use pixels that are true in mask
+
+np.where is my bff for this assignment :)
+
+*****OUT: Fri Sep 25 16:22:59 EDT 2026
+
+*****IN: Sat Sep 26 02:18:36 EDT 2026
+
+practicum 3 worked on fixing my graph for 1b
+
+*****OUT Sat Sep 26 02:41:32 EDT 2026
+
+*****IN: Sat Sep 26 18:59:52 EDT 2026
+
+okay lowkey forgot about the peer reviews last night, otw to that now
+yay peer reviews are done , good job guys 
+
+*****OUT: Sat Sep 26 19:40:11 EDT 2026
+
+*****IN: Sat Sep 26 23:51:23 EDT 2026
+
+practicum 3 
+1b) the fitted parameters of the model are the function linfit[0] which is the fitted intercept and linfit[1] is the fitted slope, they are well within the 3sigma of the parameters of the true line
+1c) copy and pasting code, but fixing for which value it is, variable assigned to different y uncertainities (0.5, 0.9, and 0.2)
+want to see if i can make graphs with axes function to make it a better comparable 
+
+had to go back and debug, creating functions for both the print statments of fitted parameters, and chi-squared for different y uncertainties, also going to write a plotting function, make code more concise
+
+1c) the probabilty to find a worse chi squared value is pretty high, 0.84 quite close to 1 for 0.5, as the uncertainity increases, so does the probabilty of finding worse chi squared value 
+
+1d) call to the functions i made before to find fitted paramters, chi squared, and plot it 
+The linfit model does not fit the data. The data is closer in a parabola shape than it is linear. The Chi-Squared value is so large that this tells us the data is not a good fit, there is a 0 probabilty of their being a worse chi-squared so this tells us that the fit is not good for this model to fit the data you would need some quadratic function to fit it not a linear one 
+
+add, commit, and push to git, then quick break before problem 2 
+
+*****OUT: Sun Sep 27 01:34:45 EDT 2026
+
+*****IN: Sun Sep 27 18:10:47 EDT 2026
+
+okay we back 
+practicum 3 problem 2 
+help(np.random.poisson), lam = 10000(expected number of events occuring), size = output shape
+help(np.random.uniform), low = 0, high = 10**6, size = 4
+np.concatenate (( __, __)), to add two arrays, check with print statement of size of combined arrays = 400
+print np.mean and median of the combined data, find the mean to be heavily pulled by an outlier valueand median seems refelctive of majority of the data. Median is closer to N 
+use np.std to find stangard deviation of data
+now to mask it -->
+write subsample with the data (boolean mask, true = good data, false = bad data), only include good data in new subsample
+print length of subsample to see if its less than 400 but greater than 395 (then ran true) 
+printed mean, median, and sigma
+yayyy finally complete 
+review and it looks good, going to connect to vpn, scp into stokes, check it runs, and then move to handin and submit
+
+git: add, commit, push
+in terminal:
+scp -r ~/Documents/ast4762/homework/practicum3_kenzb4 ma755497@stokes.ist.ucf.edu:~/practicum3_kenzb4
+log into stokes, ls, cd practicum3_kenzb4, ls (make sure all correct)
+module load anaconda
+python practicum3_kenzb4
+get an error that i used wrong variable --> fix in .ipynb then run in regular terminal the jupyter nbconvert command again
+
+going to delete the .py file in practicum 3 in stokes, then run in regular terminal
+scp -r ~/Documents/ast4762/homework/practicum3_kenzb4/practicum3_kenzb4.py ma755497@stokes.ist.ucf.edu:~/practicum3_kenzb4
+check back in stokes practicum 3 folder, rerun, see it works yay
+
+now i will
+in regular terminal: copy log, then scp it into stokes folder
+tar -czvf practicum2_kenzb4.tar.gz practicum2_kenzb4
+scp ma755497@stokes.ist.ucf.edu:~/practicum3_kenzb4.tar.gz ~/Documents/ast4762/handin 
+
+*****OUT: Sun Sep 27 19:05:13 EDT 2026
+
+*****IN: Sun Sep 27 22:15:23 EDT 2026
+
+starting homework 5 
+
+1) in terminal:
+cd Documents/ast4762/homework
+mkdir hw5_kenzb4
+jupyter notebook
+then open a new python file
+add name, assignment number, and date 
+
+2) pasted code from problem 2 of practicum
+copied method from making the first subsample and applied it for a new subsample using the previous one
+-printed new mean median and standard deviation, the final mean is significantly smaller than the original mean, but same as the first subsample (found that there was no more outliers extracted in the second subsample/sub sub sample)
+NOTE: come back if you can and use an f string to format print statements to be in line
+-the possion distribution expects the standard deviation to be equal to the square root of the number of expected number of events occuring
+we expect a value of 100 but got 634.29, 6 over 6 times larger, but compared to our first measurement being 677 times larger we see a much closer standard deviation to that thats expected
+-this method will not remove every bad pixel everytime
+
+3) reading through prompt, define new function sigrej, write doc string, parameters, returns
+
+open homework 3 support module for template 
+still writing good doc string
+
+git add, commit, push
+
+*****OUT: Sun Sep 27 23:27:38 EDT 2026
+
+*****IN: Mon Sep 28 08:44:28 EDT 2026
+
+opening hw 5 files
+starting to write actual function, if statement for the optional parameter
+make an array of ones (1 = True, 0 = False) same size of given array, so all values are equal to True, else: mask = given b_mask
+assign variable to the length of the tuple, then for loop to iterate over all values in tuple lenght, assign good values, write ask as the mask and the good values (compare their boolean values)
+
+3) in previous code for problem i used the median to create my subsample, but in this function i used the mean, i find now that the mean is much closer to what i would expect for sigma = sqrt(N)
+
+changed problem 2 removal of bad data to the array - the mean rather than the median, get same result 
+
+4) 
+a) open new shell tab, run ssh ma755497@stokes.ist.ucf.edu log into stokes
+b) in stokes terminal, run mkdir hw5_kenzb4
+c) in regular terminal, run jupyter nbconvert --to script hw5_kenzb4.ipynb 
+then copy py hw file stokes scp -r ~/Documents/ast4762/homework/hw5_kenzb4/hw5_kenzb4.py ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4 
+check in stokes with cd hw5_kenzb4 then ls
+module load anaconda --> python hw5_kenzb4.py 
+get error, linfit doesnt exist, go back to .ipynb and take that import out, going to repeat steps to convert to .py, then recopy into folder in stokes, rm old .py file in stokes 
+run and it works, fix last line for problem 3 to have "Cleaned Data Mean" for better coding clarity, repeat steps of removal, --> py --> stokes
+d) yay code prints all good 
+e) git add., commit -m, push
+f) screenshot from mac spotlight, rename screenshot, add to hw5 folder, then scp that over to stokes hw5 folder
+g) in finder, duplicate log, rename it to remove copy, add to hw5 folder, then scp -r ~/Documents/ast4762/homework/hw5_kenzb4/0-ast4762-kenzb4.log ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4
+, to make tar.gz in stokes run
+tar -czvf hw5_kenzb4.tar.gz hw5_kenzb4
+then in regular terminal
+scp ma755497@stokes.ist.ucf.edu:~/hw5_kenzb4.tar.gz ~/Documents/ast4762/handin 
+
+going to end log here to complete the steps in g and f !
+
+*****OUT: Mon Sep 28 10:23:44 EDT 2026
+
+*****IN: Mon Sep 28 14:30:12 EDT 2026
+
+-going over hw5
+-arrays can be made flat, this deals with shape change when an arrays value is returned as false 
+-ccd best for visible light, silicon
+-MOS: metal, oxide, semiconductor
+- can shift electrons through different gates (voltage differences to move them)
+-ccd cool with liquid nitrogen
+-want main source of noise astronomical not instrumental
+- take image at same exposure time, have to consider instrument noise 
+- dark current(systematic, and random), readout(random), bias voltage (systematic) ::main noises
+
+*****OUT: Mon Sep 28 16:20:50 EDT 2026
+
+*****IN: Tue Sep 29 15:47:25 EDT 2026
+
+studying for quiz 2 
+
+*****OUT: Tue Sep 29 17:00:23 EDT 2026
+
+*****IN: Wed Sep 30 14:30:12 EDT 2026
+
+in class quiz
+lecture notes on CCD and IR arrays
+
+*****OUT: Wed Sep 30 16:20:11 EDT 2026
+
+*****IN: Thu Oct 1 16:10:23 EDT 2026
+
+beginning practicum 4 
+1) in terminal: cd Documents/ast4762/homework
+mkdir hw6_kenzb4
+in jupyter notebooks inside hw6 folder, make new file, name it hw6_kenzb4.ipynb (change to .py at end)
+
+(note: for all jupyter notebooks i have been opening them as conda env:base, i am going to open it as 
+conda env: astropy --> i hope no issues arise later!)
+
+add name, assignment number, and data to top of hw file
+
+add imports (starting with numpy, matplotlib, astropy.io, and os)
+
+download hw6 folder from canvas into hw6_kenzb4 folder
+
+2a) in section labeled #Hardcoded variables here 
+datadir = "~/Documents/ast4762/homework/hw6_kenzb4/hw6_data/" (add file path to data)
+fext = ".fits" 
+
+
+2b) objfile = []   and   darkfile = []   # initalize lists
+help(os) to see functions of os
+run os.listdir(datadir), to list all files in my hw6 folder 
+get error that directory isnt found, go back to terminal pwd, and see the ~ is the issue 
+redefine datadir as = "/Users/mackenziebrown/Documents/ast4762/homework/hw6_kenzb4/hw6_data"
+re-run os.listdir(datadir) and see all files (compared to ls in terminal and see they match
+notice that files have either _stars_13s, _dark_13s, or _k_lampoff
+write for loop, for filename in os.listdir(datadir):
+if "stars_13s_" in filename append filename to objfile list
+elif "dark_13s_" in filename append filename to darkfile list 
+
+pausing, will git add ., commit -m, push
+
+*****OUT: Thu Oct 1 17:21:34 EDT 2026
+
+*****IN: Thu Oct 1 22:26:12 EDT 2026
+
+back for practicum 
+
+2b) print len of objfile, darkfile then manually check hw6_data directory and count to see the numbers align
+bug :: realzing the appending straight into the list isnt right, it includes the .fits at the end of every filename, need to use fext variable to identify this and spilt it off the name 
+fix :: adding line in top of the for loop, 
+sort_f, fext os.path.splitext(filename)
+add sort_f (filename without fits extension) to the corresponding lists
+check with print statements 
+
+2c) in one print statment, use "\n" newline characters after each prompted statment
+Data directory and File extenstion with the variable names given above in 2a, then use [-1] to get last element of a list to print objfile and darkfile
+
+2d) using with fits.open, tryinf objfile[] + fext as hdul
+got an error that it doesnt exist
+taking break will come back for bug
+
+git add. git commit -m, git push
+
+*****OUT: Thu Oct 1 23:47:12 EDT 2026
+
+*****IN: Fri Oct 2 00:32:24 EDT 2026
+
+2d) need to fix reading in data from obj file --> open from directory, (datadir), match list element, to name of file in data dir and open 
+print help(os.path) --> see join(a, *p) could possibly use ! (join 2 pathname components)
+with fits.open(os.path.join(datadir, objfile[3] + fext)) as hdul:
+print(len(hdul)) == 1 --> only 1 element call hdul[0]
+set data = hdul[[0].data then get shape/ ny nx values from there
+check data.shape with print == 1024, 1024 so nx and ny should be equal
+
+2e) for nobj and ndark, use len(listname) to get number of files
+then make print statement, use good coding formatting (spacing lines up for easier reading)
+
+We dont want to hardcode the values because they will differ for each different fits file you read, i am reading element 3 in the objfile list but if i read in element 5 i may get different results, so we dont want to do any hardcoding, to help us limit having to recome up with the same code for a different specific case, generalized makes it easier to work with again and again
+
+okay i stop here for now, git add ., commit -m, push
+
+*****OUT: Fri Oct 2 01:00:44 EDT 2026 
+
+*****IN: Fri Oct 2 11:39:38 EDT 2026
+
+back for practicum 
+3) reading over problem 
+3a) write sample_dark_arr and sample_obj_arr, do np.arange and nobj, ny, nx --> print .shape for each see its (1,), not 3D
+bug: nobj, ny, nx already assigned to one value (may need to go back and write as a function?
+debug: try and change np.arange to np.zeros (initalize array with zeros but keep shape and size), receive error cannot interpret 1024 as a data type, add dtype = np.float64 inside the np.zeros line
+see that the. array shape prints as (2, 1024, and 1024)
+check dimentions with sample_dark_arr.ndim and see = 3 
+
+3b) write comments to breakup steps of code
+populate data, try to use += 
+help(fits) to look how to read in data
+need to read in all data files into the array? 
+saving last header will be to make them a list and use some fits function to get the last header and add it in here? 
+
+stuck and taking break --> all git add, commit, and push commands run
+
+*****OUT: Fri Oct 2 12:26:23 EDT 2026
+
+*****IN: Fri Oct 2 14:30:23 EDT 2026
+
+homework 7, read 4 research papers (take 1 hr each to read) --> start early dont wait 
+
+going over pracitcum 4
+3b) for i in range(nobj):
+objarr[i] = fits.getdata(datadir + objfile[i])
+objhead.append(fits.getheader(datadir + objfile[i])
+
+robyns example of populating data into array
+
+dont forget to subtract by one to get python coordinates (when looking at image data)
+looking at archival data (quadrant readout from star file)
+
+4(bites per pixels) *number of files*1024**2
+
+john example for problem 2:
+filelist = os.listdir(datadir)
+sort files if you can, but ie if you have 10 files it will sort as (1, 10, 2, 3, 4, ...) can sort by data observed time (if people edit this data this will change, unreliable way to sort if so)
+
+2d ny, nx = fits.getdata(data dir + ...) did it all in one line (john)
+
+3a) isolanki: np.nan --> np.zeros can take time, 
+sample_obj_arr[i, objhead] = ... fits.getheader(objhead = True)
+combine all into one 
+
+hw 7:
+transitdepth =(Rplanet/Rstar)**2 --> convince yourself this is true/understand it
+exoplanets data/papers ask? what tests did they do to show the data isnt wrong (did they alias)
+
+git commands run
+
+*****OUT: Fri Oct 2 16:22:11 EDT 2026
+
+*****IN: Sat Oct 3 20:48:23 EDT 2026
+
+practicum 4
+come back and change 2b for loop, add sorted over os.listdir so that it sorts the files and prints out correctly 
+
+*****OUT: Sat Oct 3 21:02:09 EDT 2026
+
+*****IN: Mon Oct 5 EDT 11:40:12 2026
+
+using friday class note (header = True) to rewrite 3b
+wrapping up, see that observation time for object is a blank string
+
+git add ., commit, push
+
+go back and rename folder and file to practicum4, edit datadir variable to be pracitcum4 not hw6 
+check it runs with no errors
+
+log into stokes, mkdir practicum4_kenzb4, in terminal jupyter nbconvert --to script for my practicum .ipynb, scp file over scp -r ~/Documents/ast4762/homework/practicum4_kenzb4/practicum4_kenzb4.py ma755497@stokes.ist.ucf.edu:~/practicum4_kenzb4
+module load anaconda --> datadir is note working, need to go back copy hw6_data folder into stokes and then change .py files datadir variable (remove any extra copies) 
+everything ran successfully!
+need to copy log and scp into stokes
+then i will
+tar -czvf practicum4_kenzb4.tar.gz practicum4_kenzb4
+then in regular terminal
+scp ma755497@stokes.ist.ucf.edu:~/practicum4_kenzb4.tar.gz ~/Documents/ast4762/handin 
+ 
+going to push git one last time, then run these commands and submit 
+
+*****OUT: Mon Oct 5 12:25:36 EDT 2026
