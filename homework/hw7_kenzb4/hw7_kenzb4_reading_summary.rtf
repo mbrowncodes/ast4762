@@ -1,0 +1,160 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cspthree\c0\c0\c0;}
+\margl1440\margr1440\vieww14580\viewh15520\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 HD 189733b (extrasolar planet)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 For each paper, write a 1-2 paragraph overview of the key points you learned from each\
+paper about the target.\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+a) https://arxiv.org/pdf/0705.0993 # map of day night contrast \
+- explains why some results dont work exactly, what to fit with, examine why we see a delay, goes through 3 possible options, lands on most probable (eccentric), multuple plots, correct fitting, down data with bad pixels, results not expected\
+- record before transit and then in secondary eclipse (in front and behind star), large numver of pizel images\
+- detector induced rise (systematic error) (illumination dependent) rise then hit convergent value, lower flux pixels increase linearly, \'97> time series to describe the ramp for different illumination levels\
+- median illumination for each pixel in array, (fix systematic error), correct pixels less than 40% of total flux is from corrected pixels\
+-active star so it has spots with varying flux (from peak flux values), \
+- planet has near 300 K difference from 6 ish hours after transit and 2 hours before secondary eclipse\
+slight shift in center of transit and eclipse, (secondary eclipse is later than expected but period well known (makes assumptions on delay but lands on an eccentric orbit by dicsussing why other two arent it (un-uniform emission from planet or 3rd body in sys)\
+- make atmosphere models (day v night temp), compares radiative time scape and advection time scale\
+-1st one is absorb & emisson on temp, 2nd one is air travel from day to night side \
+- advection times have much smaller tanges and less constrained, but estimating wind speeds say advection times close to radiatice time scale (can have large T diff up to 1000K) \'97> not homogenous \
+- assumed that flux comes from deeper in atmosphere, if radiative time constratint is as small as found/assumed to be then supersonic wind speeds are to be assumed  (explained by flux min and max on: meterology)\
+- argue for atompsheres dark at visible wavelengths (abrorb 9-% of incident stellar flux and transport much energy to night side)\
+\
+\
+\'93\'94\'94\
+In this paper HD 189733b and its Hot Jupiter was examined for some time ranging from before its transit to after its  secondary eclipse. When examnining the large number of pixels sysetmatic error was found from a detector induced rise in up to 10% of pixels over time of its illumination value. High illumination pixels were found to converge to a constant value by the time the star and planet were transiting each other, and lower illumination pixels followed a linear increase over time. To fix this systematic error a median illumination was estimated and applied to lower pixel value levels, about 33% of total flux is contributed by corrected pixels and the amplitude reduced by only 13% of total size. The flux increase at two spots on the star may come from it being an active star with spots causing this flux variation. There was a delay found for the start of the secondary eclipse and it is speculated on its origin. Ultimately it is ruled to be from an slightly eccentric orbit that was too small to be dected by radial velocity measurements. Atmospheric contrast models are made for the day vs night side temperatures, planetary response to stellar irradiation coming from comparisons from the radiative time scale and advection time scale. The model suggests the two time scales are comparable and result in temperature differences of up to 1000K. The flux is assumed to come from deeper in the atmosphere where possible supersonic winds speeds are assumed. \
+\'93\'94\'94\
+\
+b) https://arxiv.org/pdf/0802.0845 # broadband infared emission spectrum\
+diverge in two classes \
+contrast ratio between planet to star, at specific meauresments of microns, \
+atmospheric tem ingersion : showsn through absorbption and emission ( shouldnt show this from previous data)\
+compare to HD 209458b\
+4.9 hr, infarared camera, single secondary eclipse\
+different dectors used for differetn micron levels, differental data eval\
+- \
+-\
+-transmission spectroscopy used to study atom, molecules, and coluds in atmospheres  od HD 209458b and HD 189733b\
+- using IR able to have better plane to star contrast ratio\
+- brightest start to host a transiting exoplanet\
+- (refrence where they take constants or radius, stellar radius, transit center, and orbital period\
+- focus on plane tot star contrast ratio in bands with centers (3.6, 4.5, 5.8, 8.0, and 24 microns), compare with previous 16 micron measurements\
+- want to place constriant on temp and chemistry of planets atmosphere (day and night)\
+- 4.9 hrs, secondary elcipse, IR camera from Spitzer space telescope\
+- lots of pixels, disregard some inital set of images from telescope reposition\
+-pointing dritf at 0.3 pixels in firs tthen 0.1 or less in other 3, find JD value, onvert to HJD\
+- analyze dats for different detectors and wavelenghts (shortest is InSB and longer with Si:As , properties of data differ, refrence other work on methods\
+-  calculate flux from star, photometry, position of star with position weighted sum, avoid region of M dwarf companion, \
+- intra pixel sensitivity , removed by fitting data to quadratic and use monte carlo, remove 5 sigma outliers (stand dev from out of eclipse data)\
+-  chai squared where its falls below median of chai 2 values, mediam of rest data as best fit paramer, \
+- longer wavelength: flux from star smaller, background larger, minimze noise, shirt apeture, position wegithed sum to get image, exclude 11 images below median value from each set, \
+- detecor ramp observed (depend on illumination level of individual pixel (time dependent), strong illuminated converge to constant (early hours), little illuminating is linear increase over time\
+\
+- compare to other observed increases and speculate about cause, subtract constant background from 8 micron images, 0.96 from 5.8 micron (median background value of last hour), limited effect on final exlipse depth\
+- assume effect of decetor ramp in binned flux have shape of flux weighted average \
+- re-analyzed raw time series at 16 micro, fit old data with same funciton , shows same dector ramp as found in 8 micron data, exclude steep part in early measurement, reduced chai squared odroped hwen using qudratic function ove time\
+\
+- variation in sensitivy at each positiion, view individual tiem series and normalize and comebine, trim pixels further from 3 sigma\
+- discard images with low ksy background instead of divding measured flux\
+- compare bands to model predictions, compare them, to day size secondary eclipse depths\
+- derivations at 3.6 micron, contrast rati over double whats expected, common in theory models, water absorption assumption, atomspheric opacities, water present and masked expection absorption due to water\
+- opposites, 209458b water in emission, 1898733b in absorpton, very different atomspheres, hot juipter with 2 groups (from temp inversion), \
+-  planet comparison with physical structure \
+16 and 24 vlaues say small day night variation, \
+predicct possible internal energy source and radiate more than recieve\
+\
+small eccentricity, methan in transmission spectrum, day size vary in time, weather on planet, \
+\
+\'93\'94\'94\
+In this article, Spitzer Space Telescope IR data of the HD 189733 exoplanet system is evaluted at multiple flux ratios at wavelenghts of 3.6, 4.5, 5.8, 8.0, and 24 microns. Previous data is reanalyzed to retrive a band at 16 microns as well. Transmission spectroscopy is used with IR measurements to get better measurments of the planet to star contrast ratio that helps constrain atmospheric quantites like chemistry and temperature on its differing day and night sides. There was lots of filteration of the data to disregard some pixels entirely, fitting the data to a quadratifc function of ln change in t. The pixels individually increase over time and has a detector ramp effect, the strongly illuminated pixels coverge to a constant while the weaker illuminated pixels increase linearly over time. The system was observed for 5 hours for the secondary eclipse, the pixel sensitivity was accounted for by normallizing each time series to a common scale. Pixels larger than 3 simga from the median are trimmed off, background is subtracted individually. Comparing band models, it is seen at longer wavelengths that a hole appears due to water absorption, but in shorter wavelenghts the data suggests water is in emission. The two planets are compared, viewing their atmospheric data and temperature inversion qualities, as well as comparing their physical size and densitiy. The longer wavelenghts at 16 and 24 microns suggest a small day night variation on HD 189733b, eclipse depth at 8 microns also shows dayside emission may vary in time, allowing for weather to be studied on the planet.\
+\'93\'94\'94\'94\
+\
+\
+keeping pixels that fall into a desired chai squared range and median fitting the rest of the data as a best fit parameter. Specify differnced in the shorter wavelenfhts to longer ones based on type of detector. \
+\
+\
+\
+fitting the data to a quadratic function using the monte carlo method as well to remove any outliers from 5 sigma. \
+\'93\'94\
+\
+\
+c) https://arxiv.org/pdf/1307.3229\
+-\
+-RFIF used in constant scaling factors \
+-estimate upper and lower bounds\
+- construction of recurrent fractial interpo;ation surfaces (RFIS) with data sets on rectangular grids\
+\
+\
+-\
+\
+\
+\'93\'94\'94\
+FIS are used to approximate and create computer graphics in many fields of science, it is espically usedful when the data sets are given on the boundary of the domain. Fractical functions work by iterating over a function system. To create these fractial surfaces, fractical curves are used as well as using bivariate fractal interpolation functions (when data set given on mesh point of whole domain). The results allow more gneral boundary data and domains. Much studys have happened with data on rectangular grids. IFS made using constant vertical scaling factors, linear contraction transformation (of dom and quad polynomial). generalize IFS by making RFIS (recurrent fractial interpolation surfaces), use function vertial scaling factors, estimate lower and upper bounds for box counting dim. Constructing these RFIS they take mappings into 2 regions and relate a domain to then. Then contraction makking occurs to find vertical scaling factors. By assuming the row stochastric matrix M is irreducible, the RIFS is found for the dataset P. There are multiple theores stated, that there exists an interpolation function of the data whos graph is an attractor of the RIFS,  if vertical scaling factors are wtihin bounds (0, 1), the attractor becomsa a recurrent fractal surface. To estimate the upper and lower bounds of the box counting dimention of the attractor. they find the maximum variation of the function. \
+\'93\'94\'94\
+\
+\
+d) https://arxiv.org/abs/2410.22398\
+- 2.4-5.0 micron emission spectrum od HD 198733b, look at previous publised transmission spectrum for same wavelength (re-reduced)\
+- account for methane depletion in atomsphere, (assume power law hazy and equilibru=ium chemisty with methane de[letion\
+- it has first phase curve observation, and detection of exoplanet transit in xray\
+- obtain M/H and C/O ratios, small uncertainies for what was known of other exoplanets\
+- prediciton backed of photchemical hazes can generate super Rayleigh scattering slopes at equilibrrum temp 1000-1500K\
+- (CH4 heavily depleted from equilibrium abundance)\
+- need lots more deata on exoplanets atompsheres to observed patterns (from formation modesl)\
+- re-reduced NIRCam 2.4-5.0 micron transit data with SPARTA, and got atmospheric properties with PLATON\
+- start uncalibrated files \'97> apply standard calibration , the mediam residuals from ramp fitting step are computed and subtracted from raw uncalibrated data, ramp fit step repeated, within 14 simga (2 step remove uncorrected non-linearity\
+- after ramp fitting remove background, then remove wavelength dependet background \
+- create median image, reject 5sigma outlisers,  \
+- assume transit time difference to be from noise in NIRCam (avg two transit times), obtain values for spectroscopic light curves (transit and eclipe) by avg a/R* and b\
+- get transit parameters from white light fits, fit to best fit values and fit spectroscopic light curves binned to 50 nm\
+- BELIEVE F444W filter is more reliable for 2.95-4.00 micron bin, \
+- compare depth measurements to spitzers irac channel 1 and 3 depth measurements, noise highly correlated from wavelength to wavelength\
+- MCMC fit to white light curve, adjusted to IRAC channel bandpass \
+\
+\
+\
+\'93\'94\'94\
+In this article, previous JWST and NIRCam observation data is taken for HD 189733b. Features are shown for H2O, CO2, CO, and H2S but not CH4, that of which is heavily depleted from equilibrium abundance and tells us about the planets atmosphere. Without a large number of exoplanets observed, patterns cannot yet be reduced on their behavior norms. Looking to compare the metallicity and C/O ratio from JWST data and find wavelenghts that have readable data. They re-reduced NIRCam obsevastions at 2.4 - 5.0 microns using SPARTA and PLATON. They started with SPARTA analyzing GJ 1214b and HD 149026b, calibrating raw files, applying a ramp fitting twice to remove non-linearity and taking out far outliers greater than 14 sigma, then remove background, then create a median image and find the model with an exponential ramp and linear function. Find transit data difference and assume it to be from noise of NIRCam. A small wavelength from 3.95 to 4.0 microns is taken out of the emission and transmission spectrum due to an overlap where two visits arent in agreement. Spitzer telescope data is compared to see its reliability, 2 sigma conssitency between two channels. Opacities of molecules are found and listed and used to improve PLATONS modeling ability of these hot juipters. Changed were made to PLATON to keep it running quickly. Make slight changes in definiton of metallicity and C/O ratio, scaling C and O instead of just O. Take 6 retreievals for the exoplanet system, individual, and combined transmission and emission spectrum and assume the atmosphere is in chemical equilibrium then paramterize it with a log metallicity and C/O ratio. It is found that C/O posteriors are consistent with each other and the metaliccity is highly asymmetric. Found the methane depletion preferred at Bayes ratio 7. After equilibirum is retreved, the PLATON finds molcules transpartent to light, only the 5 molecules are significant with their greater affect on chai squared. After viewing the anundances of these molecules plus sulfur it is found that photochemistry is an import cause of methan depletion due to the sensitive temperature pressure profile of its atmosphere. Comparing data =, it is found that the water abundance in the emission spectrum is consistent with metallicity. \
+\'93\'94\'94\
+\
+\
+\
+PLATON version suitable for JWST era, look at NIRCam 2.4-5.0 micron transmission and emisson spectra for HD 189733b (from S[ART reduction), show H20 CO2, Co and H2S in both transit and eclipse but no CH4, (methane depleted on terminaor from eqialibrium abdances), thermnal inversion on dayside shown, spectra needed for more concise constraints of methane depletion. JWST data affected by many things such as cloud parameterixation, non equilibrium chemistry and metallicit and C/O line for opacity resolution\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+what is the interaction happening to cause these electrons to show this data (of different wavelength values, emission, and absorption)\
+\
+emission vs radiation (blackbody)\
+\
+harrington exoplanet 2006 and 2007 (read his papers)\\\
+\
+\
+\
+\
+git add ., git commit -m, git push\
+in terminal log into vpn then log into stokes, mkdir hw6_kenzb4\
+reg terminal: jupyter nbconvert --to script hw6_kenzb4.ipynb\
+reg terminal: scp files into hw6 stokes directory\
+scp -r ~/Documents/ast4762/homework/hw6_kenzb4/hw6_kenzb4.py ma755497@stokes.ist.ucf.edu:~/hw6_kenzb4\
+(all other files too^)\
+stokes terminal: ls in hw6 folder to check all files here, module load anaconda, python hw6_kenzb4.py \
+all ran correctly!\
+now i will copy my log and scp that into stokes directory for hw6\
+in stokes terminal: tar -czvf hw6_kenzb4.tar.gz hw6_kenzb4\
+then in regular terminal: scp ma755497@stokes.ist.ucf.edu:~/hw6_kenzb4.tar.gz ~/Documents/ast4762/handin \
+\
+}

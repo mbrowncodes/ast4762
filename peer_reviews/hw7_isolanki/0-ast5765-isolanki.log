@@ -1,0 +1,2077 @@
+Ishita Solanki
+Log for AST 5765, Fall 2026
+
+*****IN: Wed Aug 26 15:10:12 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/Users/ishitasolanki/Desktop/0-ast5765-isolanki.log
+Name: Ishita Solanki
+Username: isolanki
+What astronomy classes have you taken? Introduction to Astronomy, Extragalactic Astrophysics
+Have you ever programmed a computer? Yes
+In what language(s)? Python, MATLAB, (minimal) IDL, Java: all at a beginner level though
+Have you taken a programming class, and if so which? Yes. Introduction to Scientific Computing (beginner Python), Numerical Methods and Computational Techniques in Physics (MATLAB based)
+Have you taken statistics or probability? No
+Will you be attending the DPS conference this year, or will you be away otherwise? No
+Why are you taking this course? To learn data analysis techniques
+Are there particular topics you hope to learn? I am excited to work with real data, instead of sanitized data that is usually given in classes. I am also excited for the spectroscopy module.
+If you have programmed outside of a course before, please
+briefly describe: Not really, only to practice things I learned in courses. 
+If you have worked with scientific data before, briefly
+describe your experience: I have used IDL code to do basic aperture photometry. But it was using existing code, not my own code. I do understand the basic concept.
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I helped generate an initial lightcurve (using the aperture photometry code mentioned above).
+
+How to make a folder hw0_isolanki/:
+Open finder
+Navigate to Desktop
+Right click and select "New Folder" from the options
+Edit the folder name to follow convention
+
+To copy my log file to the hw0_isolanki/ folder:
+Open Finder
+Navigate to Desktop (where the log file is located)
+Right click on the log file and select "Copy" from the options
+Navigate into the hw0_isolanki/ folder
+Right click and select the "Paste" option
+
+To zip:
+Right click and select compress
+
+Upload to Webcourses:
+Navigate and upload
+
+*****OUT: Wed Aug 26 15:38:56 EDT 2026
+
+
+*****IN: Fri Aug 28 09:28:55 EDT 2026
+
+Checked that numpy, matplotlib, scipi, etc are installed
+
+Installed GitHub Desktop and made an account
+
+Updated Homebrew
+
+Downloaded bash_aliases and mac-add-to-bash-inits
+
+Followed the instructions in Mac Software Installation.pdf : Unix Shell Part 1: Backup
+
+Installed Jupyter
+
+Followed the instructions in Mac Software Installation.pdf : Customizing the Shell
+
+Installed emacs
+	Some issues encountered here.
+	Got lots of warnings:
+	32f33bc/icons-eafe82eb-d5de9f65.eln , error invoking gcc driver , /Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/icon\ s.el.gz ■ Warning (native-compiler): libgccjit.so: error: error invoking gcc driver ■ Warning (native-compiler): Error: native-ice ( failed to compile /Users/ishitasolanki/.emacs.d/eln-cache/31_1-032f33bc/cl-ext\ ra-d7051cba-9127183a.eln error invoking gcc driver /Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/cl-extra.el.gz ) ■ Warning (native-compiler): Internal native compiler error: failed to compile , /Users/ishitasolanki/.emacs.d/eln-cache/31_1-0\ 32f33bc/cl-extra-d7051cba-9127183a.eln , error invoking gcc driver , /Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/c\ l-extra.el.gz
+
+	Googled it
+	Google's AI mode gave an answer that worked
+	Basically, the Emacs could not find the GCC paths
+	The instruction it gave was to paste the following snippet into ~/.emacs.d/early-init.el file:
+(when (eq system-type 'darwin)
+  ;; Ensure Homebrew binary paths are available to Emacs
+  (let ((homebrew-bin "/opt/homebrew/bin"))
+    (when (file-directory-p homebrew-bin)
+      (setenv "PATH" (concat homebrew-bin ":" (getenv "PATH")))
+      (setq exec-path (cons homebrew-bin exec-path))))
+
+  ;; Provide the specific paths for libgccjit to find the compiler driver
+  (setenv "LIBRARY_PATH" 
+          (string-join 
+           '("/opt/homebrew/lib/gcc/current"
+             "/opt/homebrew/opt/gcc/lib/gcc/current"
+             "/opt/homebrew/opt/libgccjit/lib/gcc/current") 
+           ":")))
+
+There was one warning after:
+	Warning (files): Missing ‘lexical-binding’ cookie in "~/.emacs.d/early-init.el".
+	You can add one with ‘M-x elisp-enable-lexical-binding RET’.
+	See ‘(elisp)Selecting Lisp Dialect’ and ‘(elisp)Converting to Lexical Binding’
+for more information.
+
+Again, Google AI Mode said to add this line to the top:
+;; -*- lexical-binding: t; -*-
+This is a comment cookie
+
+It worked!
+
+Now for GitHub and Unix 
+The instructions say to start with leargit.pdf first, but I do not see that file in the course materials.
+Contacted proffessor.
+
+*****OUT: Fri Aug 28 10:55:52 EDT 2026
+
+
+
+*****IN: Fri Aug 28 14:36:47 EDT 2026
+
+Started log for Friday practicum class.
+
+Checked whether astropy and pandas are installed - they are.
+
+Wrote a test script in Spyder importing various packages to make sure the environment has the needed packages. It works.
+
+Tried connecting to Stokes. Did not work: "Connection closed" message after entering password
+
+Doing homework
+
+
+Question 1
+
+Made a folder for hw1. Created the proper directory structure. 
+
+Question 2
+
+Opened Spyder
+Took a screenshot using Command + Shift + 3 (the shortcut to take a screenshot on mac)
+Renamed according to convention and moved to the hw folder.
+
+GitHub Desktop
+Initialized repo in ast5765 folder
+Committed all the files and folders within that
+Took a screenshot using Command + Shift + 3 (the shortcut to take a screenshot on mac)
+Renamed according to convention and moved to the hw folder.
+
+Question 3
+So far sshing into Stokes does not work. 
+Need to come back at a later time.
+Just in case have screenshotted teminal using Command + Shift + 3 (the shortcut to take a screenshot on mac)
+Renamed according to convention and moved to the hw folder.
+Have not committed the screenshot in case we get Stokes access by Monday
+Will redo this question if that is the case.
+
+Question 4
+- To copy the log file:
+Use Terminal
+cp /Users/ishitasolanki/Desktop/0-ast5765-isolanki.log /Users/ishitasolanki/Desktop/ast5765/Homework/hw1_isolanki/0-ast5765-isolanki.log
+Stage and commit 
+
+- To zip the hw1_isolanki folder:
+Go to terminal
+Change directory to the Homework folder, where the hw1_isolanki folder is located
+Use command: zip -r hw1_isolanki.zip hw1_isolanki
+
+- To submit the zip file to webcourses
+Open webcourses
+Choose the compressed file
+When uploaded, submit assignment
+
+*****OUT: Fri Aug 28 16:21:47 EDT 2026
+
+
+*****IN: Mon Aug 31 12:37:25 EDT 2026
+
+Edits for earlier Homework.
+
+Homework 0:
+Question 2:
+Questions I missed:
+Are you generally comfortable with calculus and physics? Yes, I was a physics major in undergrad. I am a little rusty on some things because it's been two and a half years since I graduated.
+
+
+Resuming homework 1:
+
+Question 2
+
+My Python version is 3.14.6
+In the Spyder screenshot if you look at the environment I am using, it says version 3.14.6
+
+Removed the copied log file from hw1 because we have access to stokes and so I need to add to the log file.
+Committed the change 
+Retook the github desktop screenshot (Command + Shift +3)
+Renamed it according to convention
+Moved it to the hw folder
+
+Question 3
+SSHing into Stokes
+Found the instructions
+Opened the terminal
+Typed the ssh command
+Entered the password
+Success!
+Took a screenshot of the window using the shortcut Command + Shift + 3
+Renamed the screenshot
+Moved it to the hw folder
+Committed the change
+
+Reviewing to make sure I answered everything.
+
+
+*****OUT: Mon Aug 31 13:12:47 EDT 2026
+
+*****IN: Mon Aug 31 14:35:47 EDT 2026
+
+SSHed to Stokes
+
+Started Unix tutorial
+Following along with the professor, doing the demo
+
+Made a test folder "shell_test"
+Trying out ls command with various flags
+
+Command to send things to stokes from my computer
+scp -r <nameoffile> is177322@stokes.ist.ucf.edu:
+
+
+*****OUT: Mon Aug 31 16:22:07 EDT 2026
+
+*****IN: Wed Sep  2 14:33:09 EDT 2026
+
+In class, opened this log.
+
+Downloaded L04 flder from webcourses
+
+Followed along with class work.
+
+*****OUT: Wed Sep  2 16:20:09 EDT 2026
+
+*****IN: Fri Sep  4 08:08:50 EDT 2026
+
+Starting HW 2
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+navigated to ast5765/homework using the cd command and ls command
+Creted a new folder with the command mkdir hw2_isolanki
+
+Opened a new python file in Spyder and saved it in the hw2_isolanki folder.
+
+Committed my changes to GitHub
+
+Working on the rest of the problems.
+
+Mostly did not have any trouble.
+Have to experiment a little to get the correct colors in the plot in problem 4.
+It's tab:blue and tab:orange
+Luckily a tutorial series I used to follow often used tab:orange, so I knew about that option.
+I was getting blank plots because I forgot that plt.show() clears the figure and I had that before plt.savefig()
+Note that I need to ask whether we need to print the part number of the problem
+
+Searching for astronomical software written in Python.
+Stopping for now. Will complete problem 5 later.
+
+*****OUT: Fri Sep  4 09:50:32 EDT 2026
+
+*****IN: Fri Sep  4 14:36:50 EDT 2026
+
+In class.
+Talking about functions.
+
+*****OUT: Fri Sep  4 16:21:46 EDT 2026
+
+*****IN:  Mon Sep  7 20:36:40 EDT 2026
+
+Problem 5
+
+1. https://sunpy.org/
+The software package ‘sunpy’ is used for data analysis in solar physics. 
+It started out at NASA’s Goddard Spaceflight Center but has grown to be used 
+by the wider solar physicist’s community. It utilizes Python packages such as 
+pandas, numpy, astropy, scipy, and matplotlib. Its functionality includes 
+retrieving and downloading data from major sources, using solar coordinate 
+systems and transformations, and interfacing with and visualizing solar data. 
+
+2. https://github.com/nugent-lab/FindPOTATOs-stable/
+The software ‘FindPOTATOs’ is used to link together observations of minor 
+planets into tracklets (a series of images showing the body moving against 
+the star background). It’s useful for processing data from archives and small 
+observatories. It’s a general algorithm that can be used for a range of bodies 
+from near-Earth objects to Trans-Neptunian objects. It utilizes Python packages 
+such as pandas, numpy, astropy, astroquery, and matplotlib.
+
+Other questions: made some edits to the python homework file. Added more comments and formatted the code better.
+
+
+Problem 6
+
+Part a
+Logging in to Stokes.
+Connected to the UCF VPN
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+Part b
+Used the command mkdir hw2_isolanki
+Checked that it was created using the ls command
+
+Part c
+In a separate terminal window, navigated to the homework 2 directory on my computer 
+This was using a combination of cd and ls
+Then used this command: scp hw2_isolanki.py is177322@stokes.ist.ucf.edu:hw2_isolanki
+Entered my password
+The file copied over
+
+Ran the script 
+Got an import error for numpy
+Figuring out what the issue is.
+Reading the user guide on UCF's ARCC website
+Creating a conda environment isolanki_env 
+Adding the packages I need
+Was able to add numpy
+For matplotlib I am running into a thread limit
+RuntimeError("can't start new thread")
+Will continue tomorrow
+
+*****OUT: Mon Sep  7 22:56:24 EDT 2026
+
+*****IN: Tue Sep  8 10:42:26 EDT 2026
+
+Resuming problem 5
+Opened a terminal window
+Connected to stokes using the command: ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+
+when I try running the script, this time it says that no module named numpy
+So maybe the environment I created yesterday is not activated
+I write conda activate isolanki_env
+And now it says conda command not found
+My python version is also reverted to 2.7.18
+I guess this means it resets each time, and I have to reload my environment.
+Watching ARCC Orientation video on youtube, confirming this.
+
+Reloaded modules and activated my environment.
+Added pandas, matplotlib, astropy, scipi to the environment using conda and pip
+
+Now when I run my hw2 script, it works and I get the output I expect.
+The png and pdf files were also created.
+
+Notes for the future. Ideally, need to create a slurm script which loads the modules, activates isolanki_env, and then runs the script. Since this was a small script it worked without that.
+
+Actually, I will try to do that now.
+I created a slurm file using the format given in the tutorial video. 
+Copied it to Stokes
+Then I submitted the job using the sbatch command
+Waiting 10 minutes because I scheduled the job for 10 minutes.
+
+Looking at the updated github instructions
+Created a personal access token
+
+Going back to the slurm job
+Looks like there was an error in activating the environment
+Okay instead of directly saying conda activate isolanki_env I have use source instead like in the tutorial
+Made that change and submitted the job again
+
+Have a meeting, will resume later
+
+*****OUT:  Tue Sep  8 12:58:26 EDT 2026
+
+*****IN: Tue Sep  8 20:26:56 EDT 2026
+
+Since my slurm script was giving errors, I am now following the new instructions posted on webcourses today.
+It worked!
+Note that I created a new environment called ast5765
+
+I added my slurm file to my homework 2 directory on my computer as well.
+So now is a good time to try out the github instructions.
+So far, I have just been using the GitHub Desktop application. It is easy to commit and push to GitHub on that because there are graphics and just buttons to click.
+
+Opened Terminal
+Navigated to the homework folder in ast5765
+Used the following commands:
+git add .
+git commit -m "note"
+git push origin master
+Enterd my access token
+
+This worked except there are pesky DS_store files that are hidden on mac that are included in the repo. So GitHub Desktop shows my commit but says 2 changes are unsaved (for those hidden files).
+For now I will just commit the changes to those files as they do not hurt anything.
+This is done following similar steps as written above
+
+Took a screenshot of the GitHub desktop. Renamed it and moved it to the hw2 folder
+Copied the new contents into stokes using scp command
+
+To copy the log into stokes I will use the scp command
+scp /Users/ishitasolanki/Desktop/0-ast5765-isolanki.log is177322@stokes.ist.ucf.edu:hw2_isolanki/
+
+To make a tar.gz file in Stokes
+Log in to Stokes
+Use: tar zcf hw2_isolanki.tar.gz hw2_isolanki
+
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp is177322@stokes.ist.ucf.edu:hw2_isolanki.tar.gz /Users/ishitasolanki/Desktop/ast5765/handin
+
+To submit to webcourses
+Open webcourses and go to the assignment
+Choose the compressed file from the handin folder
+When uploaded, submit assignment
+
+*****OUT: Tue Sep  8 21:40:11 EDT 2026
+
+*****IN: Wed Sep  9 14:39:27 EDT 2026
+
+In class 
+Listening to zoom lecture
+
+Think-pair-share measurement tape
+- If it's in half-inches then units are wrong, and need to be converted: illegitimate
+- The tape has to be in the right direction so vertical - random
+- If the tape is too short then need to note where the end was correctly - illegitimate
+- Not staring at zero - systematic
+
+
+
+Illegitimate, systematic, random
+Thermal expansion - systematic
+Time of day - random unless you can model it, then systematic
+
+Examples
+Illegitimate: take data of the wrong star
+Systematic: from scale calibration, observation bias 
+Random: I said cosmic rays, but that was wrong. 
+
+*****OUT: Wed Sep  9 16:22:15 EDT 2026
+
+*****IN: Thu Sep 10 12:46:15 EDT 2026
+
+Started the reading for this week. Writing notes on my ipad.
+Had trouble understanding some of it, so also watched some videos explaining the concepts
+
+*****OUT: Thu Sep 10 16:12:39 EDT 2026
+
+*****IN: Fri Sep 11 14:31:32 EDT 2026
+
+In class
+
+How many data points do we need to get a distribution: Depends
+Enough to distinguish between the models you are testing
+
+*****OUT: Fri Sep 11 16:25:30 EDT 2026
+
+*****IN: Fri Sep 11 21:18:16 EDT 2026
+
+Starting HW3
+
+Read through it once
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+Navigated to ast5765/homework using the cd command and ls command
+	Desktop --> ast5765 --> homework
+Created a new folder with the command mkdir hw3_isolanki
+
+Opened a new python file in Spyder and saved it as hw3_isolanki.py in the hw3_isolanki folder.
+
+Committed and pushed my changes to GitHub using
+In my terminal window, used cd .. command to get to the ast5765 folder level 
+git add .
+git commit -m "created hw3_isolanki folder and hw3_isolanki.py file within that new folder"
+git push origin master
+
+Starting to add content to the py file: hw no., date, etc.
+Added problem numbers and part numbers as an outline.
+
+Committed and pushed my changes to GitHub
+used same ternimal I used for last GitHub commit/push 
+git add .
+git commit -m "Added background info (name, date, question numbers) to the hw3_isolanki.py file"
+git push origin master
+
+Problem 2
+Part a
+Format for the support functions file: hw5_ssmith_support_functions.py
+Name for my support fuctions file: hw3_isolanki_support_functions.py
+
+Created a new file in Spyder and saved it as hw3_isolanki_support_functions.py in the hw3_isolanki folder
+
+Copy pasted the text from the module template file provided
+Not sure if we should have name, date at the top like we did for the other file.
+For now, removing that additional info and noting it here so that I can add it later if needed: Created on Fri Sep 11 21:43:06 2026
+Note to also ask whether these lines should be included or not:
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+Committed and pushed my changes to GitHub
+used same ternimal I used for last GitHub commit/push 
+git add .
+git commit -m "Created Python file for support functions for hw3, and copied the module template to it"
+git push origin master
+Note: I am using the 'Up' arrow key on my computer to get these already previously entered commands, not retyping them every time
+
+Part b
+ 
+Initial thoughts: (will likely write a final version after I complete making the support functions module)
+The parts of the module template that need to be included are:
+ - The docstring: We need this because
+ - import statements: We need this so that the libraries used in our functions are imported. We will get an error otherwise
+ - The function definition (two of these): to define our functions, needs to be edited
+ - The function docstrings (one each for our two functions)
+      	- Need to identify which parts of the function docstring are needed
+
+Part c
+
+Removed some of the informational comments, for example about how to import
+Pared down the function docstring to one variable input, one output, the see also, the notes, the references (adding a reference for a very simple math operation seems like overkill to me)
+
+Part d
+Changed the function name from foo (from the template) to square
+Removed the template given parameters and named the one input in_value
+
+Committed and pushed my changes to GitHub
+used same ternimal I used for last GitHub commit/push 
+git add .
+git commit -m "Edited the contents of the hw3 support functions file. Pared it down and edited the function definition to create the function sqaure"
+git push origin master
+Note: I am using the 'Up' arrow key on my computer to get these already previously entered commands, not retyping them every time
+
+should I not push to master so often, but just commit often?
+Not sure, note as question to ask
+
+Part e
+I am assuming that we should not use an existing function to compute the square like np.square
+
+Some brainstorming before I code it
+We need to raise an error if the input is a string, Nan
+Use a for loop to iterate over every element
+
+Started coding, but still need to work on it. Commited changes. Stopping here for today.
+
+*****OUT: Fri Sep 11 22:47:41 EDT 2026
+
+*****IN: Sat Sep 12 19:57:29 EDT 2026
+
+Resuming Practicum 1
+Finished problem 1. Took way longer than it should have because I was accidentally still using the wrong version of the Practicum 1 instructions.
+
+Practicum 1 
+Problem 2
+AI prompt attempt 1
+Write a python script to do the following.
+Make a 300x200 Float64 array, where each element has the value of its y coordinate (row number).  Do this one with a loop and once without using a loop. Then display the array (rows vs columns) using matplotlib with the cmap set to gray. The lower-left corner should be 0,0. Test that the arrays were created correctly by printing out some random array elements. 
+
+Entered this into Gemini. 
+Need to be very specific, detailed, and descriptive in the prompt. The more descriptive the better. I learned this from a talk about AI I attended once.
+
+Problem 3
+I have already installed astropy.
+
+I am getting an error when the script is trying to open the compressed zip file
+It is a permission error.
+
+Taking a break.
+
+*****OUT: Sat Sep 12 22:02:34 EDT 2026
+
+*****IN: Sun Sep 13 10:12:48 EDT 2026
+
+Resuming practicum 1
+
+Issue: getting a permission error when trying to open the compressed fits file
+Gave Spyder full disk access in settings.
+Quitting and reopening.
+That fixed it!
+
+The image is a nebula, but I'm not sure which one. I google nebula pictures and I see that the Orion nebula matches. 
+
+Now that I have completed the practicum, need to submit it.
+First I will copy my log into the p1 folder.
+Then I will compress the folder (tar.gz)
+And then upload into webcourses and submit.
+
+*****OUT: Sun Sep 13 10:42:34 EDT 2026
+
+*****IN: Sun Sep 13 14:32:24 EDT 2026
+
+Resuming HW3
+Added code to the support functions.
+
+Now working on the docstrings.
+Can remove the "Revisions" section, because we are tracking revisions using GitHub
+
+Pausing for now. Commiting to GitHub.
+
+*****OUT: Sun Sep 13 15:29:15 EDT 2026
+
+*****IN: Sun Sep 13 18:33:54 EDT 2026
+
+Working on peer reviews
+Completed
+
+*****OUT: Sun Sep 13 19:18:07 EDT 2026
+
+*****IN: Mon Sep 14 11:30:59 EDT 2026
+
+Resuming HW3
+Working on the docstrings, specifically the examples section.
+
+Using doctest:
+I used doctest to check that my examples were correct and that they gave the expected output
+python -m doctest /Users/ishitasolanki/Desktop/ast5765/homework/hw3_isolanki/hw3_isolanki_support_functions.py
+I got output saying
+File "/Users/ishitasolanki/Desktop/ast5765/homework/hw3_isolanki/hw3_isolanki_support_functions.py", line 45, in hw3_isolanki_support_functions.square
+Failed example:
+    print(square([1, 2, 3]))
+Expected:
+    [1, 4, 9]
+Got:
+    [1 4 9]
+
+Which is my mistake in writing the example in the docstring. The output should not have commas. 
+I fixed that and then tried again, this time with a successful result.
+I wanted to see what the wrong input type would do so for testing, I wrote an example with 
+the wrong input and tested that too. I had to debug because I was getting the TypeError three times.
+
+First I looked at python documentation, section 'Errors and Exceptions" (https://docs.python.org/3/tutorial/errors.html)
+I found out what was happening is the errors were'chaining' together
+My input to Google was:
+"use try except to raise a type error and avoid chaining errors"
+Output from the AI overview:
+"To avoid exception chaining in Python when raising a new exception from inside an except block, you must use the raise ... from None syntax."
+
+I used that syntax and got the output I wanted. 
+I removed the error example from the Examples section and added it to the Raises section of the docstring instead.
+
+Git Commit and Push
+Took a screenshot and added it to the hw3 folder.
+
+Problem 4
+Writing the rubric
+Here it is:
+Total points: 20
+
+Is there a function called squareplot? 1 point
+Is it written/located in the correct file (support function file)? 1 point
+Does it have the three positional arguments and the one optional argument? 2 points
+Is the function documented in the docstring properly? 2 points
+Does the docstring specify the input variables and their datatypes? 1 point
+Does the docstring include an example? 1 point
+
+part a
+Is there an array of evenly spaced points from the low to high (inclusive) end of the input range? 1 point
+
+part b
+Is the function square called once with the correct parameters and the result assigned to an array y? 1 point
+
+part c
+Is there a plot of y vs x? 2 points
+Is the plot publication ready with the title of "Square Function", x-axis label of "Input" and y-axis label of "Output"? 3 points
+
+part d
+Is there a check for the value of saveplot? 1 point
+If saveplot is not false, is the plot saved as a PDF using the appropriate commands? 1 point
+Is the filename not hardcoded and uses the input filename in variable saveplot? 1 point
+
+Does the main hw file call the squareplot function with appropriate inputs? 1 point
+Does the filename provided follow the naming convention? 1 point
+
+I realised that I did not have the txt file in the right folder. So I moved it from Desktop to my hw3_isolanki folder.
+
+Committed and pushed
+
+Problem 5
+part a
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+Part b
+Used the command mkdir hw3_isolanki
+Checked that it was created using the ls command
+
+Part c
+In a separate terminal window, navigated to the homework 3 directory on my computer 
+This was using a combination of cd and ls
+Then used this command: 
+Entered my password
+The files copied over
+Used my other terminal window which is logged in to stokes to check that it worked 
+Did so by cd hw3_isolanki then ls
+
+Part d
+To run my code
+module load anaconda
+conda activate isolanki_env
+python hw3_isolanki.py
+Output is as follows:
+Problem 2
+part h
+[ 0  1  4  9 16 25 36 49 64 81]
+part i
+[[  0.           1.08506944   4.34027778   9.765625    17.36111111]
+ [ 27.12673611  39.0625      53.16840278  69.44444444  87.890625  ]
+ [108.50694444 131.29340278 156.25       183.37673611 212.67361111]
+ [244.140625   277.77777778 313.58506944 351.5625     391.71006944]
+ [434.02777778 478.515625   525.17361111 574.00173611 625.        ]]
+Problem 3
+
+I also used ls to check that the graph was created. 
+
+
+Looks like the code ran without issues.
+
+Part e
+My last change was made before uploading to Stokes, so no new changes to commit at this point.
+
+But in general I use these commands:
+git add .
+git commit -m "<comment>"
+git push origin master
+
+Part f
+Took a screenshot of the GitHub Desktop using the shortcut Command + Shift + 3 
+Renamed it and then moved it to the hw3 folder
+
+Part g
+To copy over remaining files to Stokes
+(Terminal, location hw3_isolanki )
+scp hw3_isolanki_problem4.txt hw3_isolanki_problem5f_graph1.png hw3_isolanki_problem2g_graph1.png is177322@stokes.ist.ucf.edu:hw3_isolanki
+
+Stopping for now
+
+*****OUT: Mon Sep 14 13:55:37 EDT 2026
+
+*****IN: Mon Sep 14 14:36:27 EDT 2026
+
+In class
+ 
+N-m : m is degrees of freedom
+So how many pieces of info we used to fit the data
+for quadratic: ax^2 +bx +c
+a, b, c --> 3 pieces of info
+m = 3
+
+For discrete 
+p(x) is described by dirac delta function
+
+Poisson
+prob of observing some number of events in one time interval out of n possible events, each has a prob p of occurring
+
+for astronomy n>>>>1
+
+t is length of time waiting
+Tau is rate
+n is av events per unut time
+N is av events in time t
+
+SNR = mean/std dev = N/sqrt(N) = sqrt(N)
+
+quality of data improves as sqrt(number of counts) : only if systematic etc error << 
+So not linear
+
+1sigma error bars for astronomy
+
+Think pair share
+Uncertainties in measurement
+Uncertainties in location (distance)
+Uncertainty in time
+How many times do you repeat the measurement?
+What instrument are you using?
+Taking a video and going by millisecond?
+Snapshots? - shutterspeed
+Only a stopwatch - reaction time, perception
+
+
+Speed will also have an uncertainty
+Speed = distance/time
+
+*****OUT: Mon Sep 14 16:20:43 EDT 2026
+
+*****IN: Wed Sep 16 11:49:21 EDT 2026
+
+Resuming HW 3
+
+part h
+
+Logging into Stokes
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+This are the things I will do immediately after closing this log:
+a. 
+To copy the log into the Stokes folder
+I will use the scp command
+scp /Users/ishitasolanki/Desktop/0-ast5765-isolanki.log is177322@stokes.ist.ucf.edu:hw3_isolanki/
+
+b.
+To make a tar.gz file in Stokes
+Log in to Stokes
+Use: tar zcf hw3_isolanki.tar.gz hw3_isolanki
+
+c.
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp is177322@stokes.ist.ucf.edu:hw3_isolanki.tar.gz /Users/ishitasolanki/Desktop/ast5765/handin/
+
+d.
+To submit to webcourses
+Open webcourses and go to the assignment
+Click 'Choose a file to upload'
+Choose the compressed file from the handin folder
+When uploaded, submit assignment using the button
+
+*****OUT: Wed Sep 16 11:56:02 EDT 2026
+
+*****IN: Wed Sep 16 14:30:52 EDT 2026
+
+In class
+Doing peer reviews
+
+Made notes in a physical notebook because otherwise too many windows
+
+
+Now the lecture/content
+
+*****OUT: Wed Sep 16 16:24:34 EDT 2026
+
+*****IN: Wed Sep 16 20:41:59 EDT 2026
+
+Homework 4
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+Navigated to ast5765/homework using the cd command and ls command
+	Desktop --> ast5765 --> homework
+Created a new folder with the command mkdir hw4_isolanki
+
+Opened a new python file in Spyder and saved it as hw4_isolanki.py in the hw4_isolanki folder.
+
+Committed and pushed my changes to GitHub using 
+git add .
+git commit -m "created hw4 folder and python file"
+
+Starting to add content to the py file: hw no., date, etc.
+Added problem numbers and part numbers as an outline.
+
+Committed my changes to GitHub
+used same terminal I used for last GitHub commit
+git add .
+git commit -m "Added creation info and problem numbers to the main hw file"
+
+
+Problem 2
+
+Part a
+
+To find the python function.
+It involves random numbers so probably associated with np.random
+In numpy documentation I found np.random.normal(loc, scale, size)
+https://numpy.org/devdocs/reference/random/generated/numpy.random.RandomState.normal.html
+loc refers to the mean, 
+scale is std dev
+size of output
+
+Wrote up the code, using variables to store the num of samples and parent distribution mean and std dev in case we have to use it later. 
+
+First attempt to print the result, error because of a typo: 'randon'
+Fixed the typo, but I can't tell from looking at the resulting array whether it's good
+
+So found the mean and std dev of the sample and printed that 
+print(np.mean(sample))
+print(np.median(sample))
+print(np.std(sample, ddof = 1))
+
+Output:
+55.29444853276054
+55.27288542611704
+13.092414595328181
+
+Which matches the parent pretty well, but not exactly so it's doing what we want
+
+Now that this section is done, committed to GitHub
+
+Part b
+Plotting a histogram
+Pulling up the numpy documentation of plt.hist function to make sure I get the inputs right
+Creating an array to specify bins
+plotted the histogram and added title, axis labels to make it publication ready
+Line to save plot, using naming format
+
+On second thought, could condense and create the bins in the same line as plotting
+
+Made that change
+Plot looks good
+
+Commit to GitHub
+
+Stopping for now
+
+*****OUT: Wed Sep 16 21:38:48 EDT 2026
+
+*****IN: Fri Sep 18 09:33:49 EDT 2026
+
+Resuming Homework 4
+
+Problem 2c
+
+For evaluating the Gaussian at the center of each bin:
+calculate bin centers
+Writing out the gaussian equation
+Split into multiple parts at first 
+
+Decided to change my variable names from dist_mean and dist_std for the parent distribution mean and standard deviation to instead be mu and sigma. These new variable names seem more appropriate.
+
+exp_N_draws = (1 / np.sqrt(2 * np.pi * sigma**2)) \
+
+#expected draws for each bin for a single draw, using equation at bin centers
+exp_single_draw = gauss_coeff * np.exp(-1 / 2 * ((bin_centers - mu) / sigma)**2)
+
+#expected draws for each bin for a N draws
+exp_N_draws = N * exp_single_draw
+
+Should I instead combine all this into a single line of code?
+Let me check the hw format rules 
+Okay it is advised to split up the calculation so I will keep as is.
+
+
+I plot the result. It looks good, but the assignment plot line looks thicker and marks the data points too. So tweaking my plot to match.
+
+Going through and making sure comments etc looks good.
+
+Committed to GitHub
+
+Problem 3
+Working on this on physical paper
+
+For part a, I did make a silly arithmetic mistake and got the wrong answer 
+Redoing
+Getting +/- 2 sqrt(2ln2)
+Which after entering in my calculator and rounding is +/- 2.355 
+Not sure how the textbook got +/-2.354 when the next digit is 8 so should round up the 4 to 5
+
+Part b also on paper
+
+*****OUT: Fri Sep 18 11:01:31 EDT 2026
+
+*****IN: Fri Sep 18 12:39:57 EDT 2026
+
+Homework 4 continued
+Problem 3 continued
+Scanned my answers and created a pdf called 'hw4_isolanki_problem3.pdf'
+Moved it to the hw4 folder
+Added info about it to the python file
+Committed to Github
+
+Problem 4
+Part a
+
+part a
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+Part b
+Used the command mkdir hw4_isolanki
+Checked that it was created using the ls command
+
+Part c
+In a separate terminal window, navigated to the homework 4 directory on my computer 
+This was using a combination of cd and ls
+Then used this command: scp hw4_isolanki.py <netid>@stokes.ist.ucf.edu:hw4_isolanki
+Entered my password
+The file copied over
+Used my other terminal window which is logged in to stokes to check that it worked 
+Did so by cd hw4_isolanki then ls
+
+Part d
+To run my code
+module load anaconda
+conda activate isolanki_env
+python hw4_isolanki.py
+Output is as expected
+Program printed output:
+Problem 2
+Problem 3
+Saved in file hw4_isolanki_problem3.pdf
+Problem 4
+
+Used command ls to see that the two plots were created.
+
+So it ran without issues.
+
+Part e
+Commit and push to GitHub
+I have no new changes since my last commit
+In general I commit using
+git add .
+git commit -m "description of my changes"
+
+I need to push my changes now
+command:
+git push origin master
+
+Part f
+Took a screenshot of my GitHub Desktop application showing the history of my commits
+renamed it to match the naming convention
+Moved the screenshot to my hw4 folder (just dragged and dropped in finder)
+
+Committed and pushed again.
+
+To copy it to my stokes folder:
+(In Terminal, location Desktop/ast5765/homework/hw4_isolanki)
+scp hw4_isolanki_problem4_graph1.png <netid>@stokes.ist.ucf.edu:hw4_isolanki
+Enter password
+To check that it was copied successfully,
+go to my logged in Stokes window and ls (already at hw4_isolanki location)
+I see its been added
+
+Part g
+To copy over remaining files to Stokes
+(Terminal, location hw4_isolanki )
+scp hw4_isolanki_problem3.pdf <netid>@stokes.ist.ucf.edu:hw4_isolanki
+To check that it was copied successfully,
+go to my logged in Stokes window and ls (already at hw4_isolanki location)
+I see its been added
+
+Part h
+This are the things I will do immediately after closing this log:
+a. 
+To copy the log into the Stokes folder
+I will use the scp command
+scp /Users/ishitasolanki/Desktop/0-ast5765-isolanki.log <netid>@stokes.ist.ucf.edu:hw4_isolanki/
+
+b.
+To make a tar.gz file in Stokes
+In terminal window logged in to Stokes
+Use: tar zcf hw4_isolanki.tar.gz hw4_isolanki
+
+c.
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp <netid>@stokes.ist.ucf.edu:hw4_isolanki.tar.gz /Users/<username>/Desktop/ast5765/handin/
+
+d.
+To submit to webcourses
+Open webcourses and go to the assignment
+Click 'Choose a file to upload'
+Choose the compressed file from the handin folder
+When uploaded, submit assignment using the button
+
+However I am running late for a meeting and will actually have to follow these steps later. I will log the time in here first and then proceed.
+*****OUT: Fri Sep 18 13:28:42 EDT 2026
+
+*****IN: Fri Sep 18 15:09:57 EDT 2026
+
+In class
+
+Practicum 2
+
+Problem 1 
+no issues
+
+Problem 2
+Without for loop
+axis to apply across each row or column
+
+np.mean(samples, axis = 0)         mean down each row
+np.mean(samples, axis = 1)         mean down each column
+
+Problem 3
+AI prompt into google AI:
+python code using numpy (no loops) to draw 10 times, 10 random samples from a 
+gaussian distribution with mean 55 and standard deviation 13. Then create an 
+array shape 10x3 with each row containing sample number (0-9), mean of each 
+sample and standard deviation of each sample.
+
+Resulting code:
+
+import numpy as np
+
+# 1. Initialize the random number generator and draw the samples
+rng = np.random.default_rng(seed=42)  # Recommended way to handle randomness in modern NumPy
+
+# Draw 10 times, 10 samples each, from a normal distribution
+# This creates a 10x10 matrix where each row represents one sample trial
+samples = rng.normal(loc=55, scale=13, size=(10, 10))
+
+# 2. Calculate statistics for each row (axis=1) without using loops
+sample_numbers = np.arange(10).reshape(-1, 1)  # Array of shapes [[0], [1], ..., [9]]
+means = np.mean(samples, axis=1).reshape(-1, 1)
+stds = np.std(samples, axis=1).reshape(-1, 1)
+
+# 3. Stack the columns together horizontally to form a 10x3 summary array
+summary_array = np.hstack((sample_numbers, means, stds))
+
+# Display the final 10x3 array
+print("Final 10x3 Summary Array (Sample Number, Mean, Std Dev):")
+print(summary_array)
+
+*****OUT: Fri Sep 18 16:21:57 EDT 2026
+
+*****IN: Mon Sep 21 09:27:16 EDT 2026
+
+Resuming Homework 4
+Doing problem 4 part h
+Rewriting the steps here:
+Part h
+These are the things I will do immediately after closing this log:
+a. 
+To copy the log into the Stokes folder
+I will use the scp command
+scp /Users/ishitasolanki/Desktop/0-ast5765-isolanki.log <netid>@stokes.ist.ucf.edu:hw4_isolanki/
+
+b.
+To make a tar.gz file in Stokes
+In terminal window logged in to Stokes
+Use: tar zcf hw4_isolanki.tar.gz hw4_isolanki
+
+c.
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp <netid>@stokes.ist.ucf.edu:hw4_isolanki.tar.gz /Users/<username>/Desktop/ast5765/handin/
+
+d.
+To submit to webcourses
+Open webcourses and go to the assignment
+Click 'Choose a file to upload'
+Choose the compressed file from the handin folder
+When uploaded, submit assignment using the button
+
+*****OUT: Mon Sep 21 09:29:16 EDT 2026
+
+*****IN: Mon Sep 21 14:39:16 EDT 2026
+
+Systematic Errors
+Short person measuring
+Bouncing 
+Knees bent, slouching, heels are up, shoes with sole
+The tape measure is bending
+Compressed spine
+
+Random
+
+Correlated
+brightness and size of an asteroid
+density and mass of an object(assuming volume constant)
+
+Not correlated
+Temperature and velocity of an object
+
+
+Anticorrelated
+increase in distance from sun, lower temperatures
+
+*****OUT: Mon Sep 21 16:21:26 EDT 2026
+
+*****IN: Tue Sep 22 11:09:26 EDT 2026
+
+Resuming Practicum 2
+
+Resuming Problem 3
+Some differences between my code and the AI generated code.
+The AI generated code uses a seed for the random number generator
+Its method is different. It reshapes the arrays and stacks them together 
+to get the final output.
+
+Problem 4
+using np.savetxt() function
+to append and not overwrite have to open file in 'a' append mode
+
+The file I get has everything written in scientific notation with many digits
+
+So specifying the format for savetxt
+Deleting the previously created textfile and run program again
+Looks good now
+
+Problem 5
+Used a for loop with the steps in problem 2 and 4 
+No issues
+
+*****OUT: Tue Sep 22 12:14:06 EDT 2026
+
+*****IN: Tue Sep 22 14:05:29 EDT 2026
+
+Resuming Practicum 2
+Problem 6
+Reading text file line by line to parse comments
+Then loaded the data into a numpy array
+reshaped it so that I can index and vectorize easily. The outer dimension is 
+grouping the rows belonging to each N. So data[:,:,1] accesses all groups corresponding to 
+each N, all rows in those groupd, and the 1st column in those groups
+
+So I used vectorised operations to get the standard deviations of the means
+When I printed I got
+[4.52114189 0.95951029 0.11614215 0.08511757 0.02973214]
+The standard deviation of the means is improving as N increases which is what we expect
+
+Then printing appending to file
+
+Needed to look up printing format to make sure the columns aligned
+At first looked like this:
+#Sample size      Std. dev. of mean
+10 3.1550
+100 0.7590
+1000 0.4567
+10000 0.1247
+100000 0.0217
+
+With the help of formatting rules
+Got it to look like
+#Sample size      Std. dev. of mean
+10          4.10
+100         1.41
+1000        0.30
+10000       0.14
+100000      0.05
+
+*****OUT: Tue Sep 22 15:04:21 EDT 2026
+
+*****OUT: Tue Sep 22 15:22:37 EDT 2026
+Resuming Practicum 2
+Problem 7 
+To make a lol-log plot use plt.loglog
+
+I have completed the practicum.
+Now I will close the log, add the log to the p1 folder, zip it up and submit.
+
+*****OUT: Tue Sep 22 15:40:23 EDT 2026
+
+*****IN: Wed Sep 23 14:31:20 EDT 2026
+
+In class
+f = u+v
+sigma_f = sqrt(sigma_u^2 + sima_v^2)
+Adding in quadrature
+Error ellipse
+
+f = auv, a is a constant
+
+sigma_f^2 / f^2 = sqrt(sigma_u^2/ u^2 + sigma_v^2/ v^2)
+
+sigma_f^2 = f * sqrt(sigma_u^2/ u^2 + sigma_v^2/ v^2)
+
+
+Remember: only works for independent variables, need to include covariance terms for dependent variables
+
+f = u^2
+sigma_f = 2u sigma_u
+
+Derivation for max likelihood is important
+
+
+scipy.optimize.leastsq
+curve_fit
+
+goodness of fit criterion
+on average +/- 1 
+
+Reduced chi-squared: chi squared / N-m ~ 1 in a good fit
+
+Should not be too big or too small
+
+Chi-squared  ~ N-m for a good fit
+
+*****OUT: Wed Sep 23 16:18:53 EDT 2026
+
+*****IN: Wed Sep 23 16:29:27 EDT 2026
+
+Practicum 3
+
+Made a new folder using mkdir p3_isolanki in the practicum directory
+Opened a new python file in Spyder and saved it as p3_isolanki.py in the directory
+
+Downloading the .dat file from webcourses
+
+Opened it up
+
+Two arrays for the two models preceded by comments
+
+Committed to github
+
+Problem 1
+
+using np.loadtxt and telling it to ignore the comments
+but that loads everything into one array
+
+*****OUT: Wed Sep 23 17:03:39 EDT 2026
+
+*****IN: Wed Sep 23 20:55:07 EDT 2026
+
+Resuming Practicum 3
+
+Resuming Problem 1
+Part a
+To split the datasets 
+with open('practicum3_1.dat', 'r') as f:
+    parts = f.read().split('\n\n') 
+    
+Then loading each part into an array
+
+plotted
+
+Part b
+Used the help of the lecture materials to write the code.
+
+The uncertainty in the y of the datapoints propagates into the uncertainty of 
+the fitted parameters.
+A smaller sigma_y would give a smaller uncertainty in the fit parameters, 
+and a larger sigma_y would give a larger uncertainty in the fit parameters.
+
+To see this, I ran the code with  sigma_y = 0.5, 0.2 and 0.9 and got the following:
+    
+For sigma_y = 0.5
+a = 1.300 +/- 0.100
+b = 3.185 +/- 0.018
+Chi sq = 83.914
+Prob   = 0.844
+Covariance matrix = 
+[[ 0.00996464 -0.00151302]
+ [-0.00151302  0.00030668]]
+Reduced chisq = 0.856
+
+For sigma_y = 0.2
+a = 1.300 +/- 0.040
+b = 3.185 +/- 0.007
+Chi sq = 524.460
+Prob   = 0.000
+Covariance matrix = 
+[[ 1.59434316e-03 -2.42083216e-04]
+ [-2.42083216e-04  4.90682119e-05]]
+Reduced chisq = 5.352
+
+For sigma_y = 0.9
+a = 1.300 +/- 0.180
+b = 3.185 +/- 0.032
+Chi sq = 25.899
+Prob   = 1.000
+Covariance matrix = 
+[[ 0.03228545 -0.00490219]
+ [-0.00490219  0.00099363]]
+Reduced chisq = 0.264
+
+Part c
+Output: 
+The probability of getting a higher chi-squared by chance, if the data 
+came from the fitted model with the same random error level is : 0.844
+Saved the plot
+
+Git Commit
+
+Part d
+For model 2, the linfit model does not fit the data. The fitted parameters are 
+>>>3sigma away from the real parameters. And the reduced chi-squared is >>> 1.
+Also the chi-squared is >> n-m = 98
+A quadratic curve would fit the data. 
+f(x) = ax^2 + b
+
+Git commit
+
+*****OUT: Wed Sep 23 22:42:58 EDT 2026
+
+*****IN: Thu Sep 24 13:29:38 EDT 2026
+
+Resuming Practicum 3
+
+Problem 2
+Part a
+Output:
+Sample   mean: 18849.9
+Sample median: 10003.0
+The median is closer to N (10000) beacuse the outliers (1% bad pixels) skew the mean higher.
+
+Commit to GitHub
+
+Part b
+Output:
+Sample       mean: 15259.4
+Sample     median: 9993.0
+Sample    std dev: 62742.8
+
+Subsample    mean: 10954.8
+Subsample  median: 9992.5
+Subsample std dev: 15154.4
+The mean and std. dev has improved in the subsample
+
+Git Commit
+
+*****OUT: Thu Sep 24 14:18:59 EDT 2026
+
+*****IN: Thu Sep 24 14:41:14 EDT 2026
+
+Homework 5
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+Navigated to ast5765/homework using the cd command and ls command
+	Desktop --> ast5765 --> homework
+Created a new folder with the command mkdir hw5_isolanki
+
+Opened a new python file in Spyder and saved it as hw5_isolanki.py in the hw5_isolanki folder.
+
+Starting to add info to the py file: hw no., date, etc.
+Added problem numbers and part numbers as an outline.
+
+Committed and pushed my changes to GitHub using 
+git add .
+git commit -m "Created hw5 folder and python file"
+
+
+Problem 2
+Output: 
+Sample           mean: 13287.2
+Sample         median: 10002.0
+Sample        std dev: 37561.3
+
+Subsample        mean: 10127.0
+Subsample      median: 10001.0
+Subsample     std dev: 2507.3
+
+Sub-subsample    mean: 10001.3
+Sub-subsample  median: 10000.5
+Sub-subsample std dev: 103.2
+
+Clearly, with each repeated filtering the mean and standard deviation are improving.
+
+The final mean and median are different by 0.8 in this case.
+Adding print statements to calculate and print the difference.
+
+Output:
+Sample           mean: 16359.9
+Sample         median: 9995.5
+Sample        std dev: 66183.6
+
+Subsample        mean: 9996.1
+Subsample      median: 9993.5
+Subsample     std dev: 114.3
+
+Sub-subsample    mean: 9996.1
+Sub-subsample  median: 9993.5
+Sub-subsample std dev: 114.3
+
+The difference between the final mean and median is: 2.62
+The difference between the final std. dev. and the 
+expected std. dev for the poisson dist. is: 14.27
+The expected std. dev would be sqrt(N) = 100
+
+This will not always remove every bad pixel. Our threshhold is 5 sigma away from the median.
+There could be bad pixels within this criterion. Yet, it is also dangerous to lower the 
+criterion by too much because that might remove good pixels.
+
+Commit to GitHub
+git add .
+git commit -m "hw5 problem 2 filtered outliers in data twice"
+
+
+
+Problem 3
+
+Making the function in a support functions file
+Edited the docstrings a bunch. Need to come back later to add examples, once 
+I have the function ready to test with doctest.
+
+
+First I wanted to initialize output_array either with all true values or with the input mask.
+Tested it and the output is as expected.
+
+Next for the filtering
+I realized that I misunderstood the question. We want to repeat the filtering.
+Reworking the code.
+I think I have something. 
+
+Initial test looks good but I need to test it some more.
+Will continue later.
+
+GitHub commit
+
+*****OUT: Thu Sep 24 17:03:24 EDT 2026
+
+*****IN: Thu Sep 24 19:15:48 EDT 2026
+
+Continuing Problem 3
+Working on main hw file
+
+The mean and std dev from problem 2
+Sub-subsample    mean: 9991.3
+Sub-subsample std dev: 97.5
+
+The mean and std. dev from problem 3
+Clean sample     mean: 9991.3
+Clean sample  std dev: 97.5
+
+Both give us the same answer, which is what we want.
+
+Now I am going to put two versions of this into the examples section of the docstring.
+One with mask provided, one without.
+
+Testing with doctest
+In terminal, using cd go to hw5 folder
+python -m doctest sigrej.py
+
+I like to run it first without any output and see in the errors what the output is.
+
+Then I add output statements to the example and check again. No errors from doctest.
+
+Commit to GitHub
+
+*****OUT: Thu Sep 24 20:03:26 EDT 2026
+
+*****IN: Fri Sep 25 14:31:26 EDT 2026
+
+In class
+Going over practicum
+
+*****OUT: Fri Sep 25 16:25:13 EDT 2026
+
+*****IN: Mon Sep 28 11:54:29 EDT 2026
+
+Resuming Homework 5
+
+Problem 4
+
+part a
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+Part b
+Used the command mkdir hw5_isolanki
+Checked that it was created using the ls command
+
+Part c
+In a separate terminal window, navigated to the homework 5 directory on my computer 
+This was using a combination of cd and ls
+Then used this command: scp hw5_isolanki.py linfit.py sigrej.py <netid>@stokes.ist.ucf.edu:hw5_isolanki
+Entered my password
+The files copied over
+Used my other terminal window which is logged in to stokes to check that it worked 
+Did so by cd hw5_isolanki then ls
+
+Part d
+To run my code
+module load anaconda
+conda activate isolanki_env
+python hw5_isolanki.py
+
+Issue:
+OpenBLAS blas_thread_init: pthread_create failed for thread 5 of 32: Resource temporarily unavailable
+OpenBLAS blas_thread_init: ensure that your address space and process count limits are big enough (ulimit -a)
+OpenBLAS blas_thread_init: or set a smaller OPENBLAS_NUM_THREADS to fit into what you have available
+OpenBLAS blas_thread_init: RLIMIT_NPROC 100 current, 105 max
+
+Entered this above text into Google AI. 
+Answer: "To fix this error, you need to limit the number of threads OpenBLAS tries to create, or increase 
+your system's process/thread limits (ulimit)."
+
+I ran these commands in my terminal as was suggested
+export OPENBLAS_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export OMP_NUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
+
+Then when I ran the script, it executed normally.
+Output:
+Problem 2
+Sample           mean: 16420.5
+Sample         median: 10007.0
+Sample        std dev: 68495.4
+
+Subsample        mean: 10741.9
+Subsample      median: 10006.0
+Subsample     std dev: 14766.5
+
+Sub-subsample    mean: 10000.8
+Sub-subsample  median: 10005.5
+Sub-subsample std dev: 104.4
+
+The difference between the final mean and median is: 4.68
+The difference between the final std. dev. and the expected std. dev for the poisson dist. is: 4.41
+
+Problem 3
+Clean sample     mean: 10000.8
+Clean sample  std dev: 104.4
+
+Part e
+Commit and push to GitHub
+In general I commit using
+git add .
+git commit -m "description of my changes"
+
+I need to push my changes now
+command:
+git push origin master
+
+Part f
+Took a screenshot of my GitHub Desktop application showing the history of my commits
+renamed it to match the naming convention
+Moved the screenshot to my hw5 folder (just dragged and dropped in finder)
+
+Committed and pushed again.
+
+To copy it to my stokes folder:
+(In Terminal, location Desktop/ast5765/homework/hw5_isolanki)
+scp hw5_isolanki_problem4_graph1.png <netid>@stokes.ist.ucf.edu:hw5_isolanki
+Enter password
+To check that it was copied successfully,
+go to my logged in Stokes window and ls (already at hw5_isolanki location)
+I see its been added
+
+Part g
+To copy over remaining files to Stokes
+(Terminal, location hw5_isolanki )
+scp hw5_isolanki_problem3.pdf <netid>@stokes.ist.ucf.edu:hw5_isolanki
+To check that it was copied successfully,
+go to my logged in Stokes window and ls (already at hw5_isolanki location)
+I see its been added
+
+Part h
+This are the things I will do immediately after closing this log:
+a. 
+To copy the log into the Stokes folder
+I will use the scp command
+scp /Users/<username>/Desktop/0-ast5765-isolanki.log <netid>@stokes.ist.ucf.edu:hw5_isolanki/
+
+b.
+To make a tar.gz file in Stokes
+In terminal window logged in to Stokes
+Use: tar zcf hw5_isolanki.tar.gz hw5_isolanki
+
+c.
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp <netid>@stokes.ist.ucf.edu:hw5_isolanki.tar.gz /Users/<username>/Desktop/ast5765/handin/
+
+d.
+To submit to webcourses
+Open webcourses and go to the assignment
+Click 'Choose a file to upload'
+Choose the compressed file from the handin folder
+When uploaded, submit assignment using the button
+
+
+Practicum 3
+I will also copy this log into the practicum folder, and zip and submit the practicum to webcourses after closing this log.
+
+*****OUT: Mon Sep 28 12:21:23 EDT 2026
+
+*****IN: Mon Sep 28 14:34:21 EDT 2026
+
+In class
+Went over homework
+
+CCDs
+
+*****OUT: Mon Sep 28 16:21:37 EDT 2026
+
+*****IN: Thu Oct 1 14:15:39 EDT 2026
+
+Practicum 4 / Homework 6
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+Navigated to ast5765/homework using the cd command and ls command
+	Desktop --> ast5765 --> homework
+Created a new folder with the command mkdir hw6_isolanki
+
+Opened a new python file in Spyder and saved it as hw6_isolanki.py in the hw6_isolanki folder.
+
+Starting to add info to the py file: hw no., date, etc.
+Added problem numbers as an outline.
+
+Committed and pushed my changes to GitHub using 
+git add .
+git commit -m "<comment>"
+
+Problem 2
+
+added imports for numpy, os, fits
+
+Part a 
+
+Pretty straightforward, no issues
+
+Note: Recieved an important phone call so stepped away for roughly 15-20 minutes
+
+
+Part b
+Used a for loop. 
+We are told to minimise usage of for loops, however the assignment expicitly 
+said to initialize and assign to lists. So I think in this case it is fine.
+
+split the filename to check the extension and whether it is a target or dark image
+
+I printed the arrays
+['rdpharocor_stars_13s_5', 'rdpharocor_stars_13s_9', 'rdpharocor_stars_13s_8', 
+'rdpharocor_stars_13s_4', 'rdpharocor_stars_13s_3', 'rdpharocor_stars_13s_2', 
+'rdpharocor_stars_13s_1', 'rdpharocor_stars_13s_7', 'rdpharocor_stars_13s_6']
+['rdpharocor_dark_13s_1', 'rdpharocor_dark_13s_2']
+
+I don't like that the first array has the files out of order. So I also sorted the list.
+
+Output looks good.
+Removed the print statements because that was just for me to test the code.
+
+Commited to GitHub
+
+Part c
+
+Straightforward, just print statements
+
+Part d
+At first used fits.open() to load the fits file as a header data unit list (HDUl)
+Used the headers to get the dimensions of the data array
+Changed this to use fits.getheader() to get the header instead
+
+We should not hardcode the lengths of the lists of target and dark image filenames 
+because if we run this script with a different data directory, the number of 
+target and dark image files in that directory could be different. Not hardcoding 
+values makes scripts easy to resuse, and avoids repeating work rewriting a new 
+script every time.
+
+Output looks good so far
+
+Commited to GitHub
+
+Problem 3
+
+Part a 
+
+created the dataframes with all zeros, datattype float64, and sizes
+(nobj, ny, nx) for the object/target dataframe and (ndark, ny, nx) for the 
+dark dataframe.
+
+Part b
+Iterating using for loops to get data from each file and store it
+
+When copy pasting the 2nd loop, forgot to change some of the i's to k's which 
+gave an error.
+Fixed this and ran again.
+
+    Output looks good:
+        Problem 2
+        Data directory: /Users/ishitasolanki/Desktop/ast5765/homework/hw6_isolanki/hw6_data/
+        File extension: .fits
+        Last file in list of target images: rdpharocor_stars_13s_9
+        Last file in list of dark   images: rdpharocor_dark_13s_2
+        Size of dimension x of the array: 1024
+        Size of dimension y of the array: 1024
+        Number of target images in directory 9
+        Number of dark   images in directory 2
+
+        Problem 3
+        Shape of dataframe with target images data (9, 1024, 1024)
+        Shape of dataframe with   dark images data (2, 1024, 1024)
+        Date of observation for last target image: 2002-01-27
+        Date of observation for last   dark image: 2002-01-27
+        
+        
+Part c
+Extra Credit 
+We are not printing TIME-OBS, becasue the target files do not have a value
+stored for that header keyword.
+
+Git Commit and push
+In general I use the commands:
+git add .
+git commit -m "<comment>"
+git push origin master
+
+I am not submitting now as we will go over the practicum tomorrow.
+
+
+*****OUT: Thu Oct  1 16:38:30 EDT 2026
+
+*****IN: Thu Oct  1 17:37:21 EDT 2026
+
+Homework 6
+
+Problem 1
+
+To make a new homework folder
+Opened a Terminal window
+Navigated to ast5765/homework using the cd command and ls command
+	Desktop --> ast5765 --> homework
+Created a new folder with the command mkdir hw7_isolanki (even though it is hw6, the instructions say make folder hw7)
+
+Opened a new python file in Spyder and saved it as hw7_isolanki.py in the hw7_isolanki folder.
+
+Starting to add info to the py file: hw no., date, etc.
+Added problem numbers as an outline.
+
+Committed and pushed my changes to GitHub using 
+git add .
+git commit -m "<comment>"
+
+Problem 2
+
+Part a
+the np.median() function can be used to median combine the image in a single
+function call, without loops. The first argument will be the 3D array and the 
+second argument will be axis = 0. This is an additional thing we have to specify
+to apply the median function across the images as we want. Axis 0 is for the images 
+(outermost dimension), axis 1 is for the rows and axis 2 is for the columns.
+
+
+Git Commit
+
+*****OUT: Thu Oct  1 17:54:18 EDT 2026
+
+*****IN: Fri Oct  2 14:28:24 EDT 2026
+
+In class
+
+Can get header and data in one line
+
+Can get the shape from headers. .shape is better 
+
+Chi squared
+Maximum likelihood method
+Asuuming
+    Gaussian distribution
+    Independently distributed
+    
+*****OUT: Fri Oct  2 16:23:56 EDT 2026
+
+*****IN: Sat Oct  3 19:27:01 EDT 2026
+
+Resuming Homework 6
+
+Reuming Problem 2
+
+Part b
+
+To call the function on my data, I need to access my data, which was read in the practicum.
+
+I will add the code from the practicum to this homework.
+
+Part c
+For adding the new history entry I used 
+I thought this would not work and that it would replace old history entries.
+But looking at the documentation, the 'HISTORY' keyword is treated specially.
+
+Part d
+Used the function fits.writeto to write the median combined dark frame
+
+Part e
+objdata -= darkdata_med
+Modifying in place as asked
+This will work to subtract the median dark from each object frame due to broadcasting 
+in numpy. The shape of the median dark is (ny, nx), and the shape of objdata is
+(nobj, ny, nx). Numpy will treat the median dark as (1, ny, nx)
+
+Output
+Value of pixel [217, 184] of the median-combined dark image:  19.0
+Value of pixel [217, 184] of the first object frame before dark subtraction:  10879.0
+Value of pixel [217, 184] of the first object frame before dark subtraction:  10860.0
+
+This is as expected as 10879.0 - 19.0 = 10860.0
+
+The fits files were created and I took a look at them in SAO DS9
+
+Problem 4
+Committing to GitHub
+git add.
+git commit -m "<comment>"
+
+Pushed changes
+git push origin master
+
+Will do the Stokes testing and submission later.
+
+*****OUT: Sat Oct  3 20:33:44 EDT 2026
+
+*****IN: Mon Oct  5 12:40:36 EDT 2026
+
+Submission of Practicum 4
+Note the assignment says the naming should be hw6
+After I close this log 
+I will copy the log to the hw6 folder
+Compress as a tar.gz file
+And submit to webcourses
+
+*****OUT: Mon Oct  5 12:42:47 EDT 2026
+
+*****IN: Mon Oct  5 14:33:58 EDT 2026
+
+In class
+
+Papers
+
+Abstract
+
+Intro
+State of field and motivation
+Roadmap of paper
+
+Main
+Methods
+Number equations
+Use the active voice
+
+Discussion
+Implications
+
+*****OUT: Mon Oct  5 16:23:48 EDT 2026
+
+*****IN: Tue Oct  6 13:07:24 EDT 2026
+
+Read paper 1 in hw 7 on ipad earlier today, when I was away from laptop so could not open log then
+
+To write the paragraph, creating a word document to draft.
+Jotted down bullet points
+
+Now looking over paper 2
+
+*****OUT: Tue Oct  6 14:06:47 EDT 2026
+
+*****IN: Wed Oct  7 11:56:50 EDT 2026
+
+Homework 6 continued
+Problem 4 continued
+
+part a
+Opened Terminal.
+Used the command ssh <netid>@stokes.ist.ucf.edu (not writing my actual netid here)
+Entered my password
+Login successful
+
+Part b
+Note: practicum 4 was saved as homework 6, and directions say to save this as hw7, 
+Used the command mkdir hw7_isolanki
+Checked that it was created using the ls command
+
+Part c
+In a separate terminal window, navigated to the homework 7 directory on my computer 
+This was using a combination of cd and ls
+Then used this command: scp hw7_isolanki.py <netid>@stokes.ist.ucf.edu:hw7_isolanki
+Entered my password
+The file copied over
+
+Then used this command: scp -r hw6_data <netid>@stokes.ist.ucf.edu:hw7_isolanki
+Entered my password
+The folder copied over
+
+Used my other terminal window which is logged in to stokes to check that it worked 
+Did so by cd hw7_isolanki then ls
+
+Part d
+To run my code
+module load anaconda
+conda activate isolanki_env
+python hw7_isolanki.py
+
+It ran successfully
+Output:
+    Problem 2
+    Value of pixel [217, 184] of the median-combined dark image:  19.0
+    Value of pixel [217, 184] of the first object frame before dark subtraction:  10879.0
+    Value of pixel [217, 184] of the first object frame before dark subtraction:  10860.0
+
+    The fits files were also created
+Part e
+Commit and push to GitHub
+In general I commit using
+git add .
+git commit -m "description of my changes"
+
+I need to push my changes now
+command:
+git push origin master
+
+Part f
+Took a screenshot of my GitHub Desktop application showing the history of my commits
+renamed it to match the naming convention
+Moved the screenshot to my hw7 folder (just dragged and dropped in finder)
+
+Committed and pushed again.
+
+To copy it to my stokes folder:
+(In Terminal, location Desktop/ast5765/homework/hw7_isolanki)
+scp hw7_isolanki_problem4_graph1.png <netid>@stokes.ist.ucf.edu:hw7_isolanki
+Enter password
+To check that it was copied successfully,
+go to my logged in Stokes window and ls (already at hw7_isolanki location)
+I see its been added
+
+Part g
+No other files to copy to Stokes
+
+Part h
+This are the things I will do immediately after closing this log:
+a. 
+To copy the log into the Stokes folder
+I will use the scp command
+scp /Users/<username>/Desktop/0-ast5765-isolanki.log <netid>@stokes.ist.ucf.edu:hw7_isolanki/
+
+b.
+To make a tar.gz file in Stokes
+In terminal window logged in to Stokes
+Use: tar zcf hw7_isolanki.tar.gz hw7_isolanki
+
+c.
+Then to download
+Exit Stokes and then run commands on my computer
+Use scp
+scp <netid>@stokes.ist.ucf.edu:hw7_isolanki.tar.gz /Users/<username>/Desktop/ast5765/handin/
+
+d.
+To submit to webcourses
+Open webcourses and go to the assignment
+Click 'Choose a file to upload'
+Choose the compressed file from the handin folder
+When uploaded, submit assignment using the button
+
+*****OUT: Wed Oct  7 12:21:07 EDT 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

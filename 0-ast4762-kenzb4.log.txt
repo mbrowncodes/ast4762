@@ -1175,6 +1175,170 @@ back to review homework 6
 fix spelling errors in comments, add better detail to function docstring (2a)
 
 4)
-in terminal log into vpn then log into stokes
+git add ., git commit -m, git push
+in terminal log into vpn then log into stokes, mkdir hw6_kenzb4
 reg terminal: jupyter nbconvert --to script hw6_kenzb4.ipynb
+reg terminal: scp files into hw6 stokes directory
+scp -r ~/Documents/ast4762/homework/hw6_kenzb4/hw6_kenzb4.py ma755497@stokes.ist.ucf.edu:~/hw6_kenzb4
+(all other files too^)
+stokes terminal: ls in hw6 folder to check all files here, module load anaconda, python hw6_kenzb4.py 
+all ran correctly!
+now i will copy my log and scp that into stokes directory for hw6
+in stokes terminal: tar -czvf hw6_kenzb4.tar.gz hw6_kenzb4
+then in regular terminal: scp ma755497@stokes.ist.ucf.edu:~/hw6_kenzb4.tar.gz ~/Documents/ast4762/handin 
+
+*****OUT: Mon Oct 7 12:48:34 EDT 2026
+
+*****IN: Mon Oct 7 14:27:18 EDT 2026
+
+in class, reading over articles for hw 7 
+for homework 7 
+cd Documents/ast4762/homework
+mkdir hw7_kenzb4
+move pdf file for hw7 instructions, and my textfile containing article links for summary into directory
+
+going over homework 7 & practicum 4
+
+broadcasting (one line, wriring less code, less bug)
+- broadcasting apply to all
+no numbers should be used in your code other than 0, 1, and -1 (all else hardcoded at top)
+if you dont want to start with 0 frame, we use -1 frame
+{0:d}, prints value, assign printing first element(0) and as an integer (d)
+indexing, stack of array 
+start: 0,0,0 --> 0,0,1, --> 0,0,N (zyx)
+then 0,1,0 --> 0,N,0
+x is most frequencly verying direction (on end), z is lead varying
+
+Q = obj[3] #takes whole sheet from 4th element of z, then we can 
+Q[y,x]    #easier way to write and only take out x and y elements of 1 specific plane
+
+when writing in history: look to hw6 sol, .addhistory ('medcombine: '
+                     + time.strftime('%a %b %d %H:%M:%S %Z %Y')
+                     + username)
+username can use pwd.getpwduid(os.getuid())[0]
+(this will add function type, time info like day of week, month, time, etc), then add username)
+careful when overwriting, dont always write it =True, be sure 
+2e) obj_array -= mediam_arr (do it in oneline rather than assign a variable and now you store 2 large files)
+common practice to cast it to a np.float32 instead of np.float64 (not take all this extra data stuff)
+import hw6 (from hw6 import star) will run through whole thing of code) into hw 8,9,10 
+
+think pair share in class:
+is the moon made of cheese?
+importance? if moon hit the earth in early development, how does this affect its composition, 
+competing ideas about the moon?
+the moon is made up of other minerals like metals, sillicates, basilt
+our moon is an anomaly and is the only moon made of cheese and all others are more dustly and metallic 
+aliens changed the composition of our moon after it became tidally locked to earth
+how can you figure out which idea is right?
+take data for absorption and emission lines (cameras) and compare it to cheese on earth, take a physical sample (if possible) of the surface
+look at its impact craters?, how does the cheese fill in, how old is the cheese and how moldy 
+steps to take? take image of the moon, look through instrument data (sort through any bad pixel data, and outliers)
+tests to seperate ideas? look at spectrum of other materials on earth
+degeneracis/possible problems show up? wavelength doesnt match telescope data, random errors (measuring photons), median combination of different data frames
+ 
+*****OUT: Wed Oct 7 16:22:34 EDT 2026
+
+
+*****IN: Fri Oct 9 14:37:12 EDT 2026
+on zoom for practicum 5 
+error bars! needed to understand quantatively the data
+latex (can include on plot and will show variables from text onto the plot)
+(use double backslash if it doesnt work*)
+plt.text
+plotting subplots, .set_xlabel compared to .xlabel
+cameron did import of matplotlib.ticker as ticker to get ticks 
+.yaxis.set_major_locator(ticker.)
+.tick_params(which = 'major')
+minor axes useful for reading off data
+twin axis, then normally plot, set new y label (auto put it on right side)
+
+using support function files make code look much cleaner when calling upon multiple functions for dense data
+
+creating datapaths (path to data in data dir) 
+from glob import glob --> useful for taking data
+
+*****OUT: Fri Oct 9 16:28:23 EDT 2026
+
+*****IN: Fri Oct 9 23:42:45 EDT 2026
+back to do another article summary for hw7
+
+*****OUT: Sat Oct 10 00:55:34 EDT 2026
+
+*****IN: Sat Oct 10 18:53:24 EDT
+back to do another article summary for hw7
+
+*****OUT: Sat Oct 10 19:28:45 EDT 2026
+
+*****IN: Sat Oct 10 22:45:45 EDT 2026
+
+homework 7 continuation
+open jupyter notebooks and create a new file named hw7_kenzb4.ipynb
+add name, date, and assignment number
+add lines for imports and hardcoded values
+
+3a) look at help(pd.read_csv)
+see csv file has 3 columns, reads delimiter as ",", observation number col[0], time(days) col[1], normalized flux col[2]
+look up difference between using pandas vs numpy, decide on numpy for speed and using array later
+check help(np.loadtxt)
+assign dat to load text, with filename (hardcoded above), delimiter set and skip the first row of header
+then check with .shape
+assign time and flux to dat[:, 0] and [:, 1]
+started plotting using ax, need to go back to add tick parameters, & want to change range of x axis values
+
+*****OUT: Sat Oct 10 23:23:23 EDT 2026
+
+*****IN: Sun Oct 11 10:59:23 EDT 2026
+homework 7 
+3a) finished graph by changing the data set to "." for dots instead of connecting lines, added ax.minorticks_on() to apply on graph
+
+3bi) starting to define box, 4 parameters, 1 array 3 floats and retuns 1 float
+
+OUT: Sun Oct 11 11:40:23 EDT 2026
+
+
+*****IN: Sun Oct 11 12:06:23 EDT 2026
+
+3bi) set y_val (the returned array) to an np.ones_like array (keeps size and shape og given array), then write boolean line where only values kept are ones that fit within half of the width
+take y_val[inside] to be equal to high, so we can plot against each other
+
+3bii) look up curvefit and see inputs, try fit_dat = curve_fit(box_wind, time, and flux)
+get a (covariance of parameters could not be estimated), need to add p0 for inital guesses, use 0.0 for center, 0.02 for width of dip, and .99 for dip height, now try curvefit with p_guess as p0, still get same covariance error
+
+*****OUT: Sun Oct 11 13:06:34 EDT 2026 
+
+*****IN: Mon Oct 12 09:35:12 EDT 2026
+
+3bii) the fit cannot be entirely trusted due to the curvefit function not being able to determine the covariance parameters, my guess values stayed the same for the center and width, the box window function is discontinous with its center and width so curvefit struggles to estimate these uncertainties in the parameters, i can try different inital guesses and view the plot if im not believing the fit
+
+fig, ax to plot, same code as before, but add line for model_flux
+
+checked print statement of best fitted parameters to compare to my initial gues
+
+3biii) print the best fit parameters, make print statement clear
+find change(f)/f with height_fit and the inital known value of 1 
+then solve with stellar radius times sqrt of flux ratio
+exoplanet radius found to be 0.1128
+
+3iv) plot like i did in 3bii, make fontsize readable, make the observation data points, make the linesize of the boxfit larger and clear
+
+3c) take errors and calculate planetary radius error, --> uncertainity error formula
+write print statement for planets radius error
+
+review prompts and remove plot in 3bii) --> done in 3biv)
+
+pasting article summaries 
+problem 2)
+Article a: In this paper HD 189733b and its Hot Jupiter was examined for some time ranging from before its transit to after its  secondary eclipse. When examining the large number of pixels systematic error was found from a detector induced rise in up to 10% of pixels over time of its illumination value. High illumination pixels were found to converge to a constant value by the time the star and planet were transiting each other, and lower illumination pixels followed a linear increase over time. To fix this systematic error a median illumination was estimated and applied to lower pixel value levels, about 33% of total flux is contributed by corrected pixels and the amplitude reduced by only 13% of total size. The flux increase at two spots on the star may come from it being an active star with spots causing this flux variation. There was a delay found for the start of the secondary eclipse and it is speculated on its origin. Ultimately it is ruled to be from an slightly eccentric orbit that was too small to be detected by radial velocity measurements. Atmospheric contrast models are made for the day vs night side temperatures, planetary response to stellar irradiation coming from comparisons from the radiative time scale and advection time scale. The model suggests the two time scales are comparable and result in temperature differences of up to 1000K. The flux is assumed to come from deeper in the atmosphere where possible supersonic winds speeds are assumed. 
+
+Article b: In this article, Spitzer Space Telescope IR data of the HD 189733 exoplanet system is evaluated at multiple flux ratios at wavelengths of 3.6, 4.5, 5.8, 8.0, and 24 microns. Previous data is reanalyzed to retrieve a band at 16 microns as well. Transmission spectroscopy is used with IR measurements to get better measurements of the planet to star contrast ratio that helps constrain atmospheric quantities like chemistry and temperature on its differing day and night sides. There was lots of filtration of the data to disregard some pixels entirely, fitting the data to a quadratic function of ln change in t. The pixels individually increase over time and has a detector ramp effect, the strongly illuminated pixels converge to a constant while the weaker illuminated pixels increase linearly over time. The system was observed for 5 hours for the secondary eclipse, the pixel sensitivity was accounted for by normalizing each time series to a common scale. Pixels larger than 3 sigma from the median are trimmed off, background is subtracted individually. Comparing band models, it is seen at longer wavelengths that a hole appears due to water absorption, but in shorter wavelengths the data suggests water is in emission. The two planets are compared, viewing their atmospheric data and temperature inversion qualities, as well as comparing their physical size and density. The longer wavelengths at 16 and 24 microns suggest a small day night variation on HD 189733b, eclipse depth at 8 microns also shows dayside emission may vary in time, allowing for weather to be studied on the planet. 
+
+Article c: FIS are used to approximate and create computer graphics in many fields of science, it is especially useful when the data sets are given on the boundary of the domain. Fractical functions work by iterating over a function system. To create these fractal surfaces, fractical curves are used as well as using bivariate fractal interpolation functions (when data set given on mesh point of whole domain). The results allow more general boundary data and domains. Much study's have happened with data on rectangular grids. IFS made using constant vertical scaling factors, linear contraction transformation (of domain and quadratic polynomial). They generalize IFS by making RFIS (recurrent fractal interpolation surfaces), use function vertical scaling factors, estimate lower and upper bounds for box counting dim. Constructing these RFIS they take mappings into 2 regions and relate a domain to then. Then contraction making occurs to find vertical scaling factors. By assuming the row stochastic matrix M is irreducible, the RIFS is found for the dataset P. There are multiple theorems stated, that there exists an interpolation function of the data whose graph is an attractor of the RIFS, if vertical scaling factors are within bounds (0, 1), the attractor becomes a recurrent fractal surface. To estimate the upper and lower bounds of the box counting dimension of the attractor. they find the maximum variation of the function. 
+
+Article d: In this article, previous JWST and NIRCam observation data were taken for HD 189733b. Features are shown for H2O, CO2, CO, and H2S but not CH4, that of which is heavily depleted from equilibrium abundance and tells us about the planet's atmosphere. Without a large number of exoplanets observed, patterns cannot yet be reduced on their behavior norms. Looking to compare the metallicity and C/O ratio from JWST data and find wavelengths that have readable data. They re-reduced NIRCam observations at 2.4 - 5.0 microns using SPARTA and PLATON. They started with SPARTA analyzing GJ 1214b and HD 149026b, calibrating raw files, applying a ramp fitting twice to remove non-linearity and taking out far outliers greater than 14 sigma, then remove background, then create a median image and find the model with an exponential ramp and linear function. Find transit data difference and assume it to be from the noise of NIRCam. A small wavelength from 3.95 to 4.0 microns is taken out of the emission and transmission spectrum due to an overlap where two visits aren't in agreement. Spitzer telescope data is compared to see its reliability, 2 sigma consistency between two channels. Opacities of molecules are found and listed and used to improve PLATONS modeling ability of these hot Jupiter's. Changed were made to PLATON to keep it running quickly. Make slight changes in definition of metallicity and C/O ratio, scaling C and O instead of just O. Take 6 retrievals for the exoplanet system, individual, and combined transmission and emission spectrum and assume the atmosphere is in chemical equilibrium then parametrize it with a log metallicity and C/O ratio. It is found that C/O posteriors are consistent with each other and the metallicity is highly asymmetric. Found the methane depletion preferred at Bayes ratio 7. After equilibrium is retrieved, the PLATON finds molecules transparent to light, only the 5 molecules are significant with their greater affect on chai squared. After viewing the abundances of these molecules plus sulfur it is found that photochemistry is an important cause of methane depletion due to the sensitive temperature pressure profile of its atmosphere. Comparing data =, it is found that the water abundance in the emission spectrum is consistent with metallicity. 
+
+
+now i will work on problem 4 testing it works and sumbitting
+
+
+
 

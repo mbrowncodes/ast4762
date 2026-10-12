@@ -1,0 +1,593 @@
+Dalton Pedersen
+Log for AST 4762, Fall 2026
+
+
+*****IN: Wed Aug 26 14:49:17 EDT 2026
+Opened notepad, started this log, saved as:
+/ast4762/hw/0-ast4762-dpedersen.log
+Name: Dalton Pedersen
+Username: dpedersen
+What astronomy classes have you taken? AST2002, asteroids and comets
+Are you generally comfortable with calculus and physics? Yes
+Have you ever programmed a computer? Yes
+In what language(s)? Python, Java, C, javascript, SQL
+Have you taken a programming class, and if so which? Java, JAvascript, C, C++, Python, Computer Science 1
+Have you taken statistics or probability? No
+Will you be attending the DPS conference this year, or will
+you be away otherwise? No I do not plan to attend the conference.
+Why are you taking this course? This is a requirement for my degree of course, though I enjoy data analysis and astronomy especially.
+Are there particular topics you hope to learn? Working with complex data in programming, depper level of data import and structure.
+If you have programmed outside of a course before, please
+briefly describe: Programmed web apps, coded websites, python data analysis of arpes data, as well as astrophotography stacking and processing.
+If you have worked with scientific data before, briefly
+describe your experience: I have worked with arpes data in python.
+Please describe any projects in astronomy, including
+involvement in amateur groups, owning a telescope,
+research, etc.: I love to do astrophotography and process the images. I own a telescope, I also have done work processing arpes data for quantum materials research.
+Made a folder hw0_dpedersen
+Copied log file into hw0_dpedersen
+Zip the hw0_dpedersen folder with 7zip
+Submit the zip file on canvas
+*****OUT Wed Aug 26 14:57:57.54 EST 2026
+
+
+*****IN Sat Aug 29 12:51:54 EDT 2026
+
+Opened a terminal and started wsl to log date
+
+Create folder hw1_dpedersen
+Download github desktop setup
+Install github desktop
+Log into github
+
+Launch anaconda navigator
+Launch jupyter
+
+Take screenshot with greenshot program
+Take screenshot of github desktop 
+Open terminal in hw1_dpedersen
+Run git status
+Take screenshot
+
+Open VPN and connect to ucf vpn
+
+Open mobaxterm and connect to stokes
+Access is denied after correctly typing password
+Take screenshot of access denied
+
+*****OUT Sat Aug 29 13:08:07 EDT 2026
+
+*****IN Mon Aug 31 10:55:19 EDT 2026
+
+Connect to ucf vpn
+Open mobaxterm session with stokes
+Access denied again
+I am going to submit this screenshot so that the homework is not late
+
+Copy log file into hw1_dpedersen folder
+Zip the hw1_dpedersen folder with 7zip
+Upload and submit the folder to webcourses
+
+*****OUT Mon Aug 31 10:58:29 EDT 2026
+
+
+*****IN Mon Aug 31 14:41:44 EDT 2026
+Reset NID password
+
+Log into ucf wifi
+Log into stokes mobaxterm session
+run ls
+Take screenshot with success
+
+
+Copy log file into hw1_dpedersen folder
+Zip the hw1_dpedersen folder with 7zip
+Upload and submit the folder to webcourses
+
+*****OUT Mon Aug 31 14:42:43 EDT 2026
+
+*****IN Mon Aug 31 14:45:30 EDT 2026
+
+open wsl in a terminal
+open stokes terminal session
+
+run demo commands making shell_test folder
+
+copy test.dat to home directory on stokes 
+
+copy test.dat to shell_test folder
+
+cat test.dat to read file
+ make shell_test_cp
+remove shell_test_cp
+
+Pay attention to lecture
+
+*****OUT Mon Aug 31 16:09:29 EDT 2026
+
+*****IN Wed Sep  2 14:31:19 EDT 2026
+
+open mobaxterm and connect to stokes
+open log file and log
+
+download files from course lecture 4 files on webcourses
+
+work in python notebook and follow the lecture
+
+*****OUT Wed Sep  2 16:21:10 EDT 2026
+
+*****IN Fri Sep  4 14:42:08 EDT 2026
+
+Connect to zoom call
+open log
+stokes access denied again
+not sure whats happening
+
+Attend lecture remotely in person
+
+make hw2_dpedersen folder
+make hw2_dpedersen.ipynb file
+
+work on hw2
+save hw2_dpedersen.py by using export as executable script (.py) in jupyter notebook
+
+work on notebook with lecture from jh
+
+work on pandas material with cameron
+
+close out of everything
+save files
+
+*****OUT Fri Sep  4 16:18:11 EDT 2026
+
+*****IN Tue Sep  8 15:43:29 EDT 2026
+
+Stokes connection access is still denied, unable to move forward in hw2
+
+Reached out to stokes aarc support and IT, they say that I have no stokes account associated with my NID
+
+Reached out to TA and professor for advice as well
+
+I am unable to use stokes to complete problem, however I used github desktop to push and commit my hw2_dpedersen folder to github
+
+I am using wsl to make a tar.gz folder
+
+copy my log into hw2_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on hw2_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my wsl explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+After this I ran tar -czvf hw2_dpedersen.tar.gz hw2_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my wsl explorer.exe window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+*****OUT Tue Sep  8 15:51:12 EDT 2026
+
+
+*****IN Wed Sep  9 14:40:19 EDT 2026
+
+
+open mobaxterm and connect to stokes
+
+join zoom meeting
+pay attention to lecture
+work with partners on parts of the notebook
+
+participate in lecture
+
+laptop is dying
+
+*****OUT Wed Sep  9 16:11:52 EDT 2026
+
+
+*****IN Fri Sep 11 14:34:20 EDT 2026
+
+
+connect to stokes via mobaxterm
+
+open log file and write in log
+
+join zoom meeting
+ open jupyter notebook and attend lecture
+pay attention to content
+
+rush through practicum and peer reviews at the very end of class
+submit practicum 1 before deadline
+
+*****OUT Fri Sep 11 16:29:06 EDT 2026
+
+
+
+
+*****IN Mon Sep 14 14:35:31 EDT 2026
+
+open log file
+
+open mobaxterm and connect to stokes
+
+open conda promp and launch jupyter notebook for lecture
+
+
+pay attention and attend lecture
+
+ctrl shift n make folder hw3_dpedersen
+
+make hw3_dpedersen.ipynb
+make hw3_dpedersen_support_functions.py
+copy contents of template into python file
+
+Problem 2b)
+Comments need to be included for clarity. Docstring must be included for proper function documentation and help function usage.
+make square function in support function file
+
+test and iterate square function
+
+make squareplot function in support function file
+commit changes to github via github desktop
+
+test squareplot function and run required values through it
+
+commit changes to github via github desktop app
+
+use mkdir to make a directory in stokes for hw3_dpedersen
+copy hw3_dpedersen.py and support function file into hw3_dpedersen/ in stokes using ssh folder manager in mobaxterm
+
+
+pair up and work in lecture notebook
+
+
+
+*****OUT Mon Sep 14 16:14:39 EDT 2026
+
+
+
+*****IN Tue Sep 15 17:31:59 EDT 2026
+
+connect via vpn to ucf
+open mobaxterm and connect to stokes
+attempt to download necessary packages, stokes refuses to install the necessary environment and packages
+
+
+Resort to testing hw3 code on local python instance instead
+push changes to github
+
+create rubric in a text file
+
+test code in anaconda prompt locally since stokes is not working for this
+
+code works perfect, commit to github via github desktop app
+
+screenshot github and save in hw3_dpedersen/
+
+copy my log into hw3_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on hw3_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+After this I ran tar -czvf hw3_dpedersen.tar.gz hw3_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+*****OUT Tue Sep 15 17:55:09 EDT 2026
+
+
+
+
+*****IN Wed Sep 16 14:30:32 EDT 2026
+
+i am currently sitting physically in the classroom
+I am now joining a zoom call virtually while I physically sit in the classroom
+
+Wait around for rubric to be posted
+
+watch people grade papers
+attend lecture and pay attention
+
+*****OUT Wed Sep 16 16:16:54 EDT 2026
+
+
+
+
+*****IN Fri Sep 18 15:27:33 EDT 2026
+
+open mobaxterm
+download practicum file
+start jupyter notebook
+
+work through practicum 2
+submit
+
+
+*****OUT Fri Sep 18 16:16:42 EDT 2026
+
+*****IN Sat Sep 19 17:25:11 EDT 2026
+
+open cisco vpn to ucf
+open mobaxterm and connect to stokes
+
+open jupyter-notebook 
+
+make hw4_dpedersen folder
+make hw4_dpedersen.ipynb
+
+work through homework problems
+commit to github
+take screenshot
+
+
+copy my log into hw4_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on hw4_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+test code in stokes, all is well
+
+After this I ran tar -czvf hw4_dpedersen.tar.gz hw4_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+*****OUT Sat Sep 19 17:48:11 EDT 2026
+
+
+
+*****IN Mon Sep 21 14:20:50 EDT 2026
+
+
+Open mobaxterm, connect to stokes
+open log file
+
+open jupyter-notebook with anaconda prompt
+
+submit p2_dpedersen in practicum 2 webcourses
+
+watch joe get measured
+
+*****OUT Mon Sep 21 16:21:39 EDT 2026
+
+
+
+*****IN Wed Sep 23 13:31:41 EDT 2026
+
+
+connect to stokes
+open log
+open jupyter notebook
+
+begin grading for peers
+finish grading peers
+
+attend and pay attention to lecture
+
+
+
+
+*****OUT Wed Sep 23 16:16:32 EDT 2026
+
+
+*****IN Sun Sep 27 11:29:30 EDT 2026
+
+
+open mobaxterm
+connect to cisco vpn and to stokes
+
+
+open log
+begin practicum 3
+
+open jupyter-notebook
+use ai to help code this stuff
+
+
+Problem 1b.
+The uncertainty in y controls the weight assigned to each point. Changing this by under or overestimating uncertainty causes chi^2 to be explode or go to 0. 
+
+Problem 1c.
+Chi^2 = 94.7\, sigma_y = 0.5 for 98 degs of freedom N-2 = 98. This cooresponds to a probability of 57% = 0.57 > 0.1 which means that the linear model is statistically consistent with the data.
+
+Problem 1d.
+
+The linear fit completely fails to match the data. Chi^2 is extremely high and probability is ~0. This must be fit with a second degree polynomial model, perhaps with the least squares method.
+
+
+Finish up p3_dpedersen
+
+copy my log into p3_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on p3_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+After this I ran tar -czvf p3_dpedersen.tar.gz p3_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+
+
+*****OUT Sun Sep 27 11:50:43 EDT 2026
+
+
+
+*****IN Sun Sep 27 11:50:43 EDT 2026
+
+
+make hw5_dpedersen folder
+copy stuff from p3_dpedersen in
+
+begin working through homework
+use ai to help understand segments of assignment and write code
+
+problem 2.
+The final mean and median are very close ~9 apart. The std is 99.58 which is very close to the sigma = root(N) = root(10000) = 100 from a poisson distribution.
+This method will not always remove every bad pixel, only major outliers. If there are too many bad pizels they will escape detection.
+
+
+
+
+copy my log into hw5_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on hw5_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+test code and push to github using github desktop
+take screenshot of git log
+
+After this I ran tar -czvf hw5_dpedersen.tar.gz hw5_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+*****OUT Sun Sep 27 12:25:12 EDT 2026
+
+
+
+*****IN Mon Sep 28 14:49:35 EDT 2026
+
+
+open mobaxterm and connect to stokes
+open jupyter
+
+attend and pay attention to lecture
+
+
+look at people displaying hw5 while joe evaluates
+
+
+*****OUT IN Mon Sep 28 16:49:35 EDT 2026
+
+
+
+
+
+
+*****IN Wed Sep 30 15:14:18 EDT 2026
+
+
+
+
+open mobaxterm and connect to stokes
+open jupyter notebook
+pay attention and attend lecture
+
+
+*****OUT Wed Sep 30 16:19:22 EDT 2026
+
+
+
+
+*****IN Sat Oct  3 14:32:45 EDT 2026
+
+open cisco vpn to ucf
+open mobaxterm and connect to stokes
+open log file
+
+
+begin working on practicum 4
+
+
+make hw6 folder in ast4762 folder
+
+open jupyter notebook
+
+work through practicum and test code
+
+
+copy my log into p4_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on p4_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+After this I ran tar -czvf p4_dpedersen.tar.gz p4_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+
+*****OUT Sat Oct  3 14:59:28 EDT 2026
+
+
+
+
+
+*****IN Sat Oct  3 15:02:26 EDT 2026
+
+
+Everything is open from before ^^
+Begin working on HW6
+
+
+commit to github via github desktop
+
+finish up hw6
+
+copy my log into hw6_dpedersen by slowly dragging my mouse across my screen
+after which I proceed to hover over my folder
+I then clicked my mouse on hw6_dpedersen
+After which I realized I did not right click
+I repeated these steps, this time right clicking
+From the menu I selected copy
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+After this I ran tar -czvf hw6_dpedersen.tar.gz hw6_dpedersen
+this created my tar.gz file
+I then hovered my mouse into my stokes ssh file transfer window and right clicked
+After which I encountered the same menu, clicking copy this time
+I then hovered my mouse into my windows explorer.exe window and right clicked
+After which I encountered the same menu, clicking paste this time
+
+I then dragged the file into webcourses to submit
+
+
+*****OUT Sat Oct  3 15:15:34 EDT 2026
+
